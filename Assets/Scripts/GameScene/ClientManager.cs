@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -18,7 +19,7 @@ public class ClientManager : MonoBehaviour
         foreach (var client in clients)
         {
             client.transform.position = startingPoint.position;
-            client.gameObject.SetActive(false); 
+            client.gameObject.SetActive(false);
             client.Setup(this, targetPoint, exitPoint, enterSpeed, exitSpeed);
         }
 
@@ -40,5 +41,15 @@ public class ClientManager : MonoBehaviour
             clients[currentClientIndex].gameObject.SetActive(true);
             clients[currentClientIndex].MoveToTarget();
         }
+        else
+        {
+            StartCoroutine(LoadReportSceneAfterDelay(1f));
+        }
+    }
+
+    private IEnumerator LoadReportSceneAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene("PR_Day1");
     }
 }

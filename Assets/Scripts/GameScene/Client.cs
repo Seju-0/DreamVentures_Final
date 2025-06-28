@@ -26,6 +26,10 @@ public class Client : MonoBehaviour
     public string approvalResponse;
     public string rejectionResponse;
 
+    [Header("Approval and Rejection Reputation Texts")]
+    public string approvalReputationText = "Reputation +10";
+    public string rejectionReputationText = "Reputation -5";
+
     public void Setup(ClientManager mgr, Transform target, Transform exit, float enterSpd, float exitSpd)
     {
         manager = mgr;
@@ -59,11 +63,19 @@ public class Client : MonoBehaviour
                     clientData.folderPanel.SetupButtonCallbacks(
                         () =>
                         {
-                            // Approve logic
                             answersComponent.ShowAnswer(
                                 string.IsNullOrEmpty(approvalResponse)
                                     ? "Loan approved."
                                     : approvalResponse
+                            );
+
+                            ChoiceResults.RecordDecision(
+                                clientData.clientName,
+                                true,
+                                string.IsNullOrEmpty(clientData.approvalEvaluationText)
+                                    ? "No evaluation provided."
+                                    : clientData.approvalEvaluationText,
+                                approvalReputationText
                             );
 
                             MonitorCounter.Instance.DecreaseApprovalCount();
@@ -72,11 +84,19 @@ public class Client : MonoBehaviour
                         },
                         () =>
                         {
-                            // Reject logic
                             answersComponent.ShowAnswer(
                                 string.IsNullOrEmpty(rejectionResponse)
                                     ? "Loan rejected."
                                     : rejectionResponse
+                            );
+
+                            ChoiceResults.RecordDecision(
+                                clientData.clientName,
+                                false,
+                                string.IsNullOrEmpty(clientData.rejectionEvaluationText)
+                                    ? "No evaluation provided."
+                                    : clientData.rejectionEvaluationText,
+                                rejectionReputationText
                             );
 
                             clientData.folderPanel.gameObject.SetActive(false);
@@ -84,7 +104,6 @@ public class Client : MonoBehaviour
                         },
                         () =>
                         {
-                            // Close logic
                             clientData.folderPanel.gameObject.SetActive(false);
                         }
                     );

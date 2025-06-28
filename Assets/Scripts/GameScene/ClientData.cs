@@ -18,13 +18,13 @@ public class ClientData : MonoBehaviour
     public string Title;
     public string OtherNames;
 
-    [Header("Business Info")]
-    public string BusinessName;
-    public string BusinessAddress;
-
     [Header("Employment Info")]
     public string employerName;
     public string workplaceAddress;
+
+    [Header("Business Info")]
+    public string BusinessName;
+    public string BusinessAddress;
 
     [Header("Images")]
     public Sprite idPhoto;
@@ -43,4 +43,11 @@ public class ClientData : MonoBehaviour
 
     [Header("Questions and Answers")]
     public QA[] questionList;
+
+    [Header("Evaluation Texts")]
+    [TextArea]
+    public string approvalEvaluationText;
+
+    [TextArea]
+    public string rejectionEvaluationText;
 }

@@ -12,22 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Day1/Client1.unity
+    path: Assets/Scenes/Gameplay/Day1.unity
     guid: 476ec64f2d493844a9faca59510e650c
   - enabled: 1
-    path: Assets/Scenes/Day1/Client2.unity
-    guid: 29441deb281263d44b6115ba50f1b971
-  - enabled: 1
-    path: Assets/Scenes/Day1/Client3.unity
-    guid: 4ff143b76cb2acb4d945a69ee9123853
-  - enabled: 1
-    path: Assets/Scenes/Day1/Client4.unity
-    guid: 6c1b88a1ba7bd284e99e0a8630c35269
-  - enabled: 1
-    path: Assets/Scenes/Day1/Client5.unity
-    guid: 952b55151e4fbf14b8b7b103e46bf399
-  - enabled: 1
-    path: Assets/Scenes/DreamScenes/DS_Day1.unity
-    guid: 2f9d86c4e663e2545ae2c20b945e72d5
+    path: Assets/Scenes/Performance_Report/PR_Day1.unity
+    guid: 17f7382dd67f72341ade50b4bca2e3a1
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
