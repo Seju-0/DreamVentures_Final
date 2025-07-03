@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Client : MonoBehaviour
 {
@@ -45,7 +43,7 @@ public class Client : MonoBehaviour
 
     [Header("Newspaper Headlines")]
     public string approveNewspaper;
-    public string rejectNewspaper;
+    public string rejectNewspaper; 
 
     public void Setup(ClientManager mgr, Transform target, Transform exit, float enterSpd, float exitSpd)
     {
@@ -78,36 +76,24 @@ public class Client : MonoBehaviour
                     clientData.folderPanel.gameObject.SetActive(true);
 
                     clientData.folderPanel.SetupButtonCallbacks(
+                        // APPROVE
                         () =>
                         {
-                            // APPROVE LIMIT REACHED
                             if (!MonitorCounter.Instance.CanApprove())
                                 return;
 
-                            answersComponent.ShowAnswer(
-                                string.IsNullOrEmpty(approvalResponse)
-                                    ? "Loan approved."
-                                    : approvalResponse
-                            );
-
-                            ChoiceResults.RecordDecision(
-                                clientData.clientName,
-                                true,
-                                string.IsNullOrEmpty(clientData.approvalEvaluationText)
-                                    ? "No evaluation provided."
-                                    : clientData.approvalEvaluationText,
-                                approvalReputationText,
-                                approvalReputationValue,
-                                approvalDreamDialogueText,
-                                approvalSanityText,
-                                approvalSanityValue,
-                                approveNewspaper // <- use approval headline
-                            );
-
-                            MonitorCounter.Instance.DecreaseApprovalCount();
                             clientData.folderPanel.gameObject.SetActive(false);
-                            LeaveAfterDialogue();
+
+                            // Show Cash Register
+                            CashRegister cashRegister = FindAnyObjectByType<CashRegister>();
+                            if (cashRegister != null)
+                            {
+                                cashRegister.AssignClient(this);
+                                cashRegister.gameObject.SetActive(true);
+                            }
+
                         },
+                        // REJECT
                         () =>
                         {
                             answersComponent.ShowAnswer(
@@ -127,15 +113,17 @@ public class Client : MonoBehaviour
                                 rejectionDreamDialogueText,
                                 rejectionSanityText,
                                 rejectionSanityValue,
-                                rejectNewspaper // <- use rejection headline
+                                rejectNewspaper
                             );
 
                             clientData.folderPanel.gameObject.SetActive(false);
                             LeaveAfterDialogue();
                         },
+                        // CLOSE
                         () =>
                         {
                             clientData.folderPanel.gameObject.SetActive(false);
+                            // Do nothing else (does not show cashOpenButton)
                         }
                     );
                 }
@@ -149,7 +137,7 @@ public class Client : MonoBehaviour
                     dialogue.StartDialogue();
                 }
 
-                QuestionsManager qm = FindFirstObjectByType<QuestionsManager>();
+                QuestionsManager qm = FindAnyObjectByType<QuestionsManager>();
                 if (qm != null)
                 {
                     qm.SetClient(this);
@@ -182,5 +170,40 @@ public class Client : MonoBehaviour
     {
         isLeaving = true;
         dialogue.OnDialogueComplete -= StartLeaving;
+    }
+
+    public void OnCashRegisterComplete()
+    {
+        answersComponent.ShowAnswer(
+            string.IsNullOrEmpty(approvalResponse)
+                ? "Loan approved."
+                : approvalResponse
+        );
+
+        ChoiceResults.RecordDecision(
+            clientData.clientName,
+            true,
+            string.IsNullOrEmpty(clientData.approvalEvaluationText)
+                ? "No evaluation provided."
+                : clientData.approvalEvaluationText,
+            approvalReputationText,
+            approvalReputationValue,
+            approvalDreamDialogueText,
+            approvalSanityText,
+            approvalSanityValue,
+            approveNewspaper
+        );
+
+        LeaveAfterDialogue();
+    }
+
+    public bool HasReachedTarget()
+    {
+        return hasReachedTarget;
+    }
+
+    public bool IsLeaving()
+    {
+        return isLeaving;
     }
 }

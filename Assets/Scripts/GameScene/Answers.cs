@@ -9,7 +9,7 @@ public class Answers : MonoBehaviour
 
     public void ShowAnswer(string answer)
     {
-        if (!string.IsNullOrEmpty(answer))
+        if (!string.IsNullOrEmpty(answer) && answer.Trim() != "0")
         {
             dialogueScript.StartSingleLine(answer);
         }

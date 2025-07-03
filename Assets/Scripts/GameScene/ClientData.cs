@@ -9,11 +9,13 @@ public class ClientData : MonoBehaviour
     [Header("Loan Info")]
     public string requestedAmount;
     public string paymentDate;
-    [TextArea] public string loanPurpose;
+    [TextArea]
+    public string loanPurpose;
 
     [Header("Personal Details")]
     public string FirstName;
     public string LastName;
+    public string dateofBirth2;
     public string Gender;
     public string Title;
     public string OtherNames;
@@ -29,7 +31,7 @@ public class ClientData : MonoBehaviour
     [Header("Images")]
     public Sprite idPhoto;
     public Sprite backgroundSprite;
-    public Sprite paperSprite;
+    public Sprite LoanSprite;
 
     [Header("Folder Panel Reference")]
     public FolderPanel folderPanel;

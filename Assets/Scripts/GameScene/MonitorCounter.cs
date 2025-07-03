@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class MonitorCounter : MonoBehaviour
 {
@@ -8,11 +9,14 @@ public class MonitorCounter : MonoBehaviour
     [Header("TextMeshPro UI")]
     public TextMeshProUGUI clientsLeftText;
     public TextMeshProUGUI approvalsLeftText;
-    public TextMeshProUGUI approvalLimitReachedText; 
+    public TextMeshProUGUI approvalLimitReachedText;
 
     [Header("Counters")]
     public int totalClients = 5;
     public int approvalsLeft = 3;
+
+    [Header("Button Reference")]
+    public Button approveButton; 
 
     private void Awake()
     {
@@ -45,11 +49,16 @@ public class MonitorCounter : MonoBehaviour
         approvalsLeft = Mathf.Max(0, approvalsLeft - 1);
         approvalsLeftText.text = "Approvals Left: " + approvalsLeft;
 
-        if (approvalsLeft <= 0 && approvalLimitReachedText != null)
+        if (approvalsLeft <= 0)
         {
-            approvalLimitReachedText.gameObject.SetActive(true);
+            if (approvalLimitReachedText != null)
+                approvalLimitReachedText.gameObject.SetActive(true);
+
+            if (approveButton != null)
+                approveButton.interactable = false; 
         }
     }
+
     public bool CanApprove()
     {
         return approvalsLeft > 0;
@@ -59,5 +68,8 @@ public class MonitorCounter : MonoBehaviour
     {
         clientsLeftText.text = "Clients Left: " + totalClients;
         approvalsLeftText.text = "Approvals Left: " + approvalsLeft;
+
+        if (approveButton != null)
+            approveButton.interactable = (approvalsLeft > 0);
     }
 }

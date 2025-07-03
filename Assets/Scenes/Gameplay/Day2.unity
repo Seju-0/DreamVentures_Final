@@ -638,7 +638,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 89.7, y: 54.4}
+  m_AnchoredPosition: {x: 89.7, y: 44.2}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &69651280
@@ -1039,7 +1039,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 146, y: -50.3}
+  m_AnchoredPosition: {x: 146, y: -59.8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &111496576
@@ -1273,6 +1273,7 @@ MonoBehaviour:
   loanPurpose: Renovation of pizza parlor facilities.
   FirstName: Tony
   LastName: Mafia
+  dateofBirth2: 
   Gender: Male
   Title: Mr.
   OtherNames: N/A
@@ -1398,9 +1399,93 @@ SpriteRenderer:
   m_Size: {x: 3.04, y: 9.99}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &138654666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 138654667}
+  - component: {fileID: 138654668}
+  m_Layer: 0
+  m_Name: FolderManager2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &138654667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138654666}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 121.80542, y: 94.343414, z: -81.93785}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 224070367}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &138654668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138654666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d069cf0e1fc58cc4582f01d374980a7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Folder_Components:
+  - {fileID: 1597692376}
+  - {fileID: 935260180}
+  - {fileID: 1983028790}
+  - {fileID: 2126983231}
+  - {fileID: 1417118584}
+  - {fileID: 1591997913}
+  - {fileID: 1171891357}
+  - {fileID: 629273450}
+  - {fileID: 973472526}
+  - {fileID: 2048565959}
+  - {fileID: 900059287}
+  - {fileID: 1826724668}
+  - {fileID: 178431835}
+  - {fileID: 501373396}
+  - {fileID: 1757821804}
+  - {fileID: 1143226411}
+  - {fileID: 742879753}
+  - {fileID: 2141277726}
+  - {fileID: 111496574}
+  - {fileID: 879467526}
+  - {fileID: 1498102876}
+  - {fileID: 1648770677}
+  - {fileID: 76525130}
+  - {fileID: 1703420573}
+  - {fileID: 69651278}
+  - {fileID: 1473258862}
+  - {fileID: 1528276737}
+  Newspaper_Components:
+  - {fileID: 1754348898}
+  - {fileID: 1553365138}
+  - {fileID: 567495155}
+  Questions_Panel:
+  - {fileID: 1005394203}
+  - {fileID: 1159281231}
+  - {fileID: 1521163962}
+  - {fileID: 2055242054}
+  - {fileID: 1605898914}
+  - {fileID: 1985524451}
+  - {fileID: 1296002026}
 --- !u!1 &140346195
 GameObject:
   m_ObjectHideFlags: 0
@@ -1533,6 +1618,7 @@ MonoBehaviour:
   loanPurpose: To catch rats, and mice. Need tools.
   FirstName: Thomas
   LastName: Catherine
+  dateofBirth2: 
   Gender: Felinid Male
   Title: N/A
   OtherNames: Tom
@@ -1657,7 +1743,7 @@ SpriteRenderer:
   m_Size: {x: 3.04, y: 9.99}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &178431835
@@ -1825,7 +1911,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 414928074}
+  - {fileID: 138654667}
   - {fileID: 1670195207}
   - {fileID: 1675503816}
   - {fileID: 1934463408}
@@ -2239,6 +2325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 0}
   dobText: {fileID: 0}
+  dob2Text: {fileID: 0}
   amountText: {fileID: 0}
   paymentDateText: {fileID: 0}
   loanPurposeText: {fileID: 0}
@@ -2393,84 +2480,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 372367205}
   m_CullTransparentMesh: 1
---- !u!1 &414928072
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 414928074}
-  - component: {fileID: 414928073}
-  m_Layer: 0
-  m_Name: FolderManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &414928073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 414928072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6d686b1e70987d43940e7833bab16ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Folder_Components:
-  - {fileID: 1597692376}
-  - {fileID: 935260180}
-  - {fileID: 1983028790}
-  - {fileID: 2126983231}
-  - {fileID: 1417118584}
-  - {fileID: 1591997913}
-  - {fileID: 1171891357}
-  - {fileID: 629273450}
-  - {fileID: 973472526}
-  - {fileID: 2048565959}
-  - {fileID: 900059287}
-  - {fileID: 1826724668}
-  - {fileID: 178431835}
-  - {fileID: 501373396}
-  - {fileID: 1757821804}
-  - {fileID: 1143226411}
-  - {fileID: 742879753}
-  - {fileID: 2141277726}
-  - {fileID: 111496574}
-  - {fileID: 879467526}
-  - {fileID: 1648770677}
-  - {fileID: 76525130}
-  - {fileID: 69651278}
-  - {fileID: 1473258862}
-  - {fileID: 1528276737}
-  - {fileID: 1498102876}
-  Questions_Panel:
-  - {fileID: 1005394203}
-  - {fileID: 1159281231}
-  - {fileID: 1521163962}
-  - {fileID: 2055242054}
-  - {fileID: 1605898914}
-  - {fileID: 1985524451}
---- !u!4 &414928074
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 414928072}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 121.80542, y: 94.343414, z: -81.93785}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 224070367}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &443182449
 GameObject:
   m_ObjectHideFlags: 0
@@ -2937,7 +2946,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 567495158}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 138654668}
+        m_TargetAssemblyTypeName: FolderManager2, Assembly-CSharp
+        m_MethodName: CloseBTN
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &567495158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3599,6 +3620,7 @@ RectTransform:
   - {fileID: 1498102877}
   - {fileID: 1648770678}
   - {fileID: 76525131}
+  - {fileID: 1703420576}
   - {fileID: 69651279}
   - {fileID: 1473258863}
   - {fileID: 1528276738}
@@ -4420,7 +4442,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 44.8, y: -12.4}
+  m_AnchoredPosition: {x: 44.8, y: -22.3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &879467528
@@ -6240,7 +6262,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1296002029}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 138654668}
+        m_TargetAssemblyTypeName: FolderManager2, Assembly-CSharp
+        m_MethodName: OpenNewspaper
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1296002029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6837,7 +6871,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 78.3, y: 44.8}
+  m_AnchoredPosition: {x: 78.3, y: 35}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1473258864
@@ -6973,7 +7007,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7, y: -71.1}
+  m_AnchoredPosition: {x: -7, y: -80.2}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1498102878
@@ -7121,6 +7155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 178431838}
   dobText: {fileID: 501373399}
+  dob2Text: {fileID: 1703420574}
   amountText: {fileID: 1757821807}
   paymentDateText: {fileID: 1143226414}
   loanPurposeText: {fileID: 742879756}
@@ -7309,7 +7344,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 119.8, y: 35}
+  m_AnchoredPosition: {x: 119.8, y: 25.9}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1528276739
@@ -7868,7 +7903,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Personal Details\n\nFirst Name: \nSurname: \nGender: \nTitle:                          
+  m_text: "Personal Details\n\nFirst Name: \nSurname:\nDate of Birth:\nGender: \nTitle:                          
     \nOther Names:\n\nBusiness Details:\n\nName of Business: \nAddress: \n\nEmployment
     Details\n\nName of Employer: \nWorkplace Address: \n\n"
   m_isRightToLeft: 0
@@ -8706,6 +8741,7 @@ MonoBehaviour:
   - {fileID: 69651278}
   - {fileID: 1473258862}
   - {fileID: 1528276737}
+  - {fileID: 1703420573}
   dialogueScript: {fileID: 1670195206}
 --- !u!4 &1675503816
 Transform:
@@ -8955,6 +8991,7 @@ MonoBehaviour:
     money to pay her bills "
   FirstName: Charlie
   LastName: Chattin
+  dateofBirth2: 
   Gender: Male
   Title: N/A
   OtherNames: N/A
@@ -9081,9 +9118,145 @@ SpriteRenderer:
   m_Size: {x: 3.04, y: 9.99}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1703420573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1703420576}
+  - component: {fileID: 1703420575}
+  - component: {fileID: 1703420574}
+  m_Layer: 5
+  m_Name: DOB2_Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1703420574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703420573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}
+  m_sharedMaterial: {fileID: -7260648671262176420, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 32
+  m_fontSizeBase: 32
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -128.03526, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1703420575
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703420573}
+  m_CullTransparentMesh: 1
+--- !u!224 &1703420576
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703420573}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.30240834, y: 0.28800833, z: 0.28800833}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 650770136}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 119.7, y: 53.6}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1728946172
 GameObject:
   m_ObjectHideFlags: 0
@@ -10415,8 +10588,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 414928073}
-        m_TargetAssemblyTypeName: Folder, Assembly-CSharp
+      - m_Target: {fileID: 138654668}
+        m_TargetAssemblyTypeName: FolderManager2, Assembly-CSharp
         m_MethodName: OpenFolder
         m_Mode: 1
         m_Arguments:
@@ -10574,6 +10747,7 @@ MonoBehaviour:
   loanPurpose: 
   FirstName: Auda
   LastName: Monet
+  dateofBirth2: 
   Gender: Female
   Title: Ms.
   OtherNames: Darla Arlington
@@ -10689,7 +10863,7 @@ SpriteRenderer:
   m_Size: {x: 3.04, y: 9.99}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2036999836
@@ -10930,8 +11104,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 414928073}
-        m_TargetAssemblyTypeName: Folder, Assembly-CSharp
+      - m_Target: {fileID: 138654668}
+        m_TargetAssemblyTypeName: FolderManager2, Assembly-CSharp
         m_MethodName: CloseBTN
         m_Mode: 1
         m_Arguments:
@@ -11322,18 +11496,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43f5336c8479eee4cb7ec9b7eb254949, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clientName: Bob Dalton
-  dateOfBirth: 07-21-2043
-  requestedAmount: 20,000 Credits
-  paymentDate: 08-12-2087
-  loanPurpose: To renovate an old room into a nursery for our newborn daughter.
-  FirstName: 'Bob '
-  LastName: Dalton
+  clientName: Jay Walker
+  dateOfBirth: 09-18-2062
+  requestedAmount: 250,000 Credits
+  paymentDate: 09-18-2088
+  loanPurpose: 'Medical loan for life-changing surgery.
+
+'
+  FirstName: 'Jay '
+  LastName: Walker
+  dateofBirth2: 09-18-2062
   Gender: Male
-  Title: Mr
+  Title: N/A
   OtherNames: N/A
-  employerName: AllNet Telco. Ltd.
-  workplaceAddress: '01 Concrete Drive, City 1A, Business District 1 '
+  employerName: N/A
+  workplaceAddress: N/A
   BusinessName: N/A
   BusinessAddress: N/A
   idPhoto: {fileID: -76982044855044179, guid: 3b40f81a42ff59845ab6061a47de25db, type: 3}
@@ -11341,13 +11518,14 @@ MonoBehaviour:
   paperSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   folderPanel: {fileID: 1516721094}
   questionList:
-  - question: How old is your daughter?
-    answer: "Oh well she\u2019s a newborn, been about a month since we left the hospital,
-      both her and my wife are doing fine."
-  - question: Is your wife on maternal leave?
-    answer: Why yes she is, we both have jobs just to keep up with the cost of things,
-      thankfully her workplace is considerate enough to have fully-paid maternal
-      leaves.
+  - question: How long have you been wheelchair-bound?
+    answer: "Two years now if I\u2019m counting correctly. I used to run marathons
+      before the accident, I don\u2019t know if I\u2019ll ever be able to do that
+      again, but I\u2019ll happily take slow walks over being wheeled around all
+      day."
+  - question: '*Lightly kick his right foot with your left foot*'
+    answer: Jay does not react whatsoever, his story holds up, he has lost all feeling
+      and sensation in his legs.
   approvalEvaluationText: Good approval, well done.
   rejectionEvaluationText: 
 --- !u!114 &2099002105
@@ -11365,26 +11543,27 @@ MonoBehaviour:
   clientData: {fileID: 2099002104}
   dialogue: {fileID: 1670195206}
   customDialogueLines:
-  - "Oh good morning to you, I\u2019m Bob, Bob Dalton. My wife and I wanted to apply
-    for a loan together but she has to stay at home to watch over our daughter. The
-    loan is to help us renovate a room into a nursery for her, sharing a room between
-    the 3 of us is getting kind of cramped."
+  - "Hi good morning, ironic surname I know but that\u2019s what the loan\u2019s
+    for. Medical loan for a life-changing surgery to be exact."
   answersComponent: {fileID: 1675503815}
-  approvalResponse: Thank you ever-so-kindly partner, be seeing you.
-  rejectionResponse: ...
-  approvalReputationText: Reputation +10
-  rejectionReputationText: Reputation Unchanged
-  approvalReputationValue: 10
+  approvalResponse: "Thank you so much, next time you see me it\u2019ll hopefully
+    be during a morning jog. See you around, friend."
+  rejectionResponse: "\u201CWhat, n-no you\u2019re not serious right? Are you seriously
+    denying me the loan? I have the money I can pay it back I-I-can\u2026\u201D 
+    Jay is on the verge of tears, as quickly as he can he turns his wheelchair around
+    and leaves the room, the sound of his crying echoing in the hallway."
+  approvalReputationText: asd
+  rejectionReputationText: asda
+  approvalReputationValue: 0
   rejectionReputationValue: 0
-  approvalDreamDialogueText: "You see Bob, his wife, and his daughter cuddle in bed
-    and sleep soundly. You feel like you\u2019ve done good"
-  approvalSanityText: Sanity + 10
-  approvalSanityValue: 10
-  rejectionDreamDialogueText: ...
-  rejectionSanityText: ...
+  approvalDreamDialogueText: asdasd
+  approvalSanityText: asdasd
+  approvalSanityValue: 0
+  rejectionDreamDialogueText: asdasd
+  rejectionSanityText: sadas
   rejectionSanityValue: 0
-  approveNewspaper: 
-  rejectNewspaper: 
+  approveNewspaper: asda
+  rejectNewspaper: adsad
 --- !u!212 &2099002106
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11437,7 +11616,7 @@ SpriteRenderer:
   m_Size: {x: 3.04, y: 9.99}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2126983231
@@ -11549,7 +11728,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 143.1, y: -2.7}
+  m_AnchoredPosition: {x: 143.1, y: -12.2}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2141277728

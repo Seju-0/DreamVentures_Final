@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Scene1Settings : MonoBehaviour
@@ -21,4 +22,17 @@ public class Scene1Settings : MonoBehaviour
             component.SetActive(false);
         }
     }
+
+    public void MainMenuBTN()
+    {
+        SceneManager.LoadScene("Main_Menu");
+    }
+
+    public void QuitBTN()
+    {
+        Application.Quit();
+        Debug.Log("Quit Game");
+        // UnityEditor.EditorApplication.isPlaying = false;
+    }
+
 }

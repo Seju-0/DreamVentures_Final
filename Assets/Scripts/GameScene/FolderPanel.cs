@@ -7,6 +7,7 @@ public class FolderPanel : MonoBehaviour
     [Header("Text Fields")]
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dobText;
+    public TextMeshProUGUI dob2Text;
     public TextMeshProUGUI amountText;
     public TextMeshProUGUI paymentDateText;
     public TextMeshProUGUI loanPurposeText;
@@ -30,12 +31,17 @@ public class FolderPanel : MonoBehaviour
     public Button rejectButton;
     public Button closeButton;
 
+    private ClientData currentClientData;
+
     public void UpdatePanel(ClientData data)
     {
+        currentClientData = data;
+
         if (data == null) return;
 
         if (nameText) nameText.text = data.clientName;
         if (dobText) dobText.text = data.dateOfBirth;
+        if (dob2Text) dob2Text.text = data.dateOfBirth;
         if (amountText) amountText.text = data.requestedAmount;
         if (paymentDateText) paymentDateText.text = data.paymentDate;
         if (loanPurposeText) loanPurposeText.text = data.loanPurpose;
@@ -51,7 +57,7 @@ public class FolderPanel : MonoBehaviour
 
         if (idImage && data.idPhoto) idImage.sprite = data.idPhoto;
         if (backgroundImage && data.backgroundSprite) backgroundImage.sprite = data.backgroundSprite;
-        if (paperImage && data.paperSprite) paperImage.sprite = data.paperSprite;
+        if (paperImage && data.LoanSprite) paperImage.sprite = data.LoanSprite;
     }
 
     public void SetupButtonCallbacks(System.Action onApprove, System.Action onReject, System.Action onClose)
