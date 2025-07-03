@@ -17,5 +17,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Performance_Report/PR_Day1.unity
     guid: 17f7382dd67f72341ade50b4bca2e3a1
+  - enabled: 1
+    path: Assets/Scenes/DreamScenes/DreamSceneDay1.unity
+    guid: 2f9d86c4e663e2545ae2c20b945e72d5
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Day2.unity
+    guid: 435629568975940488edd53aeff82196
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

@@ -8,6 +8,7 @@ public class MonitorCounter : MonoBehaviour
     [Header("TextMeshPro UI")]
     public TextMeshProUGUI clientsLeftText;
     public TextMeshProUGUI approvalsLeftText;
+    public TextMeshProUGUI approvalLimitReachedText; 
 
     [Header("Counters")]
     public int totalClients = 5;
@@ -15,12 +16,21 @@ public class MonitorCounter : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance == null) Instance = this;
-        else Destroy(gameObject);
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void Start()
     {
+        if (approvalLimitReachedText != null)
+            approvalLimitReachedText.gameObject.SetActive(false);
+
         UpdateUI();
     }
 
@@ -34,7 +44,17 @@ public class MonitorCounter : MonoBehaviour
     {
         approvalsLeft = Mathf.Max(0, approvalsLeft - 1);
         approvalsLeftText.text = "Approvals Left: " + approvalsLeft;
+
+        if (approvalsLeft <= 0 && approvalLimitReachedText != null)
+        {
+            approvalLimitReachedText.gameObject.SetActive(true);
+        }
     }
+    public bool CanApprove()
+    {
+        return approvalsLeft > 0;
+    }
+
     private void UpdateUI()
     {
         clientsLeftText.text = "Clients Left: " + totalClients;

@@ -302,31 +302,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43f5336c8479eee4cb7ec9b7eb254949, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clientName: sdf
-  dateOfBirth: sdf
-  requestedAmount: dsf
-  paymentDate: fds
-  loanPurpose: fds
-  FirstName: sdf
-  LastName: sdf
-  Gender: dsf
-  Title: fds
-  OtherNames: fds
-  employerName: fds
-  workplaceAddress: try
-  BusinessName: ryt
-  BusinessAddress: rytwre
+  clientName: Thomas Catherine
+  dateOfBirth: 06-12-2022
+  requestedAmount: 25,000 Credits
+  paymentDate: 07-12-2087
+  loanPurpose: To catch rats, and mice. Need tools.
+  FirstName: Thomas
+  LastName: Catherine
+  Gender: Felinid Male
+  Title: N/A
+  OtherNames: Tom
+  employerName: Self-employed
+  workplaceAddress: N/A
+  BusinessName: Rat Catchers LLC.
+  BusinessAddress: '68 Basalt Drive, City 1A, Business District 7 '
   idPhoto: {fileID: -76982044855044179, guid: 3b40f81a42ff59845ab6061a47de25db, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   paperSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   folderPanel: {fileID: 1777672239}
   questionList:
-  - question: r
-    answer: wre
-  - question: wr
-    answer: wre
-  approvalEvaluationText: wre
-  rejectionEvaluationText: wr
+  - question: Why do you need rat traps and cheese?
+    answer: "It\u2019s a mouse problem. Rat trap, mouse trap, does it matter? All
+      I know is those pests need to go, by any means necessary. I\u2019m willing
+      and ready to scorch this earth if it means getting that damned Jerard out of
+      sight, out of mind, and out of body."
+  - question: "You know I can\u2019t accept loans with the intent of purpose being
+      directly tied to interpersonal harm, right?"
+    answer: "Hm? Oh sorry, I\u2019m just real passionate about pest control. Jerard\u2019s
+      a mouse, like an actual mouse. Though I admit I make him sound like a real
+      person from time to time. This doesn\u2019t hurt my chances of getting approved
+      right?"
+  approvalEvaluationText: "Decent approval. Whilst the client does have a business,
+    it is not necessarily profitable, though you couldn\u2019t have known that. Credibility
+    and financial ability of the client are in question."
+  rejectionEvaluationText: "Sound rejection, client\u2019s business has been reported
+    as failing and close to foreclosure. Future prospect lost with no outright potential
+    gains lost."
 --- !u!114 &27150847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -342,15 +353,39 @@ MonoBehaviour:
   clientData: {fileID: 27150846}
   dialogue: {fileID: 2124234793}
   customDialogueLines:
-  - "Oh good morning to you, I\u2019m Bob, Bob Dalton. My wife and I wanted to apply
-    for a loan together but she has to stay at home to watch over our daughter. The
-    loan is to help us renovate a room into a nursery for her, sharing a room between
-    the 3 of us is getting kind of cramped."
+  - "Hello, I\u2019m Thomas. Yes my ears are up there, yes they\u2019re real. Mutations
+    are weird. Anyway, I have a problem, and money would solve it, so, give me money.
+    I\u2019ll pay it back."
   answersComponent: {fileID: 1139496209}
-  approvalResponse: fs
-  rejectionResponse: ...dsf
-  approvalReputationText: Reputation +10
-  rejectionReputationText: Reputation -5
+  approvalResponse: "Good, very good. We\u2019re friends now, brothers in arms. I\u2019ll
+    yet win this war. At ease, soldier."
+  rejectionResponse: "Another Jerard, figures that someone like you would take his
+    side. He may win this battle, but even with your help, he won\u2019t win the
+    war."
+  approvalReputationText: Reputation Unchanged
+  rejectionReputationText: Reputation + 5
+  approvalReputationValue: 0
+  rejectionReputationValue: 5
+  approvalDreamDialogueText: "You see Thomas chasing \u2018Jerard\u2019 and Jerard
+    really is just, a mouse. It looks like a slapstick rubberhose cartoon as they
+    jump around the house chasing each other. Thomas gets hit with a mallet, Jerard
+    gets hit with a frying pan. Those mouse traps which he did end buying didn\u2019t
+    work at all, funny how that all works out."
+  approvalSanityText: Sanity Unchanged
+  approvalSanityValue: 0
+  rejectionDreamDialogueText: "Thomas looks sad, and Jerard notices. Jerard is an
+    actual mouse by the way. Jerard somehow pours him a glass of milk, then one for
+    himself. They toast, have a few laughs, and fall asleep in each others\u2019
+    arms watching TV."
+  rejectionSanityText: 'Sanity + 5 '
+  rejectionSanityValue: 5
+  approveNewspaper: "Man evicted from house due to noise complaints that neighbor\u2019s
+    report was \u2018comically loud\u2019. \u2018  I saw him use frying pan to hit
+    a poor little mouse across his house \u2013 and somehow that mouse was fine!\u2019
+    one neighbor commented."
+  rejectNewspaper: "Cute! Man and pet mouse share story of how they became best friends. 
+    \u2018Jerard has always been such a good friend to me, even when I didn\u2019t
+    realize it\u2019 owner Thomas Catherine comments."
 --- !u!212 &27150848
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1603,31 +1638,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43f5336c8479eee4cb7ec9b7eb254949, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clientName: rty
-  dateOfBirth: t
-  requestedAmount: ry
-  paymentDate: rty
-  loanPurpose: try
-  FirstName: sdf
-  LastName: fds
-  Gender: sfd
-  Title: gdf
-  OtherNames: dfg
-  employerName: AllNet Telco. Ltd.
-  workplaceAddress: '01 Concrete Drive, City 1A, Business District 1 '
-  BusinessName: hgj
-  BusinessAddress: hjg
+  clientName: Tony
+  dateOfBirth: Mafia
+  requestedAmount: 100,000 Credits
+  paymentDate: 10-12-2087
+  loanPurpose: Renovation of pizza parlor facilities.
+  FirstName: Tony
+  LastName: Mafia
+  Gender: Male
+  Title: Mr.
+  OtherNames: N/A
+  employerName: "James \u201CPapa\u201D Mafia (co-owner) "
+  workplaceAddress: '13 Stove Road, City 1A, Business District 2 '
+  BusinessName: "Mafia\u2019s Pizza Place "
+  BusinessAddress: '13 Stove Road, City 1A, Business District 2 '
   idPhoto: {fileID: -76982044855044179, guid: 3b40f81a42ff59845ab6061a47de25db, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   paperSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   folderPanel: {fileID: 1777672239}
   questionList:
-  - question: sfd
-    answer: fds
-  - question: wre
-    answer: wr
-  approvalEvaluationText: ytr
-  rejectionEvaluationText: rty
+  - question: You and your dad work in the pizza parlor business?
+    answer: "Of course we do, it\u2019s in our blood. Literally by the way, technology
+      these days is just crazy. It was an emergency transfusion, and our pizza sauce
+      was just thick enough to substitute for blood. It\u2019s still all there, when
+      I cut myself on accident while making pizza, I taste it, and boy is it tasty."
+  - question: "Sorry to ask, but what does pizza taste like? I\u2019ve never been
+      able to afford one\u2026"
+    answer: "You\u2019re kiddin\u2019! Tell you what, I couldn\u2019t do pizza any
+      service by just describing it, but if you help me out today \u2013 or if you
+      don\u2019t I get how it is in businesses like these \u2013, I\u2019ll hook
+      you up with one, it\u2019s something you gotta try at least once in your life
+      I tell ya."
+  approvalEvaluationText: "Good approval. \u2018Papa\u2019s Pizzeria\u2019 is a local
+    juggernaut in the market, a very good prospect."
+  rejectionEvaluationText: "You\u2019ve made an enemy of powerful people, you can
+    yet redeem yourself in the coming days.\r                                 Potent
+    future prospect lost.     \r\n"
 --- !u!114 &274569856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1643,15 +1689,38 @@ MonoBehaviour:
   clientData: {fileID: 274569855}
   dialogue: {fileID: 2124234793}
   customDialogueLines:
-  - "Oh good morning to you, I\u2019m Bob, Bob Dalton. My wife and I wanted to apply
-    for a loan together but she has to stay at home to watch over our daughter. The
-    loan is to help us renovate a room into a nursery for her, sharing a room between
-    the 3 of us is getting kind of cramped."
+  - "Tony, Tony Redditizio, nice to meet\u2019cha pal. Are you new here, I coulda
+    sworn I was talking to Jonas last week about this same loan. Well it ain\u2019t
+    no trouble if he\u2019s out and you\u2019re in, I\u2019\u2019m sure we\u2019ll
+    get along just fine. Now on to the matter at hand, I\u2019m here on behalf of
+    my father \u2013 busy man, too many orders to count on ten hands \u2013 and he\u2019s
+    looking to renovate, soon if he can help it. Money\u2019s been rolling in of
+    course, but not as fast as he\u2019d like. And that my friend, is where you come
+    in."
   answersComponent: {fileID: 1139496209}
-  approvalResponse: dsf
-  rejectionResponse: fsd
-  approvalReputationText: Reputation +10
-  rejectionReputationText: Reputation -5
+  approvalResponse: "I appreciate it pal! Oh and about that pizza, don\u2019t worry.
+    I\u2019ll find you, ciao."
+  rejectionResponse: "Hey I get pal, no worries. Be seein\u2019 you- oh before I
+    forget about that pizza, no need to worry about a shipping address. I\u2019ll
+    find you, ciao."
+  approvalReputationText: Reputation +15
+  rejectionReputationText: Reputation -25
+  approvalReputationValue: 15
+  rejectionReputationValue: -25
+  approvalDreamDialogueText: "The pizza shop booms in business to everyone\u2019s
+    delight. It seems you\u2019ve helped a town favorite find even greater heights."
+  approvalSanityText: Sanity +10
+  approvalSanityValue: 10
+  rejectionDreamDialogueText: "You see Tony talking to someone in the pizza parlor.
+    You can\u2019t make out the conversation, but something feels off. You brush
+    it aside for now as it could just be something harmless, like a surprise party."
+  rejectionSanityText: Sanity Unchanged
+  rejectionSanityValue: 0
+  approveNewspaper: "Papa\u2019s Pizzeria celebrates 25 years with free pizza weekend
+    \u2013 owner Antonio Redditizio announces new wing to be renovated soon."
+  rejectNewspaper: "Papa\u2019s Pizzeria celebrates 25 years with half-off pizza
+    weekend \u2013 owner Antonio Redditizio asks community for help in renovating
+    the quarter century-old establishment."
 --- !u!212 &274569857
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2588,6 +2657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientsLeftText: {fileID: 608787607}
   approvalsLeftText: {fileID: 938660844}
+  approvalLimitReachedText: {fileID: 1489893023}
   totalClients: 5
   approvalsLeft: 3
 --- !u!1 &561560336
@@ -3297,18 +3367,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43f5336c8479eee4cb7ec9b7eb254949, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clientName: sa
-  dateOfBirth: dsa
-  requestedAmount: das
-  paymentDate: das
-  loanPurpose: das
-  FirstName: cxa
-  LastName: ds
-  Gender: d
-  Title: fdfs
-  OtherNames: fdsf
-  employerName: df
-  workplaceAddress: f
+  clientName: Charlie
+  dateOfBirth: Chattin
+  requestedAmount: 30,000 Credits
+  paymentDate: 08-12-2087
+  loanPurpose: "I gotta help my ma\u2019 pay her loans but I just got my new gig
+    so ain\u2019t no new cash flow in yet so I gotta work work work and make some
+    money to pay her bills "
+  FirstName: Charlie
+  LastName: Chattin
+  Gender: Male
+  Title: N/A
+  OtherNames: N/A
+  employerName: 'Battersville Compound '
+  workplaceAddress: Battersville Public Compound, City 1A, Entertainment District
+    2
   BusinessName: N/A
   BusinessAddress: N/A
   idPhoto: {fileID: -76982044855044179, guid: 3b40f81a42ff59845ab6061a47de25db, type: 3}
@@ -3316,12 +3389,19 @@ MonoBehaviour:
   paperSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   folderPanel: {fileID: 1777672239}
   questionList:
-  - question: dsf
-    answer: sdf
-  - question: fsdf
-    answer: ds
-  approvalEvaluationText: ds
-  rejectionEvaluationText: fds
+  - question: Where are you employed?
+    answer: "I\u2019m the new game commentator at the Battersville compound boss
+      says I got a natural talent for talking my ass off."
+  - question: How long will it take you to pay the loan back? Can you give me an
+      estimate?
+    answer: "Shucks pal that\u2019s a good question since I just got the job and
+      don\u2019t really know if I can tell you now but I swears I\u2019ll pay it
+      back if I don\u2019t I don\u2019t think my ma\u2019s poor heart could take
+      it."
+  approvalEvaluationText: Decent approval, client credibility has yet to be proven
+    good or otherwise.
+  rejectionEvaluationText: "Sound rejection, client has yet to prove credibility,
+    however, future prospects are cut short\u201D"
 --- !u!114 &746692584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3337,15 +3417,41 @@ MonoBehaviour:
   clientData: {fileID: 746692583}
   dialogue: {fileID: 2124234793}
   customDialogueLines:
-  - "Oh good morning to you, I\u2019m Bob, Bob Dalton. My wife and I wanted to apply
-    for a loan together but she has to stay at home to watch over our daughter. The
-    loan is to help us renovate a room into a nursery for her, sharing a room between
-    the 3 of us is getting kind of cramped."
+  - "Heya I\u2019m Charlie Chattin nice to meetcha I \u2018ve got a hundred stories
+    and a thousand more for the ladies if you catch my drift anywho I need a loan
+    see to help my momma across town who says I\u2019m a no good yapper who runs
+    his mouth and should be running around town to find a job instead and I swears
+    I\u2019m lookin\u2019 for a job despite what my ma believes I\u2019m tryin\u2019
+    to be a better son for her but I keep falling short until today when I found
+    a job posting and they was actually hirin\u2019 and I got the gig and now I can
+    put in loans and pay em back but don\u2019t expect it too soon since I just got
+    the gig and gotta work my way up and make back the cash and pay youse and ya
+    bosses so we\u2019s all square n\u2019all you get the idea right?"
   answersComponent: {fileID: 1139496209}
-  approvalResponse: fdfsd
-  rejectionResponse: sdfd
-  approvalReputationText: Reputation +10
-  rejectionReputationText: Reputation -5
+  approvalResponse: "Gee pal thanks you won\u2019t regret this I\u2019ll get you
+    free tickets to a game one of these days but not as a bribe to sweeten the deal
+    I just think youse a nice guy and deserve some kindness I see a deep sorrow behind
+    ya\u2019s eyes and I can\u2019t help but noti- oh jumpin\u2019 jimminies I\u2019m
+    gonna be late be seein ya pal I won\u2019t forget youse!\u201D "
+  rejectionResponse: Oh, okay.
+  approvalReputationText: Reputation +5
+  rejectionReputationText: Reputation Unchanged
+  approvalReputationValue: 5
+  rejectionReputationValue: 0
+  approvalDreamDialogueText: You see Charlie talking up a storm at the Battersville
+    compound, and the people are loving it! He looks happy, fulfilled.
+  approvalSanityText: Sanity +10
+  approvalSanityValue: 10
+  rejectionDreamDialogueText: "You see Charlie and he looks sad, really sad. He\u2019s
+    not in his usual talkative mood and can\u2019t commentate the game at his best.
+    The crowd is bored, they slowly leave before the game even finishes. Charlie
+    is fired right after."
+  rejectionSanityText: Sanity -25
+  rejectionSanityValue: -25
+  approveNewspaper: Charlie Chattin, the new star of the Battersville compound! Young
+    Dynamo commentates a storm during his debut!
+  rejectNewspaper: "Newcomer commentator BOMBS DEBUT. Local Charlie Chattin just
+    isn\u2019t chatty anymore!"
 --- !u!212 &746692585
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4129,7 +4235,18 @@ MonoBehaviour:
   approvalResponse: Thank you ever-so-kindly partner, be seeing you.
   rejectionResponse: ...
   approvalReputationText: Reputation +10
-  rejectionReputationText: Reputation -5
+  rejectionReputationText: Reputation Unchanged
+  approvalReputationValue: 10
+  rejectionReputationValue: 0
+  approvalDreamDialogueText: "You see Bob, his wife, and his daughter cuddle in bed
+    and sleep soundly. You feel like you\u2019ve done good"
+  approvalSanityText: Sanity + 10
+  approvalSanityValue: 10
+  rejectionDreamDialogueText: ...
+  rejectionSanityText: ...
+  rejectionSanityValue: 0
+  approveNewspaper: 
+  rejectNewspaper: 
 --- !u!212 &873860589
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4223,8 +4340,8 @@ MonoBehaviour:
     answer: Why yes she is, we both have jobs just to keep up with the cost of things,
       thankfully her workplace is considerate enough to have fully-paid maternal
       leaves.
-  approvalEvaluationText: 
-  rejectionEvaluationText: noo
+  approvalEvaluationText: Good approval, well done.
+  rejectionEvaluationText: 
 --- !u!1 &891688599
 GameObject:
   m_ObjectHideFlags: 0
@@ -5795,18 +5912,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43f5336c8479eee4cb7ec9b7eb254949, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clientName: wa
-  dateOfBirth: s
-  requestedAmount: d
-  paymentDate: f
-  loanPurpose: f
-  FirstName: f
-  LastName: f
-  Gender: sa
-  Title: as
-  OtherNames: f
-  employerName: dasd
-  workplaceAddress: fd
+  clientName: Auda Monet
+  dateOfBirth: 01-23-2057
+  requestedAmount: 10,000 Credits
+  paymentDate: 09-01-2087
+  loanPurpose: 
+  FirstName: Auda
+  LastName: Monet
+  Gender: Female
+  Title: Ms.
+  OtherNames: Darla Arlington
+  employerName: Self-Employed
+  workplaceAddress: 23 Spotlight Boulevard, City 1A, Entertainment District 3
   BusinessName: N/A
   BusinessAddress: N/A
   idPhoto: {fileID: -76982044855044179, guid: 3b40f81a42ff59845ab6061a47de25db, type: 3}
@@ -5814,12 +5931,16 @@ MonoBehaviour:
   paperSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   folderPanel: {fileID: 1777672239}
   questionList:
-  - question: dsf
-    answer: dsf
-  - question: sd
-    answer: sda
-  approvalEvaluationText: sadasd
-  rejectionEvaluationText: waah
+  - question: 'What is the purpose of your loan? '
+    answer: "W-why the usual of course. Hm, oh you\u2019re new here aren\u2019t you?
+      Well I\u2019m quite well known in this establishment so they know I\u2019m
+      \u201Cgood for it\u201D as you\u2019d say. "
+  - question: Can you name one of your films?
+    answer: "You\u2019ve surely heard of Woman of the Hour? Starlit Avenue? The Depths
+      of the Heart? Darla Arlington is just a stage name of course, ahahahahaha\u2026"
+  approvalEvaluationText: Bad approval, credibility is questionable.
+  rejectionEvaluationText: Sound Rejection, client is known to be untrustworthy,
+    well done.
 --- !u!114 &1270018400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5835,15 +5956,35 @@ MonoBehaviour:
   clientData: {fileID: 1270018399}
   dialogue: {fileID: 2124234793}
   customDialogueLines:
-  - "Oh good morning to you, I\u2019m Bob, Bob Dalton. My wife and I wanted to apply
-    for a loan together but she has to stay at home to watch over our daughter. The
-    loan is to help us renovate a room into a nursery for her, sharing a room between
-    the 3 of us is getting kind of cramped."
+  - "A fresh face, and a cute one at that. Auda Monet, charmed to meet you. I\u2019m
+    an actress, perhaps you\u2019ve seen one of my films? A matter for another time.  
+    You may be wondering why such a gorgeous and surely successful actress needs
+    a loan for, certainly I could handle such an expenditure with the fortune I\u2019ve
+    accrued?   Alas, even pillars of the industry \u2013 such as myself \u2013 can
+    fall short. "
   answersComponent: {fileID: 1139496209}
-  approvalResponse: asda
-  rejectionResponse: sdsd
-  approvalReputationText: Reputation +10
-  rejectionReputationText: Reputation -5
+  approvalResponse: "Thank you darling, I\u2019ll be in touch."
+  rejectionResponse: "D-damn it! It\u2019s not my fault I spent all my money on acting
+    classes and it led nowhere! Harrumph"
+  approvalReputationText: 'Reputation -10 '
+  rejectionReputationText: Reputation +10
+  approvalReputationValue: -10
+  rejectionReputationValue: 10
+  approvalDreamDialogueText: "You see Auda walking into another loan establishment,
+    parroting the same story she told you. She\u2019s a loan shark, of a different
+    kind, and you fell for her trap."
+  approvalSanityText: Sanity -10
+  approvalSanityValue: -10
+  rejectionDreamDialogueText: "You see Auda walking up to a lonely man, she tells
+    him the same story, but before she can sink her teeth into his wallet, she\u2019s
+    handcuffed and arrested."
+  rejectionSanityText: Sanity +5
+  rejectionSanityValue: 5
+  approveNewspaper: 
+  rejectNewspaper: "Local scam artist impersonating famous actress \u2013 Arrested! 
+    Police describe the arrest as \u201Ccathartic\u201D and as \u201Csomething that
+    should\u2019ve happened years ago\u201D  Loan predation is a known problem in
+    City 1A as job market has been constrained due to post war reparations."
 --- !u!212 &1270018401
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6029,7 +6170,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -240.08975, w: 0}
+  m_margin: {x: 0, y: 0, z: -257.93777, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7166,6 +7307,142 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1489893021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1489893022}
+  - component: {fileID: 1489893024}
+  - component: {fileID: 1489893023}
+  m_Layer: 5
+  m_Name: LimitReached_Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1489893022
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489893021}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2011830445}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 22, y: -223}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1489893023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489893021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Approval limit reached! No further approvals allowed.
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}
+  m_sharedMaterial: {fileID: -7260648671262176420, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 15
+  m_fontSizeBase: 15
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -95.53185, y: 0, z: -84.464386, w: 23.102455}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1489893024
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489893021}
+  m_CullTransparentMesh: 1
 --- !u!1 &1535148492
 GameObject:
   m_ObjectHideFlags: 0
@@ -7296,7 +7573,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 162.86612, y: 0, z: -414.0765, w: 0}
+  m_margin: {x: 162.86612, y: 0, z: -586.18304, w: 10.708922}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -10003,6 +10280,7 @@ RectTransform:
   - {fileID: 631025055}
   - {fileID: 608787605}
   - {fileID: 938660846}
+  - {fileID: 1489893022}
   m_Father: {fileID: 235276528}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}

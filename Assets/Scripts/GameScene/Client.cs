@@ -27,8 +27,25 @@ public class Client : MonoBehaviour
     public string rejectionResponse;
 
     [Header("Approval and Rejection Reputation Texts")]
-    public string approvalReputationText = "Reputation +10";
-    public string rejectionReputationText = "Reputation -5";
+    public string approvalReputationText;
+    public string rejectionReputationText;
+
+    [Header("Reputation Values")]
+    public int approvalReputationValue;
+    public int rejectionReputationValue;
+
+    [Header("Dream Scene Texts")]
+    public string approvalDreamDialogueText;
+    public string approvalSanityText;
+    public int approvalSanityValue;
+
+    public string rejectionDreamDialogueText;
+    public string rejectionSanityText;
+    public int rejectionSanityValue;
+
+    [Header("Newspaper Headlines")]
+    public string approveNewspaper;
+    public string rejectNewspaper;
 
     public void Setup(ClientManager mgr, Transform target, Transform exit, float enterSpd, float exitSpd)
     {
@@ -63,6 +80,10 @@ public class Client : MonoBehaviour
                     clientData.folderPanel.SetupButtonCallbacks(
                         () =>
                         {
+                            // APPROVE LIMIT REACHED
+                            if (!MonitorCounter.Instance.CanApprove())
+                                return;
+
                             answersComponent.ShowAnswer(
                                 string.IsNullOrEmpty(approvalResponse)
                                     ? "Loan approved."
@@ -75,7 +96,12 @@ public class Client : MonoBehaviour
                                 string.IsNullOrEmpty(clientData.approvalEvaluationText)
                                     ? "No evaluation provided."
                                     : clientData.approvalEvaluationText,
-                                approvalReputationText
+                                approvalReputationText,
+                                approvalReputationValue,
+                                approvalDreamDialogueText,
+                                approvalSanityText,
+                                approvalSanityValue,
+                                approveNewspaper // <- use approval headline
                             );
 
                             MonitorCounter.Instance.DecreaseApprovalCount();
@@ -96,7 +122,12 @@ public class Client : MonoBehaviour
                                 string.IsNullOrEmpty(clientData.rejectionEvaluationText)
                                     ? "No evaluation provided."
                                     : clientData.rejectionEvaluationText,
-                                rejectionReputationText
+                                rejectionReputationText,
+                                rejectionReputationValue,
+                                rejectionDreamDialogueText,
+                                rejectionSanityText,
+                                rejectionSanityValue,
+                                rejectNewspaper // <- use rejection headline
                             );
 
                             clientData.folderPanel.gameObject.SetActive(false);
@@ -132,7 +163,6 @@ public class Client : MonoBehaviour
             if (Vector3.Distance(transform.position, exitPoint.position) < 0.01f)
             {
                 isLeaving = false;
-
                 gameObject.SetActive(false);
 
                 if (manager != null)
