@@ -26,5 +26,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Performance_Report/PRDAY2.unity
     guid: addb80a0409f215459f55aba8272d8a8
+  - enabled: 1
+    path: Assets/Scenes/DreamScenes/DS2.unity
+    guid: 3b587893e2b367d4a9c82c3845140174
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Day3.unity
+    guid: e410f2f12a0c178439dcb6d468d56bfe
+  - enabled: 1
+    path: Assets/Scenes/Performance_Report/PRDAY3.unity
+    guid: b685429f4c71a524b858165d295c4863
+  - enabled: 1
+    path: Assets/Scenes/DreamScenes/DS3.unity
+    guid: caedd0d3dd45d744094ddfc1e4d7713c
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Day4.unity
+    guid: 7ca5176267bb2d242968e7350f5fa5cd
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

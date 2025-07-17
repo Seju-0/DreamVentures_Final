@@ -8,4 +8,14 @@ public class NextButton : MonoBehaviour
         string nextScene = $"DS1";
         SceneManager.LoadScene(nextScene);
     }
+    public void NextBTN1()
+    {
+        string nextScene = $"DS2";
+        SceneManager.LoadScene(nextScene);
+    }
+    public void NextBTN2()
+    {
+        string nextScene = $"DS3";
+        SceneManager.LoadScene(nextScene);
+    }
 }
