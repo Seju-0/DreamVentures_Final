@@ -12,15 +12,15 @@ public class PerformanceReport : MonoBehaviour
 
     string GenerateReport()
     {
+        var decisions = ChoiceResults.GetDecisionsForCurrentDay();
         System.Text.StringBuilder sb = new System.Text.StringBuilder();
 
-        for (int i = 0; i < ChoiceResults.decisions.Count; i++)
+        foreach (var d in decisions)
         {
-            var d = ChoiceResults.decisions[i];
             sb.AppendLine($"Client: {d.clientName}");
             sb.AppendLine($"Decision: {(d.approved ? "Loan Approved" : "Loan Rejected")}");
             sb.AppendLine($"Evaluation: {d.evaluationText}");
-            sb.AppendLine($"Reputation Metrics: {d.reputationMetrics}");
+            sb.AppendLine($"Reputation: {d.reputationMetrics}");
             sb.AppendLine();
         }
 

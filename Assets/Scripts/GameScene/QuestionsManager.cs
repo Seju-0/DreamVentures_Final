@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -29,7 +30,7 @@ public class QuestionsManager : MonoBehaviour
     {
         currentClient = newClient;
         dialogueScript = currentClient.dialogue;
-        questionList = currentClient.clientData.questionList;
+        questionList = currentClient.questionList;
 
         UpdateButtons();
     }

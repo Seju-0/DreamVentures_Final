@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class ClientBobbing : MonoBehaviour
 {
-    public float bobbingHeight = 0.1f; // How high to bob
-    public float bobbingSpeed = 5f;    // How fast to bob
+    public float bobbingHeight = 0.1f; 
+    public float bobbingSpeed = 5f;    
 
     private float initialY;
     private Client clientScript;
@@ -19,7 +19,6 @@ public class ClientBobbing : MonoBehaviour
         if (clientScript == null)
             return;
 
-        // Bob only if moving to target or leaving
         if (!clientScript.HasReachedTarget() || clientScript.IsLeaving())
         {
             Vector3 pos = transform.position;

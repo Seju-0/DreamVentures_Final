@@ -2,6 +2,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System;
 
 public class CashRegister : MonoBehaviour
 {
@@ -20,13 +21,13 @@ public class CashRegister : MonoBehaviour
 
     [Header("Audio Settings")]
     public AudioClip printSound;
-    [Range(0f, 2f)] public float printVolume = 1.2f;
+    [Range(0f, 2f)] public float printVolume;
 
     public AudioClip buttonClickSound;
-    [Range(0f, 2f)] public float buttonClickVolume = 1f;
+    [Range(0f, 2f)] public float buttonClickVolume;
 
     public AudioClip errorSound;
-    [Range(0f, 2f)] public float errorVolume = 1f;
+    [Range(0f, 2f)] public float errorVolume;
 
     private AudioSource audioSource;
 
@@ -44,7 +45,6 @@ public class CashRegister : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
         {
-            Debug.LogWarning("AudioSource not found on CashRegister. Adding one.");
             audioSource = gameObject.AddComponent<AudioSource>();
         }
 
@@ -87,10 +87,10 @@ public class CashRegister : MonoBehaviour
 
         if (client != null)
         {
-            correctAmount = client.clientData.requestedAmount.Replace(",", "").Trim();
+            correctAmount = client.ClientInfo.requestedAmount.Replace(",", "").Trim();
 
             if (requestedAmountText != null)
-                requestedAmountText.text = client.clientData.requestedAmount;
+                requestedAmountText.text = client.ClientInfo.requestedAmount;
         }
 
         if (cashOpenButton != null)
@@ -300,7 +300,6 @@ public class CashRegister : MonoBehaviour
         if (wrongAmountText == null)
             yield break;
 
-        // Make sure visible
         wrongAmountText.gameObject.SetActive(true);
 
         Color originalColor = wrongAmountText.color;
@@ -323,4 +322,5 @@ public class CashRegister : MonoBehaviour
         wrongAmountText.gameObject.SetActive(false);
         wrongAmountText.color = originalColor;
     }
+
 }

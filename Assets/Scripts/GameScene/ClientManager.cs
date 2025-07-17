@@ -50,6 +50,11 @@ public class ClientManager : MonoBehaviour
     private IEnumerator LoadReportSceneAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene("PR_Day1");
+
+        string reportSceneName = "PRDAY" + ChoiceResults.currentDay;
+        SceneManager.LoadScene(reportSceneName);
+
+        Debug.Log("Loading report scene: PRDAY" + ChoiceResults.currentDay);
     }
+
 }

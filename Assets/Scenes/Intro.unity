@@ -616,12 +616,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialogue_Text: {fileID: 1643235398}
-  dialogue: "You\u2019re a newly graduated student trying to be employed in that
-    Bank of Dream Ventures Inc, going for a trial job as a Loan Officer. But when
-    the day ends, the real story begins. Your dreams are tormented by the consequences
-    of your decisions. Will your conscience remain clear, or will your nightmares
-    reveal a different story? "
-  speed: 0.05
+  dialogue: "Today is the first day of your new life. After applying for a job to
+    Dream Ventures Inc., a local loan firm that has been rising in popularity as
+    of late, you are delighted to receive a response from the company telling you
+    that you\u2019ve been accepted for the position.  Well, not quite. You have been
+    accepted, but only for a trial period of 4 days wherein you will be evaluated
+    to see if you would be a fit for the long run. With your hopes high and resolve
+    steeled, you head to their offices to start your new job."
+  speed: 0.1
+  typewriterSound: {fileID: 8300000, guid: 51b0b29c91f1e9b468ac3e80fa683a6f, type: 3}
+  volume: 0.3
 --- !u!4 &1268991902
 Transform:
   m_ObjectHideFlags: 0
@@ -782,7 +786,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 37, y: -54}
+  m_AnchoredPosition: {x: 18, y: -29}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2005406172

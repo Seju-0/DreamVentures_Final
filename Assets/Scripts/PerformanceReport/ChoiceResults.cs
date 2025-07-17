@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using UnityEngine;
 
 public static class ChoiceResults
 {
     public struct ClientDecision
     {
+        public int dayNumber;
         public string clientName;
         public bool approved;
         public string evaluationText;
@@ -13,9 +13,12 @@ public static class ChoiceResults
         public string dreamDialogueText;
         public string sanityText;
         public int sanityValue;
-        public string headline; // << NEW FIELD
+        public string mainHeadline;
+        public string subHeadline;
+        public string obituary;
 
         public ClientDecision(
+            int dayNumber,
             string clientName,
             bool approved,
             string evaluationText,
@@ -24,8 +27,11 @@ public static class ChoiceResults
             string dreamDialogueText,
             string sanityText,
             int sanityValue,
-            string headline)
+            string mainHeadline,
+            string subHeadline,
+            string obituary)
         {
+            this.dayNumber = dayNumber;
             this.clientName = clientName;
             this.approved = approved;
             this.evaluationText = evaluationText;
@@ -34,14 +40,19 @@ public static class ChoiceResults
             this.dreamDialogueText = dreamDialogueText;
             this.sanityText = sanityText;
             this.sanityValue = sanityValue;
-            this.headline = headline;
+            this.mainHeadline = mainHeadline;
+            this.subHeadline = subHeadline;
+            this.obituary = obituary;
         }
     }
 
-    public static List<ClientDecision> decisions = new List<ClientDecision>();
+    public static int currentDay = 1;
+    public static List<ClientDecision> allDecisions = new List<ClientDecision>();
 
     public static int currentSanity = 100;
     public static int currentReputation = 50;
+    public static int startingReputationAtDay = 50;
+    public static int warningsThisDay = 0;
 
     public static void RecordDecision(
         string clientName,
@@ -52,9 +63,12 @@ public static class ChoiceResults
         string dreamDialogueText,
         string sanityText,
         int sanityValue,
-        string headline) 
+        string mainHeadline,
+        string subHeadline,
+        string obituary)
     {
-        decisions.Add(new ClientDecision(
+        var decision = new ClientDecision(
+            currentDay,
             clientName,
             approved,
             evaluationText,
@@ -63,16 +77,30 @@ public static class ChoiceResults
             dreamDialogueText,
             sanityText,
             sanityValue,
-            headline));
+            mainHeadline,
+            subHeadline,
+            obituary
+        );
 
+        allDecisions.Add(decision);
         currentSanity += sanityValue;
         currentReputation += reputationValue;
     }
 
-    public static void Clear()
+    public static List<ClientDecision> GetDecisionsForCurrentDay()
     {
-        decisions.Clear();
-        currentSanity = 100;
-        currentReputation = 50;
+        return allDecisions.FindAll(d => d.dayNumber == currentDay);
+    }
+
+    public static List<ClientDecision> GetDecisionsForPreviousDay()
+    {
+        return allDecisions.FindAll(d => d.dayNumber == currentDay - 1);
+    }
+
+    public static void StartNewDay()
+    {
+        startingReputationAtDay = currentReputation;
+        warningsThisDay = 0;
+        currentDay++;
     }
 }

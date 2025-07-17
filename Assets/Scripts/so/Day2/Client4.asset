@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ec895f2dbf449946ac9fe4ad6580d75, type: 3}
+  m_Name: Client4
+  m_EditorClassIdentifier: 
+  clientName: Deborah Niceman
+  dateOfBirth: 05-12-2011
+  requestedAmount: 25,000
+  paymentDate: 06-16-2088
+  loanPurpose: Funds to hire workers and purchase materials for roof repair.
+  FirstName: Deborah
+  LastName: Niceman
+  dateofBirth2: 05-12-2011
+  Gender: Female
+  Title: Ms.
+  OtherNames: "\u201CDebbie\""
+  employerName: N/A (Retired)
+  workplaceAddress: N/A
+  BusinessName: N/A
+  BusinessAddress: N/A
+  idPhoto: {fileID: 21300000, guid: 512d76a0c282c924a9f7c3092392234f, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
+  LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
+  approvalEvaluationText: Good approval, Ms. Niceman is known to be reliable with
+    her payments with other establishments.
+  rejectionEvaluationText: "Acceptable rejection, whilst Ms. Niceman is known to
+    pay back any due transactions on time, I\u2019d rather not be tied back to helping
+    her cover up her husband\u2019s \u2018accident\u2019."

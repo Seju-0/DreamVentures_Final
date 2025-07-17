@@ -31,9 +31,9 @@ public class FolderPanel : MonoBehaviour
     public Button rejectButton;
     public Button closeButton;
 
-    private ClientData currentClientData;
+    private ClientSO currentClientData;
 
-    public void UpdatePanel(ClientData data)
+    public void UpdatePanel(ClientSO data)
     {
         currentClientData = data;
 
@@ -41,7 +41,7 @@ public class FolderPanel : MonoBehaviour
 
         if (nameText) nameText.text = data.clientName;
         if (dobText) dobText.text = data.dateOfBirth;
-        if (dob2Text) dob2Text.text = data.dateOfBirth;
+        if (dob2Text) dob2Text.text = data.dateofBirth2;
         if (amountText) amountText.text = data.requestedAmount;
         if (paymentDateText) paymentDateText.text = data.paymentDate;
         if (loanPurposeText) loanPurposeText.text = data.loanPurpose;

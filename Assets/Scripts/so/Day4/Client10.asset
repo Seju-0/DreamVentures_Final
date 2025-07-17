@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ec895f2dbf449946ac9fe4ad6580d75, type: 3}
+  m_Name: Client10
+  m_EditorClassIdentifier: 
+  clientName: Jade Shade
+  dateOfBirth: 01-27-2066
+  requestedAmount: 100,000
+  paymentDate: 03-20-2088
+  loanPurpose: "Art project finances. It\u2019s a game, my dream game, a most noble
+    venture."
+  FirstName: Jade
+  LastName: Shade
+  dateofBirth2: 01-27-2066
+  Gender: Non-binary
+  Title: N/A
+  OtherNames: N/A
+  employerName: N/A
+  workplaceAddress: N/A
+  BusinessName: Jade Shade Games Ltd.
+  BusinessAddress: 29 Dreamers Road, City 1A, Entertainment District
+  idPhoto: {fileID: 21300000, guid: 5b78dfe0fdae35c488c3729e075736bc, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
+  LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
+  approvalEvaluationText: 
+  rejectionEvaluationText: 
