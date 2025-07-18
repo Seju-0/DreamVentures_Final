@@ -51,10 +51,40 @@ public class ClientManager : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
 
-        string reportSceneName = "PRDAY" + ChoiceResults.currentDay;
-        SceneManager.LoadScene(reportSceneName);
+        if (ChoiceResults.currentDay == 4)
+        {
+            int finalRep = ChoiceResults.currentReputation;
+            int finalSanity = ChoiceResults.currentSanity;
 
-        Debug.Log("Loading report scene: PRDAY" + ChoiceResults.currentDay);
+            if (finalSanity <= 120 && finalRep <= 120)
+            {
+                if (finalSanity < finalRep)
+                    SceneManager.LoadScene("LoseToSanity");
+                else
+                    SceneManager.LoadScene("LoseToReputation");
+            }
+            else if (finalSanity <= 120)
+            {
+                SceneManager.LoadScene("LoseToSanity");
+            }
+            else if (finalRep <= 120)
+            {
+                SceneManager.LoadScene("LoseToReputation");
+            }
+            else
+            {
+                SceneManager.LoadScene("Win");
+            }
+
+            Debug.Log($"End of Day 4: Rep={finalRep}, Sanity={finalSanity}");
+        }
+        else
+        {
+            string reportSceneName = "PRDAY" + ChoiceResults.currentDay;
+            SceneManager.LoadScene(reportSceneName);
+
+            Debug.Log("Loading report scene: " + reportSceneName);
+        }
     }
 
 }

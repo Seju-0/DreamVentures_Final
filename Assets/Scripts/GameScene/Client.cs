@@ -77,8 +77,8 @@ public class Client : MonoBehaviour
     private AudioSource sfxAudioSource;
 
     [Header("Validation Settings")]
-    public Image warningImageDisplay; // The Image component to show the warning sprite
-    public Button warningCloseButton; // Button to close the warning
+    public Image warningImageDisplay; 
+    public Button warningCloseButton; 
     public int reputationPenalty = 5;
 
     private bool waitingApprovalAfterWarning = false;

@@ -41,5 +41,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gameplay/Day4.unity
     guid: 7ca5176267bb2d242968e7350f5fa5cd
+  - enabled: 1
+    path: Assets/Scenes/LoseToReputation.unity
+    guid: 2ba7857bb4ab90644956bd43806a7d47
+  - enabled: 1
+    path: Assets/Scenes/LoseToSanity.unity
+    guid: 47efc6a7bab4b7842a5a13d34674316e
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 6a5b291f053798d40816d21876a9af49
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

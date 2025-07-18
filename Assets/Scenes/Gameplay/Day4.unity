@@ -9771,7 +9771,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7, y: -106.9}
+  m_AnchoredPosition: {x: -7, y: -117.6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1075079774
@@ -15586,7 +15586,7 @@ MonoBehaviour:
   clientsLeftText: {fileID: 1908831003}
   approvalsLeftText: {fileID: 894638368}
   approvalLimitReachedText: {fileID: 1964904661}
-  totalClients: 11
+  totalClients: 13
   approvalsLeft: 6
   approveButton: {fileID: 341349591}
 --- !u!1 &1540780190
@@ -17540,7 +17540,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Personal Details\n\nFirst Name: \nSurname:\nDate of Birth:\nGender: \nTitle:                          
     \nOther Names:\n\nBusiness Details:\n\nName of Business:\n \nAddress: \n\n\nEmployment
-    Details\n\nName of Employer: \n\nWorkplace Address: \n\n"
+    Details\n\nName of Employer: \n\n\nWorkplace Address: \n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}
   m_sharedMaterial: {fileID: -7260648671262176420, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}

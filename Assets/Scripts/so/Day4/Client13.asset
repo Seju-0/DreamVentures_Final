@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ec895f2dbf449946ac9fe4ad6580d75, type: 3}
   m_Name: Client13
   m_EditorClassIdentifier: 
-  clientName: Lucky
-  dateOfBirth: 0X-0X-201X
+  clientName: Lucky Me
+  dateOfBirth: 00-00-2010
   requestedAmount: 1000
   paymentDate: 06-21-2087
   loanPurpose: To rest.
   FirstName: Lucky
-  LastName: 
-  dateofBirth2: 0X-0X-201X
+  LastName: Me
+  dateofBirth2: 00-00-2010
   Gender: Undefined
   Title: N/A
   OtherNames: N/A
