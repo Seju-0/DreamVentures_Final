@@ -1,16 +1,20 @@
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
-public class Endgame : MonoBehaviour
+public class EndGame : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void RestartBTN()
     {
-        
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Day1");
     }
-
-    // Update is called once per frame
-    void Update()
+    public void ExitBTN()
     {
-        
+        Application.Quit();
+        Debug.Log("Program Closed");
+    }
+    public void MainMenuBTN()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
     }
 }

@@ -27,7 +27,7 @@ MonoBehaviour:
   workplaceAddress: N/A
   BusinessName: "General\u2019s Goods"
   BusinessAddress: "21 Veteran\u2019s Road, City 1A, Central District"
-  idPhoto: {fileID: 21300000, guid: 5b78dfe0fdae35c488c3729e075736bc, type: 3}
+  idPhoto: {fileID: 21300000, guid: bd253ac0be43fc844a2aad2854628670, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: "Never mentioned you were a veteran, I\u2019ll allow it."

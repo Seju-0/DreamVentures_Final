@@ -27,7 +27,7 @@ MonoBehaviour:
   workplaceAddress: 101 Corvidae Apartments, City 1A, Residential District 2
   BusinessName: N/A
   BusinessAddress: N/A
-  idPhoto: {fileID: 21300000, guid: 5b78dfe0fdae35c488c3729e075736bc, type: 3}
+  idPhoto: {fileID: 21300000, guid: 67d5be34b87a16b4baeb283a1a778ce8, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: "The client wasn\u2019t even a wildlife photographer in
