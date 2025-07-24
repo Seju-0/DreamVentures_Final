@@ -28,7 +28,7 @@ MonoBehaviour:
   workplaceAddress: N/A
   BusinessName: "Pim and Lim\u2019s Stables"
   BusinessAddress: Ping Racehorse Compund, City 1B, Grasslands Area
-  idPhoto: {fileID: 21300000, guid: 5b78dfe0fdae35c488c3729e075736bc, type: 3}
+  idPhoto: {fileID: 21300000, guid: eb497e877a5abcc498f5169aa880b691, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: 

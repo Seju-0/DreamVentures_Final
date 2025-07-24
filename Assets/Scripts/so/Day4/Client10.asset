@@ -28,7 +28,7 @@ MonoBehaviour:
   workplaceAddress: N/A
   BusinessName: Jade Shade Games Ltd.
   BusinessAddress: 29 Dreamers Road, City 1A, Entertainment District
-  idPhoto: {fileID: 21300000, guid: 5b78dfe0fdae35c488c3729e075736bc, type: 3}
+  idPhoto: {fileID: 21300000, guid: 05c05270079829743baf6375d67d5db3, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: 
