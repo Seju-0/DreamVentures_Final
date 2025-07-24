@@ -28,7 +28,7 @@ MonoBehaviour:
   workplaceAddress: N/A
   BusinessName: Wesselshiredorf Furniture Inc.
   BusinessAddress: Wesselshiredorf Island, City 1A, Loch Dunderheid
-  idPhoto: {fileID: 21300000, guid: 114a1555a9ee98248b4396e673a36163, type: 3}
+  idPhoto: {fileID: 21300000, guid: 2abee9c11ae26e94c8e44928572e78ff, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: "Decent approval. Whilst the client\u2019s currency is

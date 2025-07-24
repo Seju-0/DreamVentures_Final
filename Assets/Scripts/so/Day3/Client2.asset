@@ -27,7 +27,7 @@ MonoBehaviour:
   workplaceAddress: N/A
   BusinessName: Kyoryu Archaeological Guild
   BusinessAddress: '17 Zyuden Way, City 1B, Science District '
-  idPhoto: {fileID: 21300000, guid: 50d711c4e3a7cae4b8c115f1e66908c3, type: 3}
+  idPhoto: {fileID: 21300000, guid: 4aaed1408d3e6234780d4be4c9c3ff6d, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: You know that the government cut funding to archaeological

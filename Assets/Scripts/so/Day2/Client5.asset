@@ -28,7 +28,7 @@ MonoBehaviour:
   workplaceAddress: Super-Duper Market, City 1A, Commons District
   BusinessName: N/A
   BusinessAddress: N/A
-  idPhoto: {fileID: 21300000, guid: 754405b810590c04785f1adc447b060a, type: 3}
+  idPhoto: {fileID: 21300000, guid: 095744ba8a40e1b4b8117a2410835e94, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: Bad approval, client was clearly lying. Furthermore, the

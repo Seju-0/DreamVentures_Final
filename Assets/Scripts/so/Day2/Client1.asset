@@ -27,7 +27,7 @@ MonoBehaviour:
   workplaceAddress: N/A
   BusinessName: N/A
   BusinessAddress: N/A
-  idPhoto: {fileID: 21300000, guid: 8b45871acb7b53841988236c5b3b0271, type: 3}
+  idPhoto: {fileID: 21300000, guid: ded5e3f2ad69dfe4d9cad519d3cae049, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: Bad approval. The client is unemployed and information

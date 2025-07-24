@@ -27,7 +27,7 @@ MonoBehaviour:
   workplaceAddress: N/A
   BusinessName: N/A
   BusinessAddress: N/A
-  idPhoto: {fileID: 21300000, guid: 512d76a0c282c924a9f7c3092392234f, type: 3}
+  idPhoto: {fileID: 21300000, guid: d4eaf082117a44e4d96204236fc342bb, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: Good approval, Ms. Niceman is known to be reliable with

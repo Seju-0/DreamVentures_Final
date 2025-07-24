@@ -26,6 +26,7 @@ public class QuestionButtons : MonoBehaviour
         if (list != null && questionIndex < list.Length)
         {
             buttonText.text = list[questionIndex].question;
+            buttonText.gameObject.SetActive(false); 
 
             button.onClick.RemoveAllListeners();
             button.onClick.AddListener(() =>
@@ -33,6 +34,14 @@ public class QuestionButtons : MonoBehaviour
                 string answer = list[questionIndex].answer;
                 questionsManager.dialogueScript.StartSingleLine(answer);
             });
+        }
+    }
+
+    public void ShowText()
+    {
+        if (buttonText != null)
+        {
+            buttonText.gameObject.SetActive(true);
         }
     }
 }

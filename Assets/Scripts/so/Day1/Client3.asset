@@ -30,7 +30,7 @@ MonoBehaviour:
     2
   BusinessName: N/A
   BusinessAddress: N/A
-  idPhoto: {fileID: 21300000, guid: 9fe344d16b2ce6d4cbbc4ff34a33665b, type: 3}
+  idPhoto: {fileID: 21300000, guid: 4f3a04d2da4c8ef43b32d013adcdfcff, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: Decent approval, client credibility has yet to be proven

@@ -27,7 +27,7 @@ MonoBehaviour:
   workplaceAddress: Alexei Farms, City 1A, Agricultural District 3
   BusinessName: Alexei Farms
   BusinessAddress: Alexei Farms, City 1A, Agricultural District 3
-  idPhoto: {fileID: 21300000, guid: 0c8a047b62b178942ab8898233d09208, type: 3}
+  idPhoto: {fileID: 21300000, guid: a5e213e073ee38d49a0ab55f5fe298d6, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: Approval is good, farmer is backbone of society. Sorry,

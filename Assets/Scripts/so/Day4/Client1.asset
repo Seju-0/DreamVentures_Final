@@ -27,7 +27,7 @@ MonoBehaviour:
   workplaceAddress: 63 Equine Ave., City 1A, Entertainment District
   BusinessName: N/A
   BusinessAddress: N/A
-  idPhoto: {fileID: 21300000, guid: 54dfa39246bc80e45a22b660754dddfc, type: 3}
+  idPhoto: {fileID: 21300000, guid: e7331934ddac64944861498dc517c54e, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: 

@@ -28,7 +28,7 @@ MonoBehaviour:
   workplaceAddress: N/A
   BusinessName: Schumacher Shoes Ltd.
   BusinessAddress: N/A (Mobile-Business)
-  idPhoto: {fileID: 21300000, guid: 30777fbcae5262046983f20e9360ec7b, type: 3}
+  idPhoto: {fileID: 21300000, guid: 3ac2ac95ab2ed9944ac7b2e4377174f7, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: "You\u2019re either suppressing your memories or too many

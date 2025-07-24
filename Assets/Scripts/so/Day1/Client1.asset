@@ -27,7 +27,7 @@ MonoBehaviour:
   workplaceAddress: '01 Concrete Drive, City 1A, Business District 1 '
   BusinessName: N/A
   BusinessAddress: N/A
-  idPhoto: {fileID: 21300000, guid: 5b78dfe0fdae35c488c3729e075736bc, type: 3}
+  idPhoto: {fileID: 21300000, guid: 7ac12ab4f6b13d84da88869a41ced23b, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: Good approval, well done.

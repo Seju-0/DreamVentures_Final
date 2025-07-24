@@ -27,7 +27,7 @@ MonoBehaviour:
   workplaceAddress: '13 Stove Road, City 1A, Business District 2 '
   BusinessName: "Mafia\u2019s Pizza Place"
   BusinessAddress: '13 Stove Road, City 1A, Business District 2 '
-  idPhoto: {fileID: 21300000, guid: 96e06eeade6191c4aa28e92438650539, type: 3}
+  idPhoto: {fileID: 21300000, guid: 4c6d1e59533423f47a53c2baf98533a7, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: "Good approval. \u2018Papa\u2019s Pizzeria\u2019 is a local

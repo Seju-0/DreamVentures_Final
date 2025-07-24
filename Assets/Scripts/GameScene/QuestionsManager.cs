@@ -1,6 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class QuestionsManager : MonoBehaviour
@@ -33,6 +31,12 @@ public class QuestionsManager : MonoBehaviour
         questionList = currentClient.questionList;
 
         UpdateButtons();
+
+        // ⬇️ Trigger ShowText AFTER dialogue is finished
+        dialogueScript.OnDialogueComplete += () =>
+        {
+            RevealQuestionTexts();
+        };
     }
 
     public void UpdateButtons()
@@ -44,7 +48,7 @@ public class QuestionsManager : MonoBehaviour
             if (i < questionList.Length)
             {
                 questionButtons[i].gameObject.SetActive(true);
-                questionButtons[i].Setup(this, i);
+                questionButtons[i].Setup(this, i); // This hides text
             }
             else
             {
@@ -59,6 +63,15 @@ public class QuestionsManager : MonoBehaviour
                 if (panel != null)
                     panel.SetActive(true);
             }
+        }
+    }
+
+    public void RevealQuestionTexts()
+    {
+        foreach (var button in questionButtons)
+        {
+            if (button != null)
+                button.ShowText();
         }
     }
 

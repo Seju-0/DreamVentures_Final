@@ -27,7 +27,7 @@ MonoBehaviour:
   workplaceAddress: 23 Spotlight Boulevard, City 1A, Entertainment District 3
   BusinessName: N/A
   BusinessAddress: N/A
-  idPhoto: {fileID: 21300000, guid: f479493e2aabd89429e70d12e0d94978, type: 3}
+  idPhoto: {fileID: 21300000, guid: 68ad49fde2513c84aaacc2de3ee0018f, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: Bad approval, credibility is questionable

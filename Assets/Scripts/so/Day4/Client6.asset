@@ -27,7 +27,7 @@ MonoBehaviour:
   workplaceAddress: The Burning Pavillion, Terra Ignis, Scorched Realm
   BusinessName: N/A
   BusinessAddress: N/A
-  idPhoto: {fileID: 21300000, guid: 58445fcfa6e17b54284a1a783368ac1f, type: 3}
+  idPhoto: {fileID: 21300000, guid: 4251bdd97f9f5fb45b72c4a6c058f929, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: 

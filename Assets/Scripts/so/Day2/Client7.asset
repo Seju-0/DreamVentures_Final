@@ -28,7 +28,7 @@ MonoBehaviour:
   workplaceAddress: Blackjackal Reserve, City 1A, Protected Forest Zone C
   BusinessName: N/A
   BusinessAddress: N/A
-  idPhoto: {fileID: 21300000, guid: 16bd4e0e0238d5e47a0a36bf822da3f8, type: 3}
+  idPhoto: {fileID: 21300000, guid: 063bc34f1e3dcdc4aa8c480d57f1487c, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: "He literally gets bribed and \u2018funded\u2019 by a cult,
