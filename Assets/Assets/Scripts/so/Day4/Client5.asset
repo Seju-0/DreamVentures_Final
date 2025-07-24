@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ec895f2dbf449946ac9fe4ad6580d75, type: 3}
+  m_Name: Client5
+  m_EditorClassIdentifier: 
+  clientName: Billy Boiler
+  dateOfBirth: 05-12-2045
+  requestedAmount: 50,000
+  paymentDate: 04-11-2088
+  loanPurpose: I use these funds to fulfill the nefarious purposes of the night mother
+  FirstName: Wolf
+  LastName: Razorfang
+  dateofBirth2: 05-12-2045
+  Gender: 'Lupine Male '
+  Title: Great Howling Lord
+  OtherNames: "\u201CThe Night\u2019s Terror\u201D"
+  employerName: "Johnson\u2019s Matresses"
+  workplaceAddress: '23 Clean Lane. City 1A, Commercial District '
+  BusinessName: N/A
+  BusinessAddress: N/A
+  idPhoto: {fileID: 21300000, guid: 5dc54cdb84efc0a4d832b022c215777f, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
+  LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
+  approvalEvaluationText: 
+  rejectionEvaluationText: 

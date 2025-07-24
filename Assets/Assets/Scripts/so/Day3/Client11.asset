@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ec895f2dbf449946ac9fe4ad6580d75, type: 3}
+  m_Name: Client11
+  m_EditorClassIdentifier: 
+  clientName: Soule James
+  dateOfBirth: 12-25-2077
+  requestedAmount: 25,000
+  paymentDate: 08-01-2087
+  loanPurpose: To pay for immigration fees.
+  FirstName: Soule
+  LastName: Jonathan
+  dateofBirth2: 12-25-2077
+  Gender: 'Male '
+  Title: Mr.
+  OtherNames: N/A
+  employerName: N/A (Retired)
+  workplaceAddress: N/A (Retired)
+  BusinessName: N/A
+  BusinessAddress: N/A
+  idPhoto: {fileID: 21300000, guid: 46175f4ec89f08348b24ebf3f5eb368b, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
+  LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
+  approvalEvaluationText: "You should read the papers more, Soule Jonathan is dead,
+    that was his son Soule James. I don\u2019t mind you helping him if you noticed
+    anyway. Poor kid."
+  rejectionEvaluationText: "You\u2019re good for business, I won\u2019t deny that,
+    but when you make decisions like these, I really doubt if you have a heart at
+    all."

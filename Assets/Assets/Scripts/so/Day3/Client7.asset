@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ec895f2dbf449946ac9fe4ad6580d75, type: 3}
+  m_Name: Client7
+  m_EditorClassIdentifier: 
+  clientName: Claire Voyageur
+  dateOfBirth: 02-01-2061
+  requestedAmount: 75,000
+  paymentDate: 12-25-2087
+  loanPurpose: To fix my motorbike
+  FirstName: Claire
+  LastName: Voyageur
+  dateofBirth2: 02-01-2061
+  Gender: Female
+  Title: Corporal
+  OtherNames: "\u201CMarathon\u201D"
+  employerName: 'N/A (Retired) '
+  workplaceAddress: N/A
+  BusinessName: N/A
+  BusinessAddress: N/A
+  idPhoto: {fileID: 21300000, guid: ec82144571c45a74f9cfdbfbd16efa47, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
+  LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
+  approvalEvaluationText: "Veteran or not, she\u2019s never coming back to pay us,
+    but I assume you already knew that."
+  rejectionEvaluationText: "Here\u2019s to hoping she follows in your footsteps,
+    oui? You cannot grow without roots, my gardener told me that."

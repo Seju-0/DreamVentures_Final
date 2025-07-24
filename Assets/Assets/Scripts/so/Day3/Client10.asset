@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ec895f2dbf449946ac9fe4ad6580d75, type: 3}
+  m_Name: Client10
+  m_EditorClassIdentifier: 
+  clientName: Nolan Chairperson
+  dateOfBirth: 05-01-2020
+  requestedAmount: 500,000
+  paymentDate: 09-01-2088
+  loanPurpose: To purchase one of the last surviving BusinessMaster 20X-2s in existence.
+  FirstName: Nolan
+  LastName: Chairperson
+  dateofBirth2: 05-01-2020
+  Gender: Chair Male
+  Title: CEO; Mr.
+  OtherNames: "\u201CThe Business Master\u201D"
+  employerName: N/A
+  workplaceAddress: N/A
+  BusinessName: BusinessMaster Chairs Inc.
+  BusinessAddress: N/A (Re-establishing company)
+  idPhoto: {fileID: 21300000, guid: dc27fb45c41bcb14f81ef796b609064f, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
+  LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
+  approvalEvaluationText: "I\u2019m pretty sure that was the former megacorp CEO
+    of BusinessMaster Chairs. You might have made a good choice. Emphasis on\u2019might
+    have\u2019."
+  rejectionEvaluationText: "I don\u2019t even have to explain why accepting them
+    would\u2019ve been stupid. Well done."

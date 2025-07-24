@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ec895f2dbf449946ac9fe4ad6580d75, type: 3}
+  m_Name: Client7
+  m_EditorClassIdentifier: 
+  clientName: Country Mann
+  dateOfBirth: 02-28-2052
+  requestedAmount: 50,000
+  paymentDate: 07-15-2087
+  loanPurpose: To fund repairs for the park and reserve, as the government refuses
+    to provide us with the funds necessary.
+  FirstName: Country
+  LastName: Mann
+  dateofBirth2: 02-28-2052
+  Gender: 'Wildkin Male '
+  Title: Ranger; Forest Watcher
+  OtherNames: "\u201CEmbraced-by-Bark\u201D"
+  employerName: Blackjackal Reserve, Stalking Grounds
+  workplaceAddress: Blackjackal Reserve, City 1A, Protected Forest Zone C
+  BusinessName: N/A
+  BusinessAddress: N/A
+  idPhoto: {fileID: 21300000, guid: 16bd4e0e0238d5e47a0a36bf822da3f8, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
+  LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
+  approvalEvaluationText: "He literally gets bribed and \u2018funded\u2019 by a cult,
+    were you not listening? Bad, bad employee, if I had a spray bottle I would spray
+    you right now."
+  rejectionEvaluationText: "We\u2019re not helping a cult bribe-taker, so, good call.
+    No treats for you though."

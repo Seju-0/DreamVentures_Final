@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ec895f2dbf449946ac9fe4ad6580d75, type: 3}
+  m_Name: Client2
+  m_EditorClassIdentifier: 
+  clientName: Momoh Tawroe
+  dateOfBirth: 01-01-2000
+  requestedAmount: 100,000
+  paymentDate: 06-21-2088
+  loanPurpose: To repair my royal palanquin
+  FirstName: Don
+  LastName: Peach
+  dateofBirth2: 01-01-2000
+  Gender: Peach
+  Title: Don
+  OtherNames: His Peachyness
+  employerName: King Zen (co-owner)
+  workplaceAddress: 45-46 Brothers Road, City 1B, Commercial District
+  BusinessName: Peach Brothers & Co.
+  BusinessAddress: 45-46 Brothers Road, City 1B, Commercial District
+  idPhoto: {fileID: 21300000, guid: 94c93730ce45f0540b7a0c596740b523, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
+  LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
+  approvalEvaluationText: 
+  rejectionEvaluationText: 
