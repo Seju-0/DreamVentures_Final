@@ -1,4 +1,4 @@
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -26,7 +26,7 @@ public class QuestionButtons : MonoBehaviour
         if (list != null && questionIndex < list.Length)
         {
             buttonText.text = list[questionIndex].question;
-            buttonText.gameObject.SetActive(false); 
+            buttonText.gameObject.SetActive(false);
 
             button.onClick.RemoveAllListeners();
             button.onClick.AddListener(() =>

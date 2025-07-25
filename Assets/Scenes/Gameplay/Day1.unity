@@ -6889,6 +6889,7 @@ MonoBehaviour:
   exitPoint: {fileID: 1158275616}
   enterSpeed: 4
   exitSpeed: 5
+  decisionDisplay: {fileID: 0}
 --- !u!1 &826773618
 GameObject:
   m_ObjectHideFlags: 0
@@ -8616,7 +8617,6 @@ MonoBehaviour:
   - {fileID: 1034125668}
   - {fileID: 1182894835}
   - {fileID: 1172075946}
-  - {fileID: 1884289134}
   questionButtons:
   - {fileID: 1034125669}
   - {fileID: 1182894838}
@@ -10994,7 +10994,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -12814,40 +12814,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Click the Replay Dialogue button to repeat dialogue
-
-
-
-    - Click the
-    Folder icon on the computer to access the client''s information
-
-
-
-    - Click
-    the buttons on the "Ask Questions" panel to ask the client a question
-
-
-
-    -
-    Click the "Approve" button in the client''s folder to approve the client''s loan
-
-
-
-    -
-    Click the "Reject" button in the client''s folder to reject the client''s loan
-
-
-
-    -
+  m_text: "- Click the Replay Dialogue button to repeat dialogue\n\n\n- Click the
+    Folder icon on the computer to access the client's information\n\n\n- Click the
+    buttons on the \"Ask Questions\" panel to ask the client a question\n\n\n- Click
+    the \"Approve\" button in the client's folder to approve the client's loan\n\n\n-
+    Click the \"Reject\" button in the client's folder to reject the client's loan\n\n\n-
     After you approve a client, a print loan button will appear. Click the print
-    loan button to print the loan check of the client.
-
-
-
-    Note:
-
-    Make sure
-    to read the dialogues carefully as they will determine how the storyline goes!'
+    loan button to print the loan check of the client.\n\n\nBy accepting or rejecting
+    loans that you believe will help the company, you can improve your reputation.
+    Maintaining your integrity and doing what you believe is right, even if it means
+    putting the company's interests last, will help you stay sane. You will be hired
+    if you receive at least 120 points for both your sanity and reputation! \n\nNote:\nMake
+    sure to read the dialogues carefully as they will determine how the storyline
+    goes!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}
   m_sharedMaterial: {fileID: -7260648671262176420, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}
@@ -18815,22 +18794,19 @@ MonoBehaviour:
   - {fileID: 1674273787}
   - {fileID: 333956490}
   - {fileID: 782783266}
+  - {fileID: 1075079772}
   - {fileID: 1993678798}
   - {fileID: 241160309}
+  - {fileID: 1501828801}
   - {fileID: 1836716300}
   - {fileID: 64712657}
   - {fileID: 2047892556}
-  - {fileID: 1075079772}
-  - {fileID: 1501828801}
   Questions_Panel:
   - {fileID: 1626643344}
   - {fileID: 2055975439}
   - {fileID: 1034125668}
   - {fileID: 1182894835}
   - {fileID: 1172075946}
-  - {fileID: 1884289134}
-  - {fileID: 1245577218}
-  - {fileID: 10671351}
 --- !u!4 &2008918799
 Transform:
   m_ObjectHideFlags: 0

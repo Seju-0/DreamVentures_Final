@@ -3153,15 +3153,15 @@ MonoBehaviour:
   answersComponent: {fileID: 395981984}
   approvalResponse: Groovy.
   rejectionResponse: Not groovy.
-  approvalReputationText: 
-  rejectionReputationText: 
+  approvalReputationText: Reputation +5
+  rejectionReputationText: Reputation +10
   approvalReputationValue: 5
   rejectionReputationValue: 10
   approvalDreamDialogueText: 
-  approvalSanityText: 
+  approvalSanityText: Sanity -5
   approvalSanityValue: -5
   rejectionDreamDialogueText: 
-  rejectionSanityText: 
+  rejectionSanityText: Sanity -10
   rejectionSanityValue: -10
   approveMainHeadline: 
   approveSubHeadline: 
@@ -4474,6 +4474,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 816350016}
+        m_TargetAssemblyTypeName: ClientManager, Assembly-CSharp
+        m_MethodName: OnApprove
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &341349592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5574,15 +5586,15 @@ MonoBehaviour:
   rejectionResponse: "*Roaring but in lowercase* \u201CA shame, he will not take
     this personally against you, however, should you find yourself in his realm\u2026
     Well, he makes no guarantees regarding your safety."
-  approvalReputationText: 
-  rejectionReputationText: 
+  approvalReputationText: Reputation +10
+  rejectionReputationText: Reputation -5
   approvalReputationValue: 10
   rejectionReputationValue: -5
   approvalDreamDialogueText: 
-  approvalSanityText: 
+  approvalSanityText: Sanity +5
   approvalSanityValue: 5
   rejectionDreamDialogueText: 
-  rejectionSanityText: 
+  rejectionSanityText: Sanity -10
   rejectionSanityValue: -10
   approveMainHeadline: 
   approveSubHeadline: 
@@ -5776,6 +5788,7 @@ Transform:
   - {fileID: 28420301}
   - {fileID: 169233397}
   - {fileID: 446392767}
+  - {fileID: 1953590207}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &472123398
@@ -7288,15 +7301,15 @@ MonoBehaviour:
   answersComponent: {fileID: 395981984}
   approvalResponse: "Oh thank you friend, you\u2019re a kind, and sweet, soul!"
   rejectionResponse: Oh bother, but I understand. Thank you for your time.
-  approvalReputationText: 
-  rejectionReputationText: 
+  approvalReputationText: Reputation +25
+  rejectionReputationText: Reputation -25
   approvalReputationValue: 25
   rejectionReputationValue: -25
   approvalDreamDialogueText: 
-  approvalSanityText: 
+  approvalSanityText: Sanity +15
   approvalSanityValue: 15
   rejectionDreamDialogueText: 
-  rejectionSanityText: 
+  rejectionSanityText: Sanity -15
   rejectionSanityValue: -15
   approveMainHeadline: 
   approveSubHeadline: 
@@ -7615,15 +7628,15 @@ MonoBehaviour:
   approvalResponse: Wonderful! I, Arsenqiue Fantom, thank you friend of justice!
     We will meet again on the final stage for the finale! Um, thank you for real.
   rejectionResponse: Um, okay, Sorry for taking up your time, and thanks.
-  approvalReputationText: 
-  rejectionReputationText: 
+  approvalReputationText: Reputation -15
+  rejectionReputationText: Reputation +5
   approvalReputationValue: -15
   rejectionReputationValue: 5
   approvalDreamDialogueText: 
-  approvalSanityText: 
+  approvalSanityText: Sanity +0
   approvalSanityValue: 0
   rejectionDreamDialogueText: 
-  rejectionSanityText: 
+  rejectionSanityText: Sanity +10
   rejectionSanityValue: 10
   approveMainHeadline: 
   approveSubHeadline: 
@@ -8862,6 +8875,7 @@ MonoBehaviour:
   exitPoint: {fileID: 1158275616}
   enterSpeed: 4
   exitSpeed: 5
+  decisionDisplay: {fileID: 1953590208}
 --- !u!1 &828254820
 GameObject:
   m_ObjectHideFlags: 0
@@ -11231,15 +11245,15 @@ MonoBehaviour:
   approvalResponse: "AHAHAHAHAHAHAHAHA, very good! You\u2019re invited to feast with
     me at Cafe Peach Brothers, but for now, farewell! AHAHAHAHA!"
   rejectionResponse: AHAHAHAHAHAHAHAHA! Time to work overtime, Fare thee well, friend!
-  approvalReputationText: 
-  rejectionReputationText: 
+  approvalReputationText: Reputation -10
+  rejectionReputationText: Reputation +5
   approvalReputationValue: -10
   rejectionReputationValue: 5
   approvalDreamDialogueText: 
-  approvalSanityText: 
+  approvalSanityText: Sanity -10
   approvalSanityValue: -10
   rejectionDreamDialogueText: 
-  rejectionSanityText: 
+  rejectionSanityText: Sanity -5
   rejectionSanityValue: -5
   approveMainHeadline: 
   approveSubHeadline: 
@@ -11773,15 +11787,15 @@ MonoBehaviour:
   answersComponent: {fileID: 395981984}
   approvalResponse: At ease, and light hold you.
   rejectionResponse: "... I see. I\u2019ll find help elsewhere."
-  approvalReputationText: 
-  rejectionReputationText: 
+  approvalReputationText: Reputation +0
+  rejectionReputationText: Reputation +0
   approvalReputationValue: 0
   rejectionReputationValue: 0
   approvalDreamDialogueText: 
-  approvalSanityText: 
+  approvalSanityText: Sanity +0
   approvalSanityValue: 0
   rejectionDreamDialogueText: 
-  rejectionSanityText: 
+  rejectionSanityText: Sanity +10
   rejectionSanityValue: 10
   approveMainHeadline: 
   approveSubHeadline: 
@@ -11984,6 +11998,18 @@ MonoBehaviour:
       - m_Target: {fileID: 169233398}
         m_TargetAssemblyTypeName: SoundManager2, Assembly-CSharp
         m_MethodName: PlayClickSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 816350016}
+        m_TargetAssemblyTypeName: ClientManager, Assembly-CSharp
+        m_MethodName: OnReject
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13953,15 +13979,15 @@ MonoBehaviour:
   approvalResponse: Awesome! Thanks sugar.
   rejectionResponse: "Aw dang, I wrote my stage name in the legal forms again. That\u2019s
     my bad sugar, see you around."
-  approvalReputationText: 
-  rejectionReputationText: 
+  approvalReputationText: Reputation +5
+  rejectionReputationText: Reputation +10
   approvalReputationValue: 5
   rejectionReputationValue: 10
   approvalDreamDialogueText: 
-  approvalSanityText: 
+  approvalSanityText: Sanity +15
   approvalSanityValue: 15
   rejectionDreamDialogueText: 
-  rejectionSanityText: 
+  rejectionSanityText: Sanity +10
   rejectionSanityValue: 10
   approveMainHeadline: 
   approveSubHeadline: 
@@ -14351,15 +14377,15 @@ MonoBehaviour:
   approvalResponse: I am simply giddy with joy, friend! Thank you!
   rejectionResponse: Neigh I say thee, nay! A little pun I like to make. You sir
     have betted incorrectly, for even without your help, I will be victorious!
-  approvalReputationText: 
-  rejectionReputationText: 
+  approvalReputationText: Reputation -10
+  rejectionReputationText: Reputation +10
   approvalReputationValue: -10
   rejectionReputationValue: 10
   approvalDreamDialogueText: 
-  approvalSanityText: 
+  approvalSanityText: Sanity +5
   approvalSanityValue: 5
   rejectionDreamDialogueText: 
-  rejectionSanityText: 
+  rejectionSanityText: Sanity +10
   rejectionSanityValue: 10
   approveMainHeadline: 
   approveSubHeadline: 
@@ -16075,15 +16101,15 @@ MonoBehaviour:
   answersComponent: {fileID: 395981984}
   approvalResponse: "Thanks friend, you\u2019re a lifesaver!"
   rejectionResponse: "Aw drats, you can\u2019t be serious!"
-  approvalReputationText: 
-  rejectionReputationText: 
+  approvalReputationText: Reputation -15
+  rejectionReputationText: Reputation +15
   approvalReputationValue: -15
   rejectionReputationValue: 15
   approvalDreamDialogueText: 
-  approvalSanityText: 
+  approvalSanityText: Sanity +0
   approvalSanityValue: 0
   rejectionDreamDialogueText: 
-  rejectionSanityText: 
+  rejectionSanityText: Sanity +0
   rejectionSanityValue: 0
   approveMainHeadline: 
   approveSubHeadline: 
@@ -16245,6 +16271,142 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1534057952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1534057953}
+  - component: {fileID: 1534057954}
+  - component: {fileID: 1534057955}
+  m_Layer: 5
+  m_Name: RepText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1534057953
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534057952}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.55803, y: 0.55803, z: 0.55803}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1646904474}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -10.4, y: 103.5}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1534057954
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534057952}
+  m_CullTransparentMesh: 1
+--- !u!114 &1534057955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534057952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: asdasda
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}
+  m_sharedMaterial: {fileID: -7260648671262176420, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -53.35179, w: 12.530567}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1538593355
 GameObject:
   m_ObjectHideFlags: 0
@@ -17211,6 +17373,8 @@ RectTransform:
   - {fileID: 810514793}
   - {fileID: 894638367}
   - {fileID: 1964904660}
+  - {fileID: 1534057953}
+  - {fileID: 1998326524}
   m_Father: {fileID: 1684481394}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -17721,15 +17885,15 @@ MonoBehaviour:
   answersComponent: {fileID: 395981984}
   approvalResponse: Cool, thanks.
   rejectionResponse: Screw you.
-  approvalReputationText: 
-  rejectionReputationText: 
+  approvalReputationText: Reputation -10
+  rejectionReputationText: Reputation +10
   approvalReputationValue: -10
   rejectionReputationValue: 10
   approvalDreamDialogueText: 
-  approvalSanityText: 
+  approvalSanityText: Sanity +0
   approvalSanityValue: 0
   rejectionDreamDialogueText: 
-  rejectionSanityText: 
+  rejectionSanityText: Sanity -5
   rejectionSanityValue: -5
   approveMainHeadline: 
   approveSubHeadline: 
@@ -20756,15 +20920,15 @@ MonoBehaviour:
     you baby."
   rejectionResponse: "Honey Money doesn\u2019t like what he\u2019s hearing, but Honey
     Money doesn\u2019t hold any grudges either. Next time, baby."
-  approvalReputationText: 
-  rejectionReputationText: 
+  approvalReputationText: Reputation -15
+  rejectionReputationText: Reputation +10
   approvalReputationValue: -15
   rejectionReputationValue: 10
   approvalDreamDialogueText: 
-  approvalSanityText: 
+  approvalSanityText: Sanity -10
   approvalSanityValue: -10
   rejectionDreamDialogueText: 
-  rejectionSanityText: 
+  rejectionSanityText: Sanity +0
   rejectionSanityValue: 0
   approveMainHeadline: 
   approveSubHeadline: 
@@ -20910,6 +21074,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1945330389}
   m_CullTransparentMesh: 1
+--- !u!1 &1953590206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1953590207}
+  - component: {fileID: 1953590208}
+  m_Layer: 0
+  m_Name: DisplayRSManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1953590207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953590206}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 466663388}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1953590208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953590206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f3f2ab2d90b95743bdbe189ffdd00a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reputationText: {fileID: 1534057955}
+  sanityText: {fileID: 1998326522}
 --- !u!1 &1964904659
 GameObject:
   m_ObjectHideFlags: 0
@@ -21294,15 +21504,15 @@ MonoBehaviour:
     get to see all of you.
   rejectionResponse: Well I would be mad at you but I tend to get mad at whole people,
     not just a half.
-  approvalReputationText: 
-  rejectionReputationText: 
+  approvalReputationText: Reputation +10
+  rejectionReputationText: Reputation -10
   approvalReputationValue: 10
   rejectionReputationValue: -10
   approvalDreamDialogueText: 
-  approvalSanityText: 
+  approvalSanityText: Sanity -5
   approvalSanityValue: -5
   rejectionDreamDialogueText: 
-  rejectionSanityText: 
+  rejectionSanityText: Sanity +0
   rejectionSanityValue: 0
   approveMainHeadline: 
   approveSubHeadline: 
@@ -21583,6 +21793,142 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993834606}
   m_CullTransparentMesh: 1
+--- !u!1 &1998326521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1998326524}
+  - component: {fileID: 1998326523}
+  - component: {fileID: 1998326522}
+  m_Layer: 5
+  m_Name: SanText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1998326522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998326521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: asdasda
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}
+  m_sharedMaterial: {fileID: -7260648671262176420, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -53.35179, w: 12.530567}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1998326523
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998326521}
+  m_CullTransparentMesh: 1
+--- !u!224 &1998326524
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998326521}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.55803, y: 0.55803, z: 0.55803}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1646904474}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -10.400009, y: 78.000015}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1999109474
 GameObject:
   m_ObjectHideFlags: 0
@@ -22059,15 +22405,15 @@ MonoBehaviour:
   rejectionResponse: "What aw c\u2019mon man I need this, my mommy will be pissed
     if I don\u2019t get her the leashy-weashy and the hawnesss! You\u2019re wack
     man."
-  approvalReputationText: 
-  rejectionReputationText: 
+  approvalReputationText: Reputation -10
+  rejectionReputationText: Reputation +10
   approvalReputationValue: -10
   rejectionReputationValue: 10
   approvalDreamDialogueText: 
-  approvalSanityText: 
+  approvalSanityText: Sanity -25
   approvalSanityValue: -25
   rejectionDreamDialogueText: 
-  rejectionSanityText: 
+  rejectionSanityText: Sanity +10
   rejectionSanityValue: 10
   approveMainHeadline: 
   approveSubHeadline: 
