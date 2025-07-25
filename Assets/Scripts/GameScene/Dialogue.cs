@@ -23,6 +23,7 @@ public class Dialogue : MonoBehaviour
     private bool isTyping = false;
 
     public System.Action OnDialogueComplete;
+    private bool allowReplay = true; // default true
 
     void Awake()
     {
@@ -140,12 +141,20 @@ public class Dialogue : MonoBehaviour
             Dialogue_Panel.SetActive(false);
             NextButton.SetActive(false);
 
+            // ✅ Only show Replay if allowed
             if (StartOverButton != null)
-                StartOverButton.SetActive(true);
+                StartOverButton.SetActive(allowReplay);
 
             OnDialogueComplete?.Invoke();
+
+            Debug.Log($"Dialogue finished. allowReplay = {allowReplay}");
         }
     }
+    public void SetAllowReplay(bool value)
+    {
+        allowReplay = value;
+    }
+
 
     public void OnStartOverButtonClicked()
     {

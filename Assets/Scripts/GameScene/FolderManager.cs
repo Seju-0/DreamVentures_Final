@@ -6,6 +6,7 @@ public class FolderManager : MonoBehaviour
 {
     [SerializeField] private List<GameObject> Folder_Components;
     [SerializeField] private List<GameObject> Questions_Panel;
+    public GameObject ReplayDialogue_Button;
 
     public void OpenFolder()
     {
@@ -17,6 +18,7 @@ public class FolderManager : MonoBehaviour
         {
             component.SetActive(false);
         }
+        ReplayDialogue_Button.SetActive(false); 
     }
 
     public void CloseBTN()
@@ -29,6 +31,7 @@ public class FolderManager : MonoBehaviour
         {
             component.SetActive(true);
         }
+        ReplayDialogue_Button.SetActive(true);
     }
 }
 

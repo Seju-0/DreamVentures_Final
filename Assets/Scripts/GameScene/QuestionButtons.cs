@@ -28,6 +28,8 @@ public class QuestionButtons : MonoBehaviour
             buttonText.text = list[questionIndex].question;
             buttonText.gameObject.SetActive(false);
 
+            button.interactable = false; // 🔒 Disable click until shown
+
             button.onClick.RemoveAllListeners();
             button.onClick.AddListener(() =>
             {
@@ -42,6 +44,15 @@ public class QuestionButtons : MonoBehaviour
         if (buttonText != null)
         {
             buttonText.gameObject.SetActive(true);
+            button.interactable = true; // ✅ Enable after text is shown
         }
+    }
+    public void ResetButton()
+    {
+        if (buttonText != null)
+            buttonText.gameObject.SetActive(false);
+
+        if (button != null)
+            button.interactable = false;
     }
 }

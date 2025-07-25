@@ -82,7 +82,7 @@ public class Client : MonoBehaviour
     public int reputationPenalty = 5;
 
     private bool waitingApprovalAfterWarning = false;
-
+    private System.Action onDialogueCompleteHandler;
     public void Setup(ClientManager mgr, Transform target, Transform exit, float enterSpd, float exitSpd)
     {
         manager = mgr;
@@ -203,9 +203,18 @@ public class Client : MonoBehaviour
                         rejectMainHeadline,
                         rejectSubHeadline,
                         rejectObituary
-                    );  
+                    );
 
                     folderPanel.gameObject.SetActive(false);
+
+                    QuestionsManager qm = FindAnyObjectByType<QuestionsManager>();
+                    if (qm != null)
+                    {
+                        qm.ResetAll(); 
+                    }
+
+                    dialogue.SetAllowReplay(false); 
+
                     LeaveAfterDialogue();
                 },
                 // CLOSE
@@ -215,6 +224,8 @@ public class Client : MonoBehaviour
                 }
             );
         }
+
+        dialogue.SetAllowReplay(true); // ✅ Reset for next client
 
         if (customDialogueLines != null && customDialogueLines.Length > 0)
             dialogue.StartDialogue(customDialogueLines);
@@ -327,8 +338,15 @@ public class Client : MonoBehaviour
         approveSubHeadline,
         approveObituary
     );
+        QuestionsManager qm = FindAnyObjectByType<QuestionsManager>();
+        if (qm != null)
+        {
+            qm.ResetAll();
+        }
 
-    LeaveAfterDialogue();
+        dialogue.SetAllowReplay(false);
+
+        LeaveAfterDialogue();
     }
 
     public bool HasReachedTarget()

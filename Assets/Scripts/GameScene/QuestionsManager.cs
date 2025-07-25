@@ -13,8 +13,12 @@ public class QuestionsManager : MonoBehaviour
     public List<GameObject> questionsPanel;
     public QuestionButtons[] questionButtons;
 
+    public GameObject openFolderButton;
+
     [HideInInspector]
     public ClientData.QA[] questionList;
+
+    private bool isClientLeaving = false;
 
     private void Start()
     {
@@ -26,16 +30,31 @@ public class QuestionsManager : MonoBehaviour
 
     public void SetClient(Client newClient)
     {
+        if (currentClient != null && currentClient.dialogue != null)
+        {
+            // Clear previous listener
+            currentClient.dialogue.OnDialogueComplete = null;
+        }
+
+        isClientLeaving = false;
         currentClient = newClient;
         dialogueScript = currentClient.dialogue;
         questionList = currentClient.questionList;
 
         UpdateButtons();
 
-        // ⬇️ Trigger ShowText AFTER dialogue is finished
+        if (openFolderButton != null)
+            openFolderButton.SetActive(false);
+
+        // ✅ Show questions + enable open folder button after dialogue
         dialogueScript.OnDialogueComplete += () =>
         {
+            if (isClientLeaving) return; // 🔒 Don't reactivate button if leaving
+
             RevealQuestionTexts();
+
+            if (openFolderButton != null)
+                openFolderButton.SetActive(true);
         };
     }
 
@@ -85,5 +104,24 @@ public class QuestionsManager : MonoBehaviour
                     panel.SetActive(false);
             }
         }
+    }
+    public void ResetAll()
+    {
+        isClientLeaving = true; // ✅ Mark to prevent button reactivation
+
+        foreach (var button in questionButtons)
+        {
+            if (button != null)
+                button.ResetButton();
+        }
+
+        foreach (GameObject panel in questionsPanel)
+        {
+            if (panel != null)
+                panel.SetActive(false);
+        }
+
+        if (openFolderButton != null)
+            openFolderButton.SetActive(false);
     }
 }

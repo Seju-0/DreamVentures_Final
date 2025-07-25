@@ -8620,6 +8620,7 @@ MonoBehaviour:
   questionButtons:
   - {fileID: 1034125669}
   - {fileID: 1182894838}
+  openFolderButton: {fileID: 1884289134}
   questionList:
   - question: How old is your daughter?
     answer: "Oh well she\u2019s a newborn, been about a month since we left the hospital,
@@ -18807,6 +18808,7 @@ MonoBehaviour:
   - {fileID: 1034125668}
   - {fileID: 1182894835}
   - {fileID: 1172075946}
+  ReplayDialogue_Button: {fileID: 1245577218}
 --- !u!4 &2008918799
 Transform:
   m_ObjectHideFlags: 0
