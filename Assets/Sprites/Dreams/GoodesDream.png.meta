@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 22d9b29e59310d04d803bc7b982c7b0c
+guid: ecbb9a9b3a1ef5b4f8e5c3d09f1eb663
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3139663007072482195
-    second: Lim_0
+      213: 8742762167666569014
+    second: GoodesDream_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lim_0
+      name: GoodesDream_0
       rect:
         serializedVersion: 2
-        x: 35
+        x: 0
         y: 0
-        width: 56
-        height: 112
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3937dfaced2529b20800000000000000
-      internalID: 3139663007072482195
+      spriteID: 63f6d7fced7845970800000000000000
+      internalID: 8742762167666569014
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Lim_0: 3139663007072482195
+      GoodesDream_0: 8742762167666569014
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
