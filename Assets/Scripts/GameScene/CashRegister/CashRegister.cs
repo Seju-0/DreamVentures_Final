@@ -192,6 +192,12 @@ public class CashRegister : MonoBehaviour
                 else
                     displayText.text = currentInput;
             }
+
+            Debug.Log("Updated Display Text: " + displayText.text);
+        }
+        else
+        {
+            Debug.LogWarning("Display Text is not assigned!");
         }
     }
 
