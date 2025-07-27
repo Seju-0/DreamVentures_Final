@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,13 +10,16 @@ public class ReputationResult : MonoBehaviour
     public TextMeshProUGUI ReputationLostText;
     public TextMeshProUGUI warningsText;
 
-    public float animationDelay = 0.8f;
+    [SerializeField] private AudioSource reputationSound;
+    [SerializeField] private AudioClip reputationClip;
+
+    public float animationDelay = 2f;
 
     void Start()
     {
         int startingReputation = ChoiceResults.startingReputationAtDay;
         int warnings = ChoiceResults.warningsThisDay;
-        int lostFromWarnings = warnings * 2;
+        int lostFromWarnings = warnings * 1;
 
         // Deduct penalty BEFORE animation
         ChoiceResults.currentReputation -= lostFromWarnings;
@@ -41,17 +44,34 @@ public class ReputationResult : MonoBehaviour
 
         List<ChoiceResults.ClientDecision> decisions = ChoiceResults.GetDecisionsForCurrentDay();
 
+        bool hasShownWarningLoss = false;
+
         foreach (var decision in decisions)
         {
             int change = decision.reputationValue;
             runningTotal += change;
 
             string sign = change >= 0 ? "+" : "";
-            reputationText.text = $"Total Reputation: {runningTotal}  ({sign}{change})";
+
+            string displayText = $"Total Reputation: {runningTotal} \n({sign}{change})";
+
+            if (!hasShownWarningLoss && lostFromWarnings > 0)
+            {
+                displayText += $" (-{lostFromWarnings} Warnings)";
+                hasShownWarningLoss = true;
+            }
+
+            // ✅ Play SFX for every change
+            if (reputationSound != null && reputationClip != null)
+                reputationSound.PlayOneShot(reputationClip);
+
+            reputationText.text = displayText;
 
             yield return new WaitForSeconds(animationDelay);
 
             reputationText.text = $"Total Reputation: {runningTotal}";
+
+            yield return new WaitForSeconds(0.4f); // Slight pause before next
         }
     }
 }

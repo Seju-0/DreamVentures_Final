@@ -39,6 +39,8 @@ public class CashRegister : MonoBehaviour
     public GameObject cashOpenButton;
     public GameObject openFolderButton;
 
+    private string lastPrintedAmount = "";
+
     void Start()
     {
         ResetState();
@@ -145,6 +147,7 @@ public class CashRegister : MonoBehaviour
                 loanFormText.text = $"Bank Check:\n{currentInput}";
         }
 
+        lastPrintedAmount = currentInput;
         currentInput = "";
         UpdateDisplay();
 
@@ -162,19 +165,6 @@ public class CashRegister : MonoBehaviour
 
         if (printSound != null && audioSource != null)
             audioSource.PlayOneShot(printSound, printVolume);
-
-        // Reputation penalty if wrong
-        if (!isCorrect)
-        {
-            ChoiceResults.warningsThisDay += 1; // Penalize with a "warning"
-            if (wrongAmountText != null)
-            {
-                wrongAmountText.text = "Printed Wrong Amount! Reputation Lost.";
-                wrongAmountText.gameObject.SetActive(true);
-                StopCoroutine(nameof(FadeOutWrongAmountText));
-                StartCoroutine(FadeOutWrongAmountText());
-            }
-        }
 
         PlayButtonClick();
     }
@@ -229,15 +219,7 @@ public class CashRegister : MonoBehaviour
 
     public void OnLoanFormClicked()
     {
-        if (assignedClient != null)
-            assignedClient.OnCashRegisterComplete();
-
-        if (MonitorCounter.Instance != null)
-            MonitorCounter.Instance.DecreaseApprovalCount();
-
-        PlayButtonClick();
-
-        StartCoroutine(HideCashRegisterAfterDelay());
+        StartCoroutine(HandleLoanFormClick());
     }
 
     private IEnumerator HideCashRegisterAfterDelay()
@@ -331,6 +313,37 @@ public class CashRegister : MonoBehaviour
 
         wrongAmountText.gameObject.SetActive(false);
         wrongAmountText.color = originalColor;
+    }
+    private IEnumerator HandleLoanFormClick()
+    {
+        PlayButtonClick();
+
+        loanFormButton.interactable = false; // ✅ Disable button immediately
+
+        // If amount is wrong, show warning first
+        bool isCorrect = (lastPrintedAmount == correctAmount);
+
+        if (!isCorrect)
+        {
+            ChoiceResults.RegisterWarning();
+
+            if (wrongAmountText != null)
+            {
+                wrongAmountText.text = "Printed Wrong Amount! 1 Reputation Lost.";
+                wrongAmountText.gameObject.SetActive(true);
+            }
+
+            yield return new WaitForSeconds(2f);
+
+            if (wrongAmountText != null)
+                wrongAmountText.gameObject.SetActive(false);
+        }
+
+        // Complete client only once
+        if (assignedClient != null)
+            assignedClient.OnCashRegisterComplete();
+
+        StartCoroutine(HideCashRegisterAfterDelay());
     }
 
 }

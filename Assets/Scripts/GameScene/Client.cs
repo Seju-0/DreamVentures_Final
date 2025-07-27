@@ -82,6 +82,7 @@ public class Client : MonoBehaviour
     public int reputationPenalty = 5;
 
     private bool waitingApprovalAfterWarning = false;
+    private bool hasCompletedCashRegister = false;
     private System.Action onDialogueCompleteHandler;
     public void Setup(ClientManager mgr, Transform target, Transform exit, float enterSpd, float exitSpd)
     {
@@ -317,6 +318,11 @@ public class Client : MonoBehaviour
 
     public void OnCashRegisterComplete()
     {
+        if (hasCompletedCashRegister)
+            return;
+
+        hasCompletedCashRegister = true;
+
         answersComponent.ShowAnswer(
         string.IsNullOrEmpty(approvalResponse)
             ? "Loan approved."
@@ -347,6 +353,9 @@ public class Client : MonoBehaviour
         dialogue.SetAllowReplay(false);
 
         LeaveAfterDialogue();
+
+        if (MonitorCounter.Instance != null)
+            MonitorCounter.Instance.DecreaseApprovalCount();
     }
 
     public bool HasReachedTarget()

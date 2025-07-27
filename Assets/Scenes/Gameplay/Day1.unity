@@ -9523,8 +9523,8 @@ MonoBehaviour:
   NextButton: {fileID: 1760383188}
   StartOverButton: {fileID: 1245577218}
   DialogueLines: []
-  maxCharactersPerPage: 165
-  typeSpeed: 0.06
+  maxCharactersPerPage: 168
+  typeSpeed: 0.03
 --- !u!224 &1123476562
 RectTransform:
   m_ObjectHideFlags: 0

@@ -103,4 +103,9 @@ public static class ChoiceResults
         warningsThisDay = 0;
         currentDay++;
     }
+    public static void RegisterWarning()
+    {
+        warningsThisDay++;
+        currentReputation -= 1;
+    }
 }
