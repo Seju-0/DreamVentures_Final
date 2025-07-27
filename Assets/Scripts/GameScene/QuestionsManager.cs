@@ -46,10 +46,9 @@ public class QuestionsManager : MonoBehaviour
         if (openFolderButton != null)
             openFolderButton.SetActive(false);
 
-        // ✅ Show questions + enable open folder button after dialogue
         dialogueScript.OnDialogueComplete += () =>
         {
-            if (isClientLeaving) return; // 🔒 Don't reactivate button if leaving
+            if (isClientLeaving) return; 
 
             RevealQuestionTexts();
 

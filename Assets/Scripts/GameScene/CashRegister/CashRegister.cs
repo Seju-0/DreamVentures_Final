@@ -37,6 +37,7 @@ public class CashRegister : MonoBehaviour
     private bool isAnimating = false;
 
     public GameObject cashOpenButton;
+    public GameObject openFolderButton;
 
     void Start()
     {
@@ -95,10 +96,17 @@ public class CashRegister : MonoBehaviour
 
         if (cashOpenButton != null)
             cashOpenButton.SetActive(true);
+
+        if (openFolderButton != null)
+            openFolderButton.SetActive(false);
     }
 
     public void OnDigitButtonPressed(string digit)
     {
+        // Limit input to 10 digits
+        if (currentInput.Length >= 10)
+            return;
+
         currentInput += digit;
         UpdateDisplay();
         PlayButtonClick();
@@ -123,55 +131,49 @@ public class CashRegister : MonoBehaviour
 
     public void OnPrintButtonPressed()
     {
-        if (string.IsNullOrEmpty(correctAmount))
+        if (string.IsNullOrEmpty(currentInput))
             return;
 
-        if (currentInput == correctAmount)
+        bool isCorrect = (currentInput == correctAmount);
+
+        // Always allow printing
+        if (loanFormText != null)
         {
-            if (wrongAmountText != null)
-                wrongAmountText.gameObject.SetActive(false);
-
-            if (loanFormText != null)
-            {
-                if (long.TryParse(currentInput, out long number))
-                    loanFormText.text = $"Bank Check:\n{number:N0}\nCredits";
-                else
-                    loanFormText.text = $"Bank Check:\n{currentInput}";
-            }
-
-            currentInput = "";
-            UpdateDisplay();
-
-            if (loanFormButton != null)
-            {
-                loanFormButton.gameObject.SetActive(true);
-                loanFormButton.interactable = false;
-
-                RectTransform rt = loanFormButton.GetComponent<RectTransform>();
-                rt.anchoredPosition = hiddenPosition;
-
-                isAnimating = true;
-                StartCoroutine(SlideUp(rt));
-            }
-
-            if (printSound != null && audioSource != null)
-                audioSource.PlayOneShot(printSound, printVolume);
+            if (long.TryParse(currentInput, out long number))
+                loanFormText.text = $"Bank Check:\n{number:N0}\nCredits";
+            else
+                loanFormText.text = $"Bank Check:\n{currentInput}";
         }
-        else
+
+        currentInput = "";
+        UpdateDisplay();
+
+        if (loanFormButton != null)
         {
+            loanFormButton.gameObject.SetActive(true);
+            loanFormButton.interactable = false;
+
+            RectTransform rt = loanFormButton.GetComponent<RectTransform>();
+            rt.anchoredPosition = hiddenPosition;
+
+            isAnimating = true;
+            StartCoroutine(SlideUp(rt));
+        }
+
+        if (printSound != null && audioSource != null)
+            audioSource.PlayOneShot(printSound, printVolume);
+
+        // Reputation penalty if wrong
+        if (!isCorrect)
+        {
+            ChoiceResults.warningsThisDay += 1; // Penalize with a "warning"
             if (wrongAmountText != null)
             {
-                StopCoroutine(nameof(FadeOutWrongAmountText));
-                wrongAmountText.color = new Color(
-                    wrongAmountText.color.r,
-                    wrongAmountText.color.g,
-                    wrongAmountText.color.b,
-                    1f);
+                wrongAmountText.text = "Printed Wrong Amount! Reputation Lost.";
                 wrongAmountText.gameObject.SetActive(true);
+                StopCoroutine(nameof(FadeOutWrongAmountText));
                 StartCoroutine(FadeOutWrongAmountText());
             }
-
-            PlayErrorSound();
         }
 
         PlayButtonClick();
@@ -181,16 +183,18 @@ public class CashRegister : MonoBehaviour
     {
         if (displayText != null)
         {
-            if (string.IsNullOrEmpty(currentInput))
+            string clampedInput = currentInput.Length > 10 ? currentInput.Substring(0, 10) : currentInput;
+
+            if (string.IsNullOrEmpty(clampedInput))
             {
                 displayText.text = "";
             }
             else
             {
-                if (long.TryParse(currentInput, out long number))
+                if (long.TryParse(clampedInput, out long number))
                     displayText.text = number.ToString("N0");
                 else
-                    displayText.text = currentInput;
+                    displayText.text = clampedInput;
             }
 
             Debug.Log("Updated Display Text: " + displayText.text);
