@@ -29,6 +29,7 @@ public class CashRegister : MonoBehaviour
     public AudioClip errorSound;
     [Range(0f, 2f)] public float errorVolume;
 
+    [SerializeField] private AudioClip errorClip;
     private AudioSource audioSource;
 
     private string currentInput = "";
@@ -318,9 +319,8 @@ public class CashRegister : MonoBehaviour
     {
         PlayButtonClick();
 
-        loanFormButton.interactable = false; // ✅ Disable button immediately
+        loanFormButton.interactable = false;
 
-        // If amount is wrong, show warning first
         bool isCorrect = (lastPrintedAmount == correctAmount);
 
         if (!isCorrect)
@@ -333,13 +333,16 @@ public class CashRegister : MonoBehaviour
                 wrongAmountText.gameObject.SetActive(true);
             }
 
+            // ✅ Play error SFX
+            if (audioSource != null && errorClip != null)
+                audioSource.PlayOneShot(errorClip);
+
             yield return new WaitForSeconds(2f);
 
             if (wrongAmountText != null)
                 wrongAmountText.gameObject.SetActive(false);
         }
 
-        // Complete client only once
         if (assignedClient != null)
             assignedClient.OnCashRegisterComplete();
 

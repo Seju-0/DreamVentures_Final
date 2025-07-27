@@ -475,6 +475,7 @@ MonoBehaviour:
   buttonClickVolume: 0.1
   errorSound: {fileID: 8300000, guid: 23585cd59bffc094981b66c915afc5ef, type: 3}
   errorVolume: 2
+  errorClip: {fileID: 8300000, guid: 23585cd59bffc094981b66c915afc5ef, type: 3}
   cashOpenButton: {fileID: 416246517}
   openFolderButton: {fileID: 1884289134}
 --- !u!114 &28420303

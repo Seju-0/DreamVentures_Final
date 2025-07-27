@@ -8,6 +8,8 @@ public class IntroDialogue : MonoBehaviour
     [SerializeField][TextArea] private string dialogue;
     [SerializeField] private float speed = 0.05f;
 
+    private int clickCount = 0;
+
     [Header("Typewriter Sound")]
     [SerializeField] private AudioClip typewriterSound;
     [Range(0f, 1f)][SerializeField] private float volume = 0.5f;
@@ -29,11 +31,16 @@ public class IntroDialogue : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (isTyping)
+            clickCount++;
+
+            if (clickCount == 1)
             {
-                StopCoroutine(typingCoroutine);
-                Dialogue_Text.text = dialogue;
-                isTyping = false;
+                if (isTyping)
+                {
+                    StopCoroutine(typingCoroutine);
+                    Dialogue_Text.text = dialogue;
+                    isTyping = false;
+                }
             }
         }
     }
