@@ -464,6 +464,8 @@ MonoBehaviour:
   loanFormText: {fileID: 156510299}
   wrongAmountText: {fileID: 1216526282}
   requestedAmountText: {fileID: 104822875}
+  paymentdateText: {fileID: 0}
+  purposeText: {fileID: 0}
   closeButton: {fileID: 2032571878}
   loanFormButton: {fileID: 1318817760}
   hiddenPosition: {x: 244, y: -87.1}
@@ -475,7 +477,9 @@ MonoBehaviour:
   buttonClickVolume: 0.1
   errorSound: {fileID: 8300000, guid: 23585cd59bffc094981b66c915afc5ef, type: 3}
   errorVolume: 2
+  errorClip: {fileID: 0}
   cashOpenButton: {fileID: 416246517}
+  openFolderButton: {fileID: 0}
 --- !u!114 &28420303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16735,9 +16739,11 @@ MonoBehaviour:
   clientsLeftText: {fileID: 1908831003}
   approvalsLeftText: {fileID: 894638368}
   approvalLimitReachedText: {fileID: 1964904661}
+  rejectionLimitReachedText: {fileID: 0}
   totalClients: 13
   approvalsLeft: 6
   approveButton: {fileID: 341349591}
+  rejectButton: {fileID: 0}
 --- !u!1 &1540780190
 GameObject:
   m_ObjectHideFlags: 0

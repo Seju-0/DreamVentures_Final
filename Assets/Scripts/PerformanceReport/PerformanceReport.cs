@@ -26,4 +26,5 @@ public class PerformanceReport : MonoBehaviour
 
         return sb.ToString();
     }
+
 }

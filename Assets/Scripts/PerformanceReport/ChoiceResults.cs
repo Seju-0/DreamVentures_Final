@@ -108,4 +108,13 @@ public static class ChoiceResults
         warningsThisDay++;
         currentReputation -= 1;
     }
+    public static void ResetAllData()
+    {
+        allDecisions.Clear();
+        currentDay = 1;
+        currentSanity = 100;
+        currentReputation = 50;
+        startingReputationAtDay = 50;
+        warningsThisDay = 0;
+    }
 }

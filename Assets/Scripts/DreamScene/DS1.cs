@@ -147,7 +147,6 @@ public class DS1 : MonoBehaviour
 
         currentPages.Clear();
         string rawText =
-            $"<b>Dream {currentDreamIndex + 1}:</b>\n" +
             d.dreamDialogueText +
             $" Sanity {(d.sanityValue >= 0 ? "+" : "")}{d.sanityValue}";
 

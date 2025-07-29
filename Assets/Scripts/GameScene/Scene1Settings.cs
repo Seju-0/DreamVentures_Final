@@ -34,5 +34,10 @@ public class Scene1Settings : MonoBehaviour
         Debug.Log("Quit Game");
         // UnityEditor.EditorApplication.isPlaying = false;
     }
+    public void MainMenuButton2()
+    {
+        ChoiceResults.ResetAllData(); // Fully reset all progress
+        SceneManager.LoadScene("Main_Menu");
+    }
 
 }
