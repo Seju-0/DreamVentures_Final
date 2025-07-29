@@ -5,7 +5,7 @@ public class NextButton : MonoBehaviour
 {
     public void NextBTN()
     {
-        string nextScene = $"DS1";
+        string nextScene = $"IB1";
         SceneManager.LoadScene(nextScene);
     }
     public void NextBTN1()

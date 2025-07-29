@@ -11,6 +11,9 @@ public class CashRegister : MonoBehaviour
     public TextMeshProUGUI loanFormText;
     public TextMeshProUGUI wrongAmountText;
     public TextMeshProUGUI requestedAmountText;
+    public TextMeshProUGUI paymentdateText;
+    public TextMeshProUGUI purposeText;
+
     public Button closeButton;
     public Button loanFormButton;
 
@@ -73,6 +76,12 @@ public class CashRegister : MonoBehaviour
         if (requestedAmountText != null)
             requestedAmountText.text = "";
 
+        if (paymentdateText != null)
+            paymentdateText.text = "";
+
+        if (purposeText != null)
+            purposeText.text = "";
+
         if (loanFormButton != null)
         {
             RectTransform rt = loanFormButton.GetComponent<RectTransform>();
@@ -95,6 +104,8 @@ public class CashRegister : MonoBehaviour
 
             if (requestedAmountText != null)
                 requestedAmountText.text = client.ClientInfo.requestedAmount;
+                paymentdateText.text = client.ClientInfo.paymentDate;
+                purposeText.text = client.ClientInfo.loanPurpose;
         }
 
         if (cashOpenButton != null)
