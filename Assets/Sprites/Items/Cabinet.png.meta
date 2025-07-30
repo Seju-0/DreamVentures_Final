@@ -116,10 +116,10 @@ TextureImporter:
       name: pxArt 1_0
       rect:
         serializedVersion: 2
-        x: 762
-        y: 202
-        width: 404
-        height: 731
+        x: 292
+        y: 213
+        width: 506
+        height: 907
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

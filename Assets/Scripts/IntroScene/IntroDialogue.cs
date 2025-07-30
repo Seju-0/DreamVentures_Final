@@ -1,22 +1,24 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class IntroDialogue : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI Dialogue_Text;
-    [SerializeField][TextArea] private string dialogue;
+    [SerializeField][TextArea] private List<string> dialogues; // Multiple dialogues
     [SerializeField] private float speed = 0.05f;
+    [SerializeField] private string nextSceneName; // Add this to load the next scene
 
-    private int clickCount = 0;
+    private int dialogueIndex = 0;
+    private bool isTyping = false;
+    private Coroutine typingCoroutine;
 
     [Header("Typewriter Sound")]
     [SerializeField] private AudioClip typewriterSound;
     [Range(0f, 1f)][SerializeField] private float volume = 0.5f;
     private AudioSource audioSource;
-
-    private Coroutine typingCoroutine;
-    private bool isTyping = false;
 
     private void Start()
     {
@@ -24,33 +26,48 @@ public class IntroDialogue : MonoBehaviour
         audioSource.playOnAwake = false;
         audioSource.volume = volume;
 
-        typingCoroutine = StartCoroutine(Typewriter());
+        ShowCurrentDialogue();
     }
 
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            clickCount++;
-
-            if (clickCount == 1)
+            if (isTyping)
             {
-                if (isTyping)
-                {
-                    StopCoroutine(typingCoroutine);
-                    Dialogue_Text.text = dialogue;
-                    isTyping = false;
-                }
+                StopCoroutine(typingCoroutine);
+                Dialogue_Text.text = dialogues[dialogueIndex];
+                isTyping = false;
+                return;
+            }
+
+            dialogueIndex++;
+
+            if (dialogueIndex < dialogues.Count)
+            {
+                ShowCurrentDialogue();
+            }
+            else
+            {
+                SceneManager.LoadScene(nextSceneName); // Load the next scene
             }
         }
     }
 
-    IEnumerator Typewriter()
+    private void ShowCurrentDialogue()
+    {
+        if (dialogueIndex < dialogues.Count)
+        {
+            typingCoroutine = StartCoroutine(Typewriter(dialogues[dialogueIndex]));
+        }
+    }
+
+    IEnumerator Typewriter(string text)
     {
         isTyping = true;
         Dialogue_Text.text = "";
 
-        foreach (char letter in dialogue.ToCharArray())
+        foreach (char letter in text.ToCharArray())
         {
             Dialogue_Text.text += letter;
 

@@ -120,6 +120,11 @@ public class Client : MonoBehaviour
             warningCloseButton.gameObject.SetActive(false);
             warningCloseButton.onClick.AddListener(OnWarningClosed);
         }
+
+        if (folderPanel != null && folderPanel.openFolderButton != null)
+        {
+            folderPanel.openFolderButton.gameObject.SetActive(false); // 👈 Hides the button fully
+        }
     }
 
     void Update()
@@ -156,10 +161,15 @@ public class Client : MonoBehaviour
 
     private void OnArrivedAtTarget()
     {
+        if (folderPanel.openFolderButton != null)
+        {
+            folderPanel.openFolderButton.gameObject.SetActive(true);
+            folderPanel.openFolderButton.interactable = true; 
+        }
+
         if (clientInfo != null && folderPanel != null)
         {
             folderPanel.UpdatePanel(clientInfo);
-            folderPanel.gameObject.SetActive(true); 
 
             folderPanel.SetupButtonCallbacks(
                 // APPROVE
@@ -226,12 +236,12 @@ public class Client : MonoBehaviour
             );
         }
 
-        dialogue.SetAllowReplay(true); // ✅ Reset for next client
-
         if (customDialogueLines != null && customDialogueLines.Length > 0)
             dialogue.StartDialogue(customDialogueLines);
         else
             dialogue.StartDialogue();
+
+        dialogue.OnDialogueComplete += EnableOpenFolderButton; // ✅ Subscribe once
 
         QuestionsManager qm = FindAnyObjectByType<QuestionsManager>();
         if (qm != null)
@@ -245,6 +255,9 @@ public class Client : MonoBehaviour
 
         if (warningCloseButton != null)
             warningCloseButton.gameObject.SetActive(true);
+
+        if (folderPanel != null && folderPanel.openFolderButton != null)
+            folderPanel.openFolderButton.interactable = false; 
 
         if (sfxAudioSource != null && errorSound != null)
             sfxAudioSource.PlayOneShot(errorSound, errorVolume);
@@ -356,6 +369,16 @@ public class Client : MonoBehaviour
 
         if (MonitorCounter.Instance != null)
             MonitorCounter.Instance.DecreaseApprovalCount();
+    }
+    private void EnableOpenFolderButton()
+    {
+        if (folderPanel != null && folderPanel.openFolderButton != null)
+        {
+            folderPanel.openFolderButton.gameObject.SetActive(true);
+            folderPanel.openFolderButton.interactable = true;
+        }
+
+        dialogue.OnDialogueComplete -= EnableOpenFolderButton; 
     }
 
     public bool HasReachedTarget()

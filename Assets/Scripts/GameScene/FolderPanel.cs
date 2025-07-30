@@ -30,6 +30,7 @@ public class FolderPanel : MonoBehaviour
     public Button approveButton;
     public Button rejectButton;
     public Button closeButton;
+    public Button openFolderButton;
 
     private ClientSO currentClientData;
 

@@ -18,7 +18,7 @@ public class MonitorCounter : MonoBehaviour
 
     [Header("Button Reference")]
     public Button approveButton;
-    public Button rejectButton; // New reject button reference
+    public Button rejectButton; 
 
     private void Awake()
     {
