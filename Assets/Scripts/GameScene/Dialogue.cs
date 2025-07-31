@@ -126,7 +126,6 @@ public class Dialogue : MonoBehaviour
 
             Dialogue_Text.text = pages[currentPageIndex];
             isTyping = false;
-
             return;
         }
 
@@ -141,11 +140,10 @@ public class Dialogue : MonoBehaviour
             Dialogue_Panel.SetActive(false);
             NextButton.SetActive(false);
 
-            // ✅ Only show Replay if allowed
-            if (StartOverButton != null)
-                StartOverButton.SetActive(allowReplay);
+            OnDialogueComplete?.Invoke(); // ✅ First update allowReplay
 
-            OnDialogueComplete?.Invoke();
+            if (StartOverButton != null)
+                StartOverButton.SetActive(allowReplay); // ✅ Then show/hide based on latest value
 
             Debug.Log($"Dialogue finished. allowReplay = {allowReplay}");
         }
@@ -153,6 +151,7 @@ public class Dialogue : MonoBehaviour
     public void SetAllowReplay(bool value)
     {
         allowReplay = value;
+        Debug.Log($"SetAllowReplay({value}), button exists = {StartOverButton != null}");
     }
 
 

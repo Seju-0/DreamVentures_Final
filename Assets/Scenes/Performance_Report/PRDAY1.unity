@@ -761,7 +761,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 43.3, y: 69.3}
+  m_AnchoredPosition: {x: 49.4, y: 69.3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &299052533
@@ -784,7 +784,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Date: 06-12-2087'
+  m_text: Tutorial Day
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}
   m_sharedMaterial: {fileID: -7260648671262176420, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}
@@ -849,7 +849,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -147.44148, y: 0, z: 24.94506, w: 15.411954}
+  m_margin: {x: -147.44148, y: 0, z: 109.56014, w: 15.411954}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1833,7 +1833,7 @@ RectTransform:
   m_GameObject: {fileID: 931970789}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4932, y: 0.99868065, z: 0.4932}
+  m_LocalScale: {x: 0.57874215, y: 0.99868065, z: 0.4932}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 621233139}
@@ -1841,7 +1841,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 332, y: -197}
+  m_AnchoredPosition: {x: 325, y: -195.1}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &931970791
@@ -1874,7 +1874,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: -5774240841471749237, guid: 29f084a7da803f643869866bf45a113d, type: 3}
+    m_PressedSprite: {fileID: -3690737489491389728, guid: a766159bc3c645c4db32f8a00c0fa0ea, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -1920,7 +1920,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1371405623621901969, guid: 29f084a7da803f643869866bf45a113d, type: 3}
+  m_Sprite: {fileID: 7578636564492875674, guid: a766159bc3c645c4db32f8a00c0fa0ea, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

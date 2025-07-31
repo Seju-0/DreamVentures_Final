@@ -351,9 +351,15 @@ MonoBehaviour:
     but only for a trial period of 4 days wherein you will be evaluated to see if
     you would be a fit for the long run. With your hopes high and resolve steeled,
     you head to their offices to start your new job."
-  - Day 1
-  speed: 0.1
-  nextSceneName: Day1
+  - Today, you have two clients. A good client with all the right information in
+    their folder will be the first one. The second client will be a "Set Case" client,
+    meaning that their folder will contain inaccurate information. Double-check that
+    the client's name and birthdate on their ID correspond to the information found
+    in the folder. For the time being, the reject button is turned off so you may
+    observe what happens when you accept a good and set case client.
+  - Let's get you started on the tutorial
+  speed: 0.05
+  nextSceneName: TutorialDay
   typewriterSound: {fileID: 8300000, guid: 51b0b29c91f1e9b468ac3e80fa683a6f, type: 3}
   volume: 0.3
 --- !u!4 &1268991902

@@ -12,10 +12,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Gameplay/TutorialDay.unity
+    guid: 99b31630325e7084fbbef60a2fc98529
+  - enabled: 1
+    path: Assets/Scenes/Performance_Report/PRDAY1.unity
+    guid: d2bb43b2272ba7b43a6701cfe09be360
+  - enabled: 1
     path: Assets/Scenes/Gameplay/Day1.unity
     guid: 56a6e2a337023aa44a3085b2b27a7be8
   - enabled: 1
-    path: Assets/Scenes/Performance_Report/PRDAY1.unity
+    path: Assets/Scenes/Performance_Report/PRDAY2.unity
     guid: 17f7382dd67f72341ade50b4bca2e3a1
   - enabled: 1
     path: Assets/Scenes/IB1.unity

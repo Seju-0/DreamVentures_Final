@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ec895f2dbf449946ac9fe4ad6580d75, type: 3}
+  m_Name: T2
+  m_EditorClassIdentifier: 
+  clientName: Too Tornshells
+  dateOfBirth: 02-02-02
+  requestedAmount: 12,345
+  paymentDate: 06-12-2087
+  loanPurpose: To buy a house.
+  FirstName: Tuu
+  LastName: Tawnsheyls
+  dateofBirth2: 02-02-02
+  Gender: Male
+  Title: Mr.
+  OtherNames: N/A
+  employerName: Teaching Industries
+  workplaceAddress: Business Place, Business Land
+  BusinessName: N/A
+  BusinessAddress: N/A
+  idPhoto: {fileID: 0}
+  backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
+  LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
+  approvalEvaluationText: Your boss would write a note regarding their thoughts on
+    your decision here.
+  rejectionEvaluationText: Your boss would write a note regarding their thoughts
+    on your decision here.

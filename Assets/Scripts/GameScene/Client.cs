@@ -77,8 +77,8 @@ public class Client : MonoBehaviour
     private AudioSource sfxAudioSource;
 
     [Header("Validation Settings")]
-    public Image warningImageDisplay; 
-    public Button warningCloseButton; 
+    public Image warningImageDisplay;
+    public Button warningCloseButton;
     public int reputationPenalty = 5;
 
     private bool waitingApprovalAfterWarning = false;
@@ -164,7 +164,7 @@ public class Client : MonoBehaviour
         if (folderPanel.openFolderButton != null)
         {
             folderPanel.openFolderButton.gameObject.SetActive(true);
-            folderPanel.openFolderButton.interactable = true; 
+            folderPanel.openFolderButton.interactable = true;
         }
 
         if (clientInfo != null && folderPanel != null)
@@ -221,10 +221,10 @@ public class Client : MonoBehaviour
                     QuestionsManager qm = FindAnyObjectByType<QuestionsManager>();
                     if (qm != null)
                     {
-                        qm.ResetAll(); 
+                        qm.ResetAll();
                     }
 
-                    dialogue.SetAllowReplay(false); 
+                    dialogue.SetAllowReplay(false);
 
                     LeaveAfterDialogue();
                 },
@@ -257,7 +257,7 @@ public class Client : MonoBehaviour
             warningCloseButton.gameObject.SetActive(true);
 
         if (folderPanel != null && folderPanel.openFolderButton != null)
-            folderPanel.openFolderButton.interactable = false; 
+            folderPanel.openFolderButton.interactable = false;
 
         if (sfxAudioSource != null && errorSound != null)
             sfxAudioSource.PlayOneShot(errorSound, errorVolume);
@@ -342,21 +342,21 @@ public class Client : MonoBehaviour
             : approvalResponse
     );
 
-    ChoiceResults.RecordDecision(
-        clientInfo.clientName,
-        true,
-        string.IsNullOrEmpty(clientInfo.approvalEvaluationText)
-            ? "No evaluation provided."
-            : clientInfo.approvalEvaluationText,
-        approvalReputationText,
-        approvalReputationValue,
-        approvalDreamDialogueText,
-        approvalSanityText,
-        approvalSanityValue,
-        approveMainHeadline,
-        approveSubHeadline,
-        approveObituary
-    );
+        ChoiceResults.RecordDecision(
+            clientInfo.clientName,
+            true,
+            string.IsNullOrEmpty(clientInfo.approvalEvaluationText)
+                ? "No evaluation provided."
+                : clientInfo.approvalEvaluationText,
+            approvalReputationText,
+            approvalReputationValue,
+            approvalDreamDialogueText,
+            approvalSanityText,
+            approvalSanityValue,
+            approveMainHeadline,
+            approveSubHeadline,
+            approveObituary
+        );
         QuestionsManager qm = FindAnyObjectByType<QuestionsManager>();
         if (qm != null)
         {
@@ -378,7 +378,7 @@ public class Client : MonoBehaviour
             folderPanel.openFolderButton.interactable = true;
         }
 
-        dialogue.OnDialogueComplete -= EnableOpenFolderButton; 
+        dialogue.OnDialogueComplete -= EnableOpenFolderButton;
     }
 
     public bool HasReachedTarget()

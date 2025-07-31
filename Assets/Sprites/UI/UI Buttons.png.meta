@@ -1,0 +1,2106 @@
+fileFormatVersion: 2
+guid: a766159bc3c645c4db32f8a00c0fa0ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8605553036629122959
+    second: UI Sprites Edit (1)_0
+  - first:
+      213: 8018932256199709959
+    second: UI Sprites Edit (1)_1
+  - first:
+      213: -1284485412938340284
+    second: UI Sprites Edit (1)_2
+  - first:
+      213: 3824334366195829414
+    second: UI Sprites Edit (1)_3
+  - first:
+      213: 5283818359421432798
+    second: UI Sprites Edit (1)_4
+  - first:
+      213: 8571882146542866485
+    second: UI Sprites Edit (1)_5
+  - first:
+      213: 4465133943531766914
+    second: UI Sprites Edit (1)_6
+  - first:
+      213: -8082308597914323443
+    second: UI Sprites Edit (1)_7
+  - first:
+      213: 4281680946348217846
+    second: UI Sprites Edit (1)_8
+  - first:
+      213: 7578636564492875674
+    second: UI Sprites Edit (1)_9
+  - first:
+      213: 3675435091770143408
+    second: UI Sprites Edit (1)_10
+  - first:
+      213: -3690737489491389728
+    second: UI Sprites Edit (1)_11
+  - first:
+      213: 8838661108403834603
+    second: UI Sprites Edit (1)_12
+  - first:
+      213: 4410378244087917730
+    second: UI Sprites Edit (1)_13
+  - first:
+      213: 3731200343791408094
+    second: UI Sprites Edit (1)_14
+  - first:
+      213: -5395759744116546430
+    second: UI Sprites Edit (1)_15
+  - first:
+      213: -6298364546463455893
+    second: UI Sprites Edit (1)_16
+  - first:
+      213: 7050387677615583227
+    second: UI Sprites Edit (1)_17
+  - first:
+      213: -1887044937534224569
+    second: UI Sprites Edit (1)_18
+  - first:
+      213: -4111865176171643645
+    second: UI Sprites Edit (1)_19
+  - first:
+      213: -3090493173319136605
+    second: UI Sprites Edit (1)_20
+  - first:
+      213: -6941913865143638347
+    second: UI Sprites Edit (1)_21
+  - first:
+      213: -4849589298694606325
+    second: UI Sprites Edit (1)_22
+  - first:
+      213: -5198308536149052642
+    second: UI Sprites Edit (1)_23
+  - first:
+      213: -1431294268919286324
+    second: UI Sprites Edit (1)_24
+  - first:
+      213: -1965512982100480696
+    second: UI Sprites Edit (1)_25
+  - first:
+      213: -6955370862857588326
+    second: UI Sprites Edit (1)_26
+  - first:
+      213: 3869428221029701518
+    second: UI Sprites Edit (1)_27
+  - first:
+      213: -7659909861732310222
+    second: UI Sprites Edit (1)_28
+  - first:
+      213: 1908613156386889479
+    second: UI Sprites Edit (1)_29
+  - first:
+      213: -4744212860756980056
+    second: UI Sprites Edit (1)_30
+  - first:
+      213: 897531936273439719
+    second: UI Sprites Edit (1)_31
+  - first:
+      213: 5637014638390075351
+    second: UI Sprites Edit (1)_32
+  - first:
+      213: -5208145577880750807
+    second: UI Sprites Edit (1)_33
+  - first:
+      213: -620543615100755800
+    second: UI Sprites Edit (1)_34
+  - first:
+      213: -1981075030075746025
+    second: UI Sprites Edit (1)_35
+  - first:
+      213: 4516758581909973676
+    second: UI Sprites Edit (1)_36
+  - first:
+      213: 410085433264612070
+    second: UI Sprites Edit (1)_37
+  - first:
+      213: -4523875440751812243
+    second: UI Sprites Edit (1)_38
+  - first:
+      213: 33994029623336198
+    second: UI Sprites Edit (1)_39
+  - first:
+      213: 2281289658296800638
+    second: UI Sprites Edit (1)_40
+  - first:
+      213: -9012858500003920080
+    second: UI Sprites Edit (1)_41
+  - first:
+      213: 3972967538011897021
+    second: UI Sprites Edit (1)_42
+  - first:
+      213: 5922275104877513730
+    second: UI Sprites Edit (1)_43
+  - first:
+      213: -5652037722597538239
+    second: UI Sprites Edit (1)_44
+  - first:
+      213: -7138581963831139798
+    second: UI Sprites Edit (1)_45
+  - first:
+      213: -8507257624195398289
+    second: UI Sprites Edit (1)_46
+  - first:
+      213: -1325488141910763164
+    second: UI Sprites Edit (1)_47
+  - first:
+      213: -4574490378870979892
+    second: UI Sprites Edit (1)_48
+  - first:
+      213: 2006559392699373701
+    second: UI Sprites Edit (1)_49
+  - first:
+      213: -2430058208819260807
+    second: UI Sprites Edit (1)_50
+  - first:
+      213: -1053369375122436089
+    second: UI Sprites Edit (1)_51
+  - first:
+      213: 5221772284323238581
+    second: UI Sprites Edit (1)_52
+  - first:
+      213: -4101035508144655409
+    second: UI Sprites Edit (1)_53
+  - first:
+      213: -2272677468757766225
+    second: UI Sprites Edit (1)_54
+  - first:
+      213: 3388107260379564611
+    second: UI Sprites Edit (1)_55
+  - first:
+      213: -3470282904942708852
+    second: UI Sprites Edit (1)_56
+  - first:
+      213: 6220008328788792441
+    second: UI Sprites Edit (1)_57
+  - first:
+      213: -6295952678205264649
+    second: UI Sprites Edit (1)_58
+  - first:
+      213: 7693112700513314739
+    second: UI Sprites Edit (1)_59
+  - first:
+      213: 3921024363733073704
+    second: UI Sprites Edit (1)_60
+  - first:
+      213: -5672868131115219606
+    second: UI Sprites Edit (1)_61
+  - first:
+      213: 3507485744252235113
+    second: UI Sprites Edit (1)_62
+  - first:
+      213: -4371396303730676695
+    second: UI Sprites Edit (1)_63
+  - first:
+      213: -200636668023756504
+    second: UI Sprites Edit (1)_64
+  - first:
+      213: 1445863531045270595
+    second: UI Sprites Edit (1)_65
+  - first:
+      213: 6430428038867768601
+    second: UI Sprites Edit (1)_66
+  - first:
+      213: -9210050653299469037
+    second: UI Sprites Edit (1)_67
+  - first:
+      213: -205206493070687879
+    second: UI Sprites Edit (1)_68
+  - first:
+      213: -5013250213072885978
+    second: UI Sprites Edit (1)_69
+  - first:
+      213: -2364176335136202026
+    second: UI Sprites Edit (1)_70
+  - first:
+      213: -6812699856393446436
+    second: UI Sprites Edit (1)_71
+  - first:
+      213: -6767380358461187862
+    second: UI Sprites Edit (1)_72
+  - first:
+      213: -804505265306782602
+    second: UI Sprites Edit (1)_73
+  - first:
+      213: -262610043428940909
+    second: UI Sprites Edit (1)_74
+  - first:
+      213: 1848732510108565574
+    second: UI Sprites Edit (1)_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 988
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170efeb7b1fe29880800000000000000
+      internalID: -8605553036629122959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 988
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70594b0a668f84f60800000000000000
+      internalID: 8018932256199709959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_2
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 988
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448a3aa82579c2ee0800000000000000
+      internalID: -1284485412938340284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_3
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 924
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aacb6708d3c21530800000000000000
+      internalID: 3824334366195829414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 924
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed370039dc4e35940800000000000000
+      internalID: 5283818359421432798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_5
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 924
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5305331856175f670800000000000000
+      internalID: 8571882146542866485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 858
+        width: 183
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28400c21aa757fd30800000000000000
+      internalID: 4465133943531766914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 858
+        width: 183
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d063b30f62fd5df80800000000000000
+      internalID: -8082308597914323443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_8
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 858
+        width: 183
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5d4a8a2269b6b30800000000000000
+      internalID: 4281680946348217846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 794
+        width: 183
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9772645dc9bc2960800000000000000
+      internalID: 7578636564492875674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_10
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 794
+        width: 183
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2f6ff1eb4c10330800000000000000
+      internalID: 3675435091770143408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_11
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 794
+        width: 183
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e216a3cecdd7ccc0800000000000000
+      internalID: -3690737489491389728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 725
+        width: 120
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee8878e27b39aa70800000000000000
+      internalID: 8838661108403834603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 725
+        width: 120
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aca8f355afc43d30800000000000000
+      internalID: 4410378244087917730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_14
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 725
+        width: 120
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed39085a1f2e7c330800000000000000
+      internalID: 3731200343791408094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_15
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 724
+        width: 120
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284a496c9196e15b0800000000000000
+      internalID: -5395759744116546430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_16
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 724
+        width: 120
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65a12ea0d6b798a0800000000000000
+      internalID: -6298364546463455893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_17
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 724
+        width: 120
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff611dfc3208d160800000000000000
+      internalID: 7050387677615583227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_18
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 660
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747c21790aedfc5e0800000000000000
+      internalID: -1887044937534224569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_19
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 660
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d7df96868bfe6c0800000000000000
+      internalID: -4111865176171643645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_20
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 660
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa0b8f35dc5c15d0800000000000000
+      internalID: -3090493173319136605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_21
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 660
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b621c69e1e59af90800000000000000
+      internalID: -6941913865143638347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_22
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 660
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02b5c02a3cc2bcb0800000000000000
+      internalID: -4849589298694606325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_23
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 660
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1374fd9de5ebd7b0800000000000000
+      internalID: -5198308536149052642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_24
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 660
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5730c1275032ce0800000000000000
+      internalID: -1431294268919286324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_25
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 660
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d6b744b5819b4e0800000000000000
+      internalID: -1965512982100480696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 590
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9175462d0f897f90800000000000000
+      internalID: -6955370862857588326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_27
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 590
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87d8564778f2b530800000000000000
+      internalID: 3869428221029701518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_28
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 592
+        width: 16
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2332fef809882b590800000000000000
+      internalID: -7659909861732310222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_29
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 592
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fd310bd81cc7a10800000000000000
+      internalID: 1908613156386889479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_30
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 592
+        width: 15
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae8dbff98b292eb0800000000000000
+      internalID: -4744212860756980056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_31
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 634
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb952c6a8ca47c00800000000000000
+      internalID: 897531936273439719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_32
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 634
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfdaea82f2ba3e40800000000000000
+      internalID: 5637014638390075351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_33
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 596
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92575ebd033f8b7b0800000000000000
+      internalID: -5208145577880750807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_34
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 596
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0684eaed26367f0800000000000000
+      internalID: -620543615100755800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_35
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 616
+        width: 39
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71950fe91cec184e0800000000000000
+      internalID: -1981075030075746025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 528
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caae0fadfffbeae30800000000000000
+      internalID: 4516758581909973676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_37
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 528
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2ac41678ae0b500800000000000000
+      internalID: 410085433264612070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_38
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 528
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61efd15147f731c0800000000000000
+      internalID: -4523875440751812243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_39
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 528
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60dde2cc365c87000800000000000000
+      internalID: 33994029623336198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_40
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 528
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e759d808bd4c8af10800000000000000
+      internalID: 2281289658296800638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_41
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 528
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037086842f4ebe280800000000000000
+      internalID: -9012858500003920080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_42
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 533
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc7b571de0d22730800000000000000
+      internalID: 3972967538011897021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_43
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 533
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c0d5094d5203250800000000000000
+      internalID: 5922275104877513730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_44
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 466
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146477713adef81b0800000000000000
+      internalID: -5652037722597538239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_45
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 466
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22a5d59689aeec90800000000000000
+      internalID: -7138581963831139798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_46
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 466
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f658911a34620f980800000000000000
+      internalID: -8507257624195398289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_47
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 466
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4699a63ce8bea9de0800000000000000
+      internalID: -1325488141910763164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_48
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 466
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc204f2bc352480c0800000000000000
+      internalID: -4574490378870979892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_49
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 466
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588d19ee22bb8db10800000000000000
+      internalID: 2006559392699373701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_50
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 469
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9725ecf1fe2b64ed0800000000000000
+      internalID: -2430058208819260807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_51
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 469
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7005d82622ea161f0800000000000000
+      internalID: -1053369375122436089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_52
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 404
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b21119f936777840800000000000000
+      internalID: 5221772284323238581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_53
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 404
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc336cdfee13617c0800000000000000
+      internalID: -4101035508144655409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_54
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 404
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafc8a122e3d570e0800000000000000
+      internalID: -2272677468757766225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_55
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 404
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a88d33a99f40f20800000000000000
+      internalID: 3388107260379564611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_56
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 404
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8777c4951417dfc0800000000000000
+      internalID: -3470282904942708852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_57
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 404
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9745d69be98e15650800000000000000
+      internalID: 6220008328788792441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_58
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 327
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fce7e4856840a8a0800000000000000
+      internalID: -6295952678205264649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_59
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 327
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b76423cd3d63ca60800000000000000
+      internalID: 7693112700513314739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_60
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 327
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f36f362e64a6630800000000000000
+      internalID: 3921024363733073704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_61
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 263
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a654e3bad7ce541b0800000000000000
+      internalID: -5672868131115219606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_62
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 263
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96da6e073b71da030800000000000000
+      internalID: 3507485744252235113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_63
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 263
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c6dafe83ea553c0800000000000000
+      internalID: -4371396303730676695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_64
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 198
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829a6817302373df0800000000000000
+      internalID: -200636668023756504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_65
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 198
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34435a1983db01410800000000000000
+      internalID: 1445863531045270595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_66
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 198
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915dc624b387d3950800000000000000
+      internalID: 6430428038867768601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_67
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 134
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3151bbe4ab35f2080800000000000000
+      internalID: -9210050653299469037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_68
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 134
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9710be228c5f62df0800000000000000
+      internalID: -205206493070687879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_69
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 134
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627a3a71e7b5d6ab0800000000000000
+      internalID: -5013250213072885978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_70
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 70
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d262dd2622c03fd0800000000000000
+      internalID: -2364176335136202026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_71
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 70
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb505a639d6471a0800000000000000
+      internalID: -6812699856393446436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_72
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 70
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae817f94b6f6512a0800000000000000
+      internalID: -6767380358461187862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_73
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 6
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674357149b2d5d4f0800000000000000
+      internalID: -804505265306782602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_74
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 6
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393d7fe8e850b5cf0800000000000000
+      internalID: -262610043428940909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Sprites Edit (1)_75
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 6
+        width: 153
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640ccb54c6408a910800000000000000
+      internalID: 1848732510108565574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UI Sprites Edit (1)_0: -8605553036629122959
+      UI Sprites Edit (1)_1: 8018932256199709959
+      UI Sprites Edit (1)_10: 3675435091770143408
+      UI Sprites Edit (1)_11: -3690737489491389728
+      UI Sprites Edit (1)_12: 8838661108403834603
+      UI Sprites Edit (1)_13: 4410378244087917730
+      UI Sprites Edit (1)_14: 3731200343791408094
+      UI Sprites Edit (1)_15: -5395759744116546430
+      UI Sprites Edit (1)_16: -6298364546463455893
+      UI Sprites Edit (1)_17: 7050387677615583227
+      UI Sprites Edit (1)_18: -1887044937534224569
+      UI Sprites Edit (1)_19: -4111865176171643645
+      UI Sprites Edit (1)_2: -1284485412938340284
+      UI Sprites Edit (1)_20: -3090493173319136605
+      UI Sprites Edit (1)_21: -6941913865143638347
+      UI Sprites Edit (1)_22: -4849589298694606325
+      UI Sprites Edit (1)_23: -5198308536149052642
+      UI Sprites Edit (1)_24: -1431294268919286324
+      UI Sprites Edit (1)_25: -1965512982100480696
+      UI Sprites Edit (1)_26: -6955370862857588326
+      UI Sprites Edit (1)_27: 3869428221029701518
+      UI Sprites Edit (1)_28: -7659909861732310222
+      UI Sprites Edit (1)_29: 1908613156386889479
+      UI Sprites Edit (1)_3: 3824334366195829414
+      UI Sprites Edit (1)_30: -4744212860756980056
+      UI Sprites Edit (1)_31: 897531936273439719
+      UI Sprites Edit (1)_32: 5637014638390075351
+      UI Sprites Edit (1)_33: -5208145577880750807
+      UI Sprites Edit (1)_34: -620543615100755800
+      UI Sprites Edit (1)_35: -1981075030075746025
+      UI Sprites Edit (1)_36: 4516758581909973676
+      UI Sprites Edit (1)_37: 410085433264612070
+      UI Sprites Edit (1)_38: -4523875440751812243
+      UI Sprites Edit (1)_39: 33994029623336198
+      UI Sprites Edit (1)_4: 5283818359421432798
+      UI Sprites Edit (1)_40: 2281289658296800638
+      UI Sprites Edit (1)_41: -9012858500003920080
+      UI Sprites Edit (1)_42: 3972967538011897021
+      UI Sprites Edit (1)_43: 5922275104877513730
+      UI Sprites Edit (1)_44: -5652037722597538239
+      UI Sprites Edit (1)_45: -7138581963831139798
+      UI Sprites Edit (1)_46: -8507257624195398289
+      UI Sprites Edit (1)_47: -1325488141910763164
+      UI Sprites Edit (1)_48: -4574490378870979892
+      UI Sprites Edit (1)_49: 2006559392699373701
+      UI Sprites Edit (1)_5: 8571882146542866485
+      UI Sprites Edit (1)_50: -2430058208819260807
+      UI Sprites Edit (1)_51: -1053369375122436089
+      UI Sprites Edit (1)_52: 5221772284323238581
+      UI Sprites Edit (1)_53: -4101035508144655409
+      UI Sprites Edit (1)_54: -2272677468757766225
+      UI Sprites Edit (1)_55: 3388107260379564611
+      UI Sprites Edit (1)_56: -3470282904942708852
+      UI Sprites Edit (1)_57: 6220008328788792441
+      UI Sprites Edit (1)_58: -6295952678205264649
+      UI Sprites Edit (1)_59: 7693112700513314739
+      UI Sprites Edit (1)_6: 4465133943531766914
+      UI Sprites Edit (1)_60: 3921024363733073704
+      UI Sprites Edit (1)_61: -5672868131115219606
+      UI Sprites Edit (1)_62: 3507485744252235113
+      UI Sprites Edit (1)_63: -4371396303730676695
+      UI Sprites Edit (1)_64: -200636668023756504
+      UI Sprites Edit (1)_65: 1445863531045270595
+      UI Sprites Edit (1)_66: 6430428038867768601
+      UI Sprites Edit (1)_67: -9210050653299469037
+      UI Sprites Edit (1)_68: -205206493070687879
+      UI Sprites Edit (1)_69: -5013250213072885978
+      UI Sprites Edit (1)_7: -8082308597914323443
+      UI Sprites Edit (1)_70: -2364176335136202026
+      UI Sprites Edit (1)_71: -6812699856393446436
+      UI Sprites Edit (1)_72: -6767380358461187862
+      UI Sprites Edit (1)_73: -804505265306782602
+      UI Sprites Edit (1)_74: -262610043428940909
+      UI Sprites Edit (1)_75: 1848732510108565574
+      UI Sprites Edit (1)_8: 4281680946348217846
+      UI Sprites Edit (1)_9: 7578636564492875674
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

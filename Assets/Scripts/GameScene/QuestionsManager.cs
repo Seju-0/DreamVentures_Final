@@ -32,7 +32,6 @@ public class QuestionsManager : MonoBehaviour
     {
         if (currentClient != null && currentClient.dialogue != null)
         {
-            // Clear previous listener
             currentClient.dialogue.OnDialogueComplete = null;
         }
 
@@ -46,11 +45,15 @@ public class QuestionsManager : MonoBehaviour
         if (openFolderButton != null)
             openFolderButton.SetActive(false);
 
+        dialogueScript.OnDialogueComplete = null; // Clear again just in case
         dialogueScript.OnDialogueComplete += () =>
         {
-            if (isClientLeaving) return; 
+            if (isClientLeaving) return;
 
             RevealQuestionTexts();
+
+            if (dialogueScript != null)
+                dialogueScript.SetAllowReplay(true);
 
             if (openFolderButton != null)
                 openFolderButton.SetActive(true);
