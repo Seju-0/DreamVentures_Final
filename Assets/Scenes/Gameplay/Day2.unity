@@ -1938,6 +1938,194 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &157612844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 157612845}
+  - component: {fileID: 157612849}
+  - component: {fileID: 157612848}
+  - component: {fileID: 157612847}
+  - component: {fileID: 157612846}
+  m_Layer: 5
+  m_Name: Client7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &157612845
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157612844}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.316404, y: 2.316404, z: 2.316404}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 811624075}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -405.09, y: -224.56}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &157612846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157612844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0de944637287d4459b6298ac8145b9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bobbingHeight: 0.2
+  bobbingSpeed: 12
+--- !u!114 &157612847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157612844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f5336c8479eee4cb7ec9b7eb254949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  folderPanel: {fileID: 1107136076}
+--- !u!114 &157612848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157612844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8defcb46ad0a7db439142378f614f536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clientInfo: {fileID: 11400000, guid: 019c981e30882a5468d7ca414deea4c4, type: 2}
+  dialogue: {fileID: 1123476561}
+  customDialogueLines:
+  - "How do you do sir, Country Mann, park ranger and patriot. I\u2019m looking to
+    take out a loan to help repair some facilities and infrastructure that the government
+    refuses to fund itself."
+  folderPanel: {fileID: 1107136076}
+  answers: {fileID: 395981984}
+  questionList:
+  - question: Why does the park need repairs?
+    answer: "Oh you know rough-housing kids breaking things, wild animals runnin\u2019
+      about as is their purview what with the stalking grounds being their homes,
+      and the occasional attack from, them\u2026"
+  - question: "Why won\u2019t the government allot funds to your park?"
+    answer: "Well it may have to do with the worshippers of the Deep Roots clan ritually
+      sacrificing people in the woods that I\u2019m much too preoccupied to deal
+      with. Well, that and the handsome bribes. Still, park\u2019s a park and it\u2019s
+      my duty to see it maintained."
+  answersComponent: {fileID: 395981984}
+  approvalResponse: "Much obliged, I\u2019ll pay you back tomorrow with them bribes,
+    gotta haul it out from under the earth, what with burying being the clan\u2019s
+    preferred sacrifice method. Be seein\u2019 you sir."
+  rejectionResponse: "Aw shucks, well I guess I can\u2019t argue the moral implications
+    of me allowing a cult to operate on park grounds as reason enough to not grant
+    me a loan? Say maybe I could use those bribes instead\u2026 Anywho see ya around
+    sir."
+  approvalReputationText: Reputation -10
+  rejectionReputationText: Reputation +10
+  approvalReputationValue: -10
+  rejectionReputationValue: 10
+  approvalDreamDialogueText: You see Mr. Mann being approached by worshippers of
+    the Deep Roots as they offer him another bribe to allow them to continue their
+    activities.  Not cool.
+  approvalSanityText: Sanity -5
+  approvalSanityValue: -5
+  rejectionDreamDialogueText: "Mr. Mann sighs at his desk and wonders how he\u2019ll
+    pay for the park repairs now. He then remembers he has mountains of bribes to
+    do that with. Mr. Mann feels just a little bit silly for forgetting."
+  rejectionSanityText: Sanity + 5
+  rejectionSanityValue: 5
+  approveMainHeadline: "Yag\u2019ro-toth Stalking Grounds gets an impressive facelift
+    and looks better than it ever has in its 50 years of operation."
+  approveSubHeadline: 
+  approveObituary: 
+  rejectMainHeadline: "Yag\u2019ro-toth Stalking Grounds gets an impressive facelift
+    and looks better than it ever has in its 50 years of operation."
+  rejectSubHeadline: 
+  rejectObituary: 
+  walkingSound: {fileID: 8300000, guid: 4128e31367cef4e45ab2832b8dbc4726, type: 3}
+  walkingVolume: 0.6
+  errorSound: {fileID: 0}
+  errorVolume: 1
+  warningImageDisplay: {fileID: 0}
+  warningCloseButton: {fileID: 0}
+  reputationPenalty: 0
+--- !u!212 &157612849
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157612844}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 4427745007176220783, guid: 238e86a1f7f87414ab96bdd0f9994045, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.04, y: 9.99}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &158301517
 GameObject:
   m_ObjectHideFlags: 0
@@ -5111,6 +5299,182 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490593783}
   m_CullTransparentMesh: 1
+--- !u!1 &508705834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 508705835}
+  - component: {fileID: 508705839}
+  - component: {fileID: 508705838}
+  - component: {fileID: 508705837}
+  - component: {fileID: 508705836}
+  m_Layer: 5
+  m_Name: Client6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &508705835
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508705834}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.316404, y: 2.316404, z: 2.316404}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 811624075}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -405.09, y: -224.56}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &508705836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508705834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0de944637287d4459b6298ac8145b9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bobbingHeight: 0.2
+  bobbingSpeed: 12
+--- !u!114 &508705837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508705834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f5336c8479eee4cb7ec9b7eb254949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  folderPanel: {fileID: 1107136076}
+--- !u!114 &508705838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508705834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8defcb46ad0a7db439142378f614f536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clientInfo: {fileID: 11400000, guid: 577c0df4ed62fd247bf6e495e9e0b879, type: 2}
+  dialogue: {fileID: 1123476561}
+  customDialogueLines:
+  - Good morning friend, I need loan to repair tractor. New season is is rolling
+    in and tilling is behind schedule. You will help yes?
+  folderPanel: {fileID: 1107136076}
+  answers: {fileID: 395981984}
+  questionList:
+  - question: You can farm in the Northern Territories during the winter season?
+    answer: Yes, is difficult work but worthwhile, very fulfilling & rewarding.
+  - question: Why did the tractor break?
+    answer: Ran over man trying to steal crops. Law works differently up north, is
+      legal to run over crop-stealing bastards, very cathartic.
+  answersComponent: {fileID: 395981984}
+  approvalResponse: Thank you friend, frozen heart warm you.
+  rejectionResponse: I see, is suspicious to outsider, I understand, will apply for
+    loan elsewhere or use crop-stealing bastard spine for repair. Goodbye.
+  approvalReputationText: Reputation +10
+  rejectionReputationText: Reputation +5
+  approvalReputationValue: 10
+  rejectionReputationValue: 5
+  approvalDreamDialogueText: You see Alexei fixing his tractor, good for him.
+  approvalSanityText: Sanity Unchanged
+  approvalSanityValue: 0
+  rejectionDreamDialogueText: "You Alexei take the corpse of the \u2018crop-stealing
+    bastard\u2019 and rip out their spine. He then carefully tinkers with and somehow
+    fixes his tractor. Good for him?"
+  rejectionSanityText: Sanity -10
+  rejectionSanityValue: -10
+  approveMainHeadline: 
+  approveSubHeadline: 
+  approveObituary: 
+  rejectMainHeadline: 
+  rejectSubHeadline: 'First successful usage of spine in tractor repairs is recorded
+    in the Northern Territories. Farmer Alexei Alexei gives us the details here:'
+  rejectObituary: 
+  walkingSound: {fileID: 8300000, guid: 4128e31367cef4e45ab2832b8dbc4726, type: 3}
+  walkingVolume: 0.6
+  errorSound: {fileID: 0}
+  errorVolume: 1
+  warningImageDisplay: {fileID: 0}
+  warningCloseButton: {fileID: 0}
+  reputationPenalty: 0
+--- !u!212 &508705839
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508705834}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: d7e36d6c4b62ba54b9b96f0d7c662dca, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.04, y: 9.99}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &508764650
 GameObject:
   m_ObjectHideFlags: 0
@@ -7460,6 +7824,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1323127394}
+  - {fileID: 1758809086}
+  - {fileID: 1734969431}
+  - {fileID: 1241167839}
+  - {fileID: 2088454829}
+  - {fileID: 508705835}
+  - {fileID: 157612845}
   - {fileID: 1649810863}
   - {fileID: 1471622751}
   - {fileID: 1472760073}
@@ -7520,13 +7891,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clients:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1323127397}
+  - {fileID: 1758809089}
+  - {fileID: 1734969434}
+  - {fileID: 1241167842}
+  - {fileID: 2088454832}
+  - {fileID: 508705838}
+  - {fileID: 157612848}
   startingPoint: {fileID: 936689790}
   targetPoint: {fileID: 122343481}
   exitPoint: {fileID: 1158275616}
@@ -11134,6 +11505,194 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1221241235}
   m_CullTransparentMesh: 1
+--- !u!1 &1241167838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1241167839}
+  - component: {fileID: 1241167843}
+  - component: {fileID: 1241167842}
+  - component: {fileID: 1241167841}
+  - component: {fileID: 1241167840}
+  m_Layer: 5
+  m_Name: Client4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1241167839
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241167838}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.316404, y: 2.316404, z: 2.316404}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 811624075}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -405.09, y: -224.56}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1241167840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241167838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0de944637287d4459b6298ac8145b9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bobbingHeight: 0.2
+  bobbingSpeed: 12
+--- !u!114 &1241167841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241167838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f5336c8479eee4cb7ec9b7eb254949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  folderPanel: {fileID: 1107136076}
+--- !u!114 &1241167842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241167838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8defcb46ad0a7db439142378f614f536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clientInfo: {fileID: 11400000, guid: 6253388380deea74786ca9b13e348835, type: 2}
+  dialogue: {fileID: 1123476561}
+  customDialogueLines:
+  - "Good afternoon dearie, I\u2019m Ms. Niceman. My roof fell apart after my idiot
+    husband tried fiddling with something on top of it, and now he\u2019s in the
+    hospital because of it. Anywho, I need a loan to help pay for the roof repairs.
+    Heaven knows that old coot doesn\u2019t have a dime to spend on his house, let
+    alone his wife."
+  folderPanel: {fileID: 1107136076}
+  answers: {fileID: 395981984}
+  questionList:
+  - question: "I don\u2019t mean to intrude, but is everything okay between you and
+      your husband?"
+    answer: "Oh don\u2019t worry about me or the old coot, I\u2019m a tough gal and
+      he\u2019s survived worse, sadly. I\u2019ve loved him for 50 long years, and
+      then he up and cheats on me with some underpaid broad named Gracie from the
+      supermarket so now I\u2019m stuck with a former shell of who my husband was,
+      and have to listen to him bitch and moan about how painful falling off of the
+      roof was."
+  - question: Did your roof really break on accident?
+    answer: "That\u2019s for me to know, and for you to keep wondering about sweetie."
+  answersComponent: {fileID: 395981984}
+  approvalResponse: "Oh thank you dearie, you\u2019ve made this old soul happier
+    than you could ever know, bless you"
+  rejectionResponse: "Oh, I see. It\u2019s okay dearie, I\u2019ll just have to get
+    creative. Be well now."
+  approvalReputationText: Reputation +10
+  rejectionReputationText: 'Reputation +5 '
+  approvalReputationValue: 10
+  rejectionReputationValue: 5
+  approvalDreamDialogueText: You see Ms. Niceman pay for her roof repairs, you feel
+    good about helping her. That is until you see her sleep with her gardener, as
+    you also see her husband flatline in the hospital. Good for her?
+  approvalSanityText: Sanity -10
+  approvalSanityValue: -10
+  rejectionDreamDialogueText: "You see Ms. Niceman sitting in her chair sipping on
+    a cup of tea, just waiting, for what you\u2019re not sure. And then the phone
+    rings, as Ms. Niceman takes her time in answering it.  \u2018Is it done?\u2019
+    she asks, followed by \u2018Oh how wonderful, thank you dear.\u2019 And then
+    you see her roof, fixed as if nothing ever happened."
+  rejectionSanityText: Sanity + 5
+  rejectionSanityValue: 5
+  approveMainHeadline: 
+  approveSubHeadline: 
+  approveObituary: 
+  rejectMainHeadline: 
+  rejectSubHeadline: 
+  rejectObituary: 
+  walkingSound: {fileID: 8300000, guid: 4128e31367cef4e45ab2832b8dbc4726, type: 3}
+  walkingVolume: 0.6
+  errorSound: {fileID: 0}
+  errorVolume: 1
+  warningImageDisplay: {fileID: 0}
+  warningCloseButton: {fileID: 0}
+  reputationPenalty: 0
+--- !u!212 &1241167843
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241167838}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: e481daf9da1cdc34d82778656af0bcda, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.04, y: 9.99}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1241691798
 GameObject:
   m_ObjectHideFlags: 0
@@ -12191,6 +12750,198 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &1323127393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1323127394}
+  - component: {fileID: 1323127398}
+  - component: {fileID: 1323127397}
+  - component: {fileID: 1323127396}
+  - component: {fileID: 1323127395}
+  m_Layer: 5
+  m_Name: Client1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1323127394
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323127393}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.316404, y: 2.316404, z: 2.316404}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 811624075}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -405.09, y: -224.56}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1323127395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323127393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0de944637287d4459b6298ac8145b9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bobbingHeight: 0
+  bobbingSpeed: 0
+--- !u!114 &1323127396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323127393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f5336c8479eee4cb7ec9b7eb254949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  folderPanel: {fileID: 1107136076}
+--- !u!114 &1323127397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323127393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8defcb46ad0a7db439142378f614f536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clientInfo: {fileID: 11400000, guid: 226c5ad538cd3f44ca8a32d69c3a2df8, type: 2}
+  dialogue: {fileID: 1123476561}
+  customDialogueLines:
+  - "Hiya there friend, good morning. Jay Walker, former marathon runner at your
+    service. My father thought \u2018Jay Walker\u2019 would be comical for a name,
+    and so did he write it down and sign off whilst my mother was recovering after
+    birthing me. That\u2019s neither here nor there, what I really wanna talk about
+    is securing a loan for this surgery to hopefully get my legs working again."
+  folderPanel: {fileID: 1107136076}
+  answers: {fileID: 395981984}
+  questionList:
+  - question: How long have you been wheelchair-bound?
+    answer: "Two years now if I\u2019m counting correctly. I used to run marathons
+      before the accident, I don\u2019t know if I\u2019ll ever be able to do that
+      again, but I\u2019ll happily take slow walks over being wheeled around all
+      day."
+  - question: Just to confirm your story, may I?
+    answer: "Do you mean kick my leg? By all means friend\u201D you kick their leg
+      and it does not move, moreover, Jay himself has no reaction, as if you never
+      even kicked his leg, \u201CTold you, they\u2019re out of commission, for now
+      at least\u2026"
+  answersComponent: {fileID: 395981984}
+  approvalResponse: "Thank you so much, next time you see me it\u2019ll hopefully
+    be during a morning jog. See you around, friend."
+  rejectionResponse: O-oh, I see. Well, um, thank you for your time.
+  approvalReputationText: Reputation -20
+  rejectionReputationText: Reputation +20
+  approvalReputationValue: -20
+  rejectionReputationValue: 20
+  approvalDreamDialogueText: "You see Jay make a full recovery after his surgery,
+    he\u2019s happier than he\u2019s ever been. He goes on to do what he loves doing,
+    running marathons, for many more years."
+  approvalSanityText: Sanity + 25
+  approvalSanityValue: 25
+  rejectionDreamDialogueText: "You see from the eyes of someone you\u2019ve never
+    met, staring quietly at a balcony with an empty wheelchair facing towards the
+    night sky.  They approach the railing slowly, and once there, they hesitate for
+    a second to look over.  With all the courage they can muster, they veer over
+    the edge, and that\u2019s when you see Jay.  Your dream is cut short."
+  rejectionSanityText: Sanity - 30
+  rejectionSanityValue: -30
+  approveMainHeadline: 
+  approveSubHeadline: "Man paralyzed from the waist down makes miraculous recovery
+    after life-changing surgery! \u201CNothing short of a miracle\u201D quotes the
+    lead surgeon."
+  approveObituary: 
+  rejectMainHeadline: 
+  rejectSubHeadline: 
+  rejectObituary: "Jay Walker, 25  Beloved member of the Marathonners\u2019 Community,
+    and beloved son to Christian Walker, and Lourdes Day-Walker.  Pronounced dead
+    by the City 1A Coroner\u2019s Office. Time of death: 11:27PM.  Requiescat in
+    Pace."
+  walkingSound: {fileID: 8300000, guid: 5b2927b81046a664ea77f8599e5456e2, type: 3}
+  walkingVolume: 0.6
+  errorSound: {fileID: 0}
+  errorVolume: 1
+  warningImageDisplay: {fileID: 0}
+  warningCloseButton: {fileID: 0}
+  reputationPenalty: 0
+--- !u!212 &1323127398
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323127393}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 5055b4d9a7a1ca1459bd4ebc83131aa5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.04, y: 9.99}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1327476621
 GameObject:
   m_ObjectHideFlags: 0
@@ -16016,6 +16767,190 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721732948}
   m_CullTransparentMesh: 1
+--- !u!1 &1734969430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1734969431}
+  - component: {fileID: 1734969435}
+  - component: {fileID: 1734969434}
+  - component: {fileID: 1734969433}
+  - component: {fileID: 1734969432}
+  m_Layer: 5
+  m_Name: Client3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1734969431
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734969430}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.316404, y: 2.316404, z: 2.316404}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 811624075}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -405.09, y: -224.56}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1734969432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734969430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0de944637287d4459b6298ac8145b9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bobbingHeight: 0.2
+  bobbingSpeed: 12
+--- !u!114 &1734969433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734969430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f5336c8479eee4cb7ec9b7eb254949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  folderPanel: {fileID: 1107136076}
+--- !u!114 &1734969434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734969430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8defcb46ad0a7db439142378f614f536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clientInfo: {fileID: 11400000, guid: 6e4bf4c386fd7294a907412d9b2aeb0e, type: 2}
+  dialogue: {fileID: 1123476561}
+  customDialogueLines:
+  - "Hey man, I need a loan. Why you may ask? Well, I need to fix my car, my summer
+    car. It\u2019s old though, real old, not even insurance would cover finding the
+    parts needed to fix it, luckily I have connections, I just need the money to
+    push through with the deals."
+  folderPanel: {fileID: 1107136076}
+  answers: {fileID: 395981984}
+  questionList:
+  - question: How old are we talking?
+    answer: "Oh old-old, like pre pre-war old. Do you know Mister Spleen? Of course
+      you don\u2019t, you look too young. Well he had a car just like it in the show,
+      and when the show got cancelled, I bought that same car. Been driving it ever
+      since."
+  - question: How did this car break down?
+    answer: "I don\u2019t think it's within your purview to be asking me personal
+      questions buddy. While I do understand your doubts insofar as I may be lying
+      to you to obtain funds to simply refurbish my vehicle, you are also in no position
+      to such questions from a professional standpoint. So suck it"
+  answersComponent: {fileID: 395981984}
+  approvalResponse: "Hey thanks dude, you\u2019re a real good dude. Hope you know
+    that dude. So thanks, dude. See you around, pal."
+  rejectionResponse: "Buddy, you\u2019ve just made the biggest mistake of your life.
+    I hope you don\u2019t mind spiders, cause you\u2019ll be finding a ton of those
+    in your bedsheets pretty soon."
+  approvalReputationText: Reputation +5
+  rejectionReputationText: Reputation +10
+  approvalReputationValue: 5
+  rejectionReputationValue: 10
+  approvalDreamDialogueText: Jeremy fixes his car, and drives far, far away.
+  approvalSanityText: Sanity Unchanged
+  approvalSanityValue: 0
+  rejectionDreamDialogueText: "Jeremy just looks a little sad that he couldn\u2019t
+    fix his car. He is soon comforted by his pet spider, and feels better after a
+    bit. The little guy is kind of cute too."
+  rejectionSanityText: Sanity +5
+  rejectionSanityValue: 5
+  approveMainHeadline: 
+  approveSubHeadline: 
+  approveObituary: 
+  rejectMainHeadline: 
+  rejectSubHeadline: 
+  rejectObituary: 
+  walkingSound: {fileID: 8300000, guid: 4128e31367cef4e45ab2832b8dbc4726, type: 3}
+  walkingVolume: 0.6
+  errorSound: {fileID: 0}
+  errorVolume: 1
+  warningImageDisplay: {fileID: 0}
+  warningCloseButton: {fileID: 0}
+  reputationPenalty: 0
+--- !u!212 &1734969435
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734969430}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 328c1abb69f1ae647847eb13e2500823, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.04, y: 9.99}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1741386245
 GameObject:
   m_ObjectHideFlags: 0
@@ -16227,6 +17162,194 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1752937963}
   m_CullTransparentMesh: 1
+--- !u!1 &1758809085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1758809086}
+  - component: {fileID: 1758809090}
+  - component: {fileID: 1758809089}
+  - component: {fileID: 1758809088}
+  - component: {fileID: 1758809087}
+  m_Layer: 5
+  m_Name: Client2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1758809086
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758809085}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.316404, y: 2.316404, z: 2.316404}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 811624075}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -405.09, y: -224.56}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1758809087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758809085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0de944637287d4459b6298ac8145b9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bobbingHeight: 0.2
+  bobbingSpeed: 12
+--- !u!114 &1758809088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758809085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f5336c8479eee4cb7ec9b7eb254949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  folderPanel: {fileID: 1107136076}
+--- !u!114 &1758809089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758809085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8defcb46ad0a7db439142378f614f536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clientInfo: {fileID: 11400000, guid: 137b4946c2fae8040b1304fcc385baf1, type: 2}
+  dialogue: {fileID: 1123476561}
+  customDialogueLines:
+  - "Greetings my good man, I am Count Rex, a pleasure to make your acquaintance.
+    I have been told that you are the one to seek concerning the matter of financial
+    loans. I seek to build a mighty bridge from my lakebound island to connect it
+    to the mainland. Won\u2019t you help me good sir?"
+  folderPanel: {fileID: 1107136076}
+  answers: {fileID: 395981984}
+  questionList:
+  - question: Is that even legal?
+    answer: "Why yes my good man, I have included the building permit from the city,
+      it\u2019s all in the folder. I would normally never reduce myself to such paltry
+      processes, but I will abide by the commoner\u2019s practices if I must. All
+      for the glory of Wesselshiredorf."
+  - question: "What is this symbol you\u2019ve drawn on the loan form?"
+    answer: "Why that is the mark of the holy family of Wesselshiredorf, our independent
+      kingdom located on our island. We\u2019ve owned that island since the 1800s,
+      you know? That is also the symbol of our currency."
+  answersComponent: {fileID: 395981984}
+  approvalResponse: A pleasure doing business with you good sir, you may be the first
+    to walk from our bridge into our holy land once construction is complete.
+  rejectionResponse: "HOW PREPOSTEROUS! My currency- my family\u2019s currency is
+    deemed INADEQUATE and INVALID in your eyes?!   I daresay I\u2019ve never been
+    more insulted in ALL MY LIFE!! Good sir- nay, you are no good sir you fiendish
+    ruffian, you conniving rapscallion, I do declare you have made an enemy of the
+    Rex family for the rest of our days, and yours! Foul days be upon you, cur!"
+  approvalReputationText: Reputation +10
+  rejectionReputationText: Reputation +15
+  approvalReputationValue: 10
+  rejectionReputationValue: 15
+  approvalDreamDialogueText: "Count Rex builds his bridge, and not much happens.
+    You feel a little bad for the guy, but it\u2019s nothing to dwell on."
+  approvalSanityText: Sanity Unchanged
+  approvalSanityValue: 0
+  rejectionDreamDialogueText: "You see Count Rex take his frustrations out on his
+    punching bag. For someone his age, he\u2019s surprisingly well built.   He swears
+    revenge on you, and to make you pay for what you did, but before he can make
+    a full declaration, he slips on his sweat and falls on his ass.  Taking it as
+    a sign, he mutters \u201C...never mind then\u201D and ends his exercise."
+  rejectionSanityText: Sanity +5
+  rejectionSanityValue: 5
+  approveMainHeadline: 
+  approveSubHeadline: Local landlord builds bridge to no fanfare.
+  approveObituary: 
+  rejectMainHeadline: 
+  rejectSubHeadline: 
+  rejectObituary: 
+  walkingSound: {fileID: 8300000, guid: 4128e31367cef4e45ab2832b8dbc4726, type: 3}
+  walkingVolume: 0.6
+  errorSound: {fileID: 0}
+  errorVolume: 1
+  warningImageDisplay: {fileID: 0}
+  warningCloseButton: {fileID: 0}
+  reputationPenalty: 0
+--- !u!212 &1758809090
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758809085}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 03571e83dae08744c97f05b1d2dc9d10, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.04, y: 9.99}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1760383188
 GameObject:
   m_ObjectHideFlags: 0
@@ -20325,6 +21448,185 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080705222}
   m_CullTransparentMesh: 1
+--- !u!1 &2088454828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2088454829}
+  - component: {fileID: 2088454833}
+  - component: {fileID: 2088454832}
+  - component: {fileID: 2088454831}
+  - component: {fileID: 2088454830}
+  m_Layer: 5
+  m_Name: Client5 (SET CASE)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2088454829
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088454828}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.316404, y: 2.316404, z: 2.316404}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 811624075}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -405.09, y: -224.56}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2088454830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088454828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0de944637287d4459b6298ac8145b9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bobbingHeight: 0.2
+  bobbingSpeed: 12
+--- !u!114 &2088454831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088454828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f5336c8479eee4cb7ec9b7eb254949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  folderPanel: {fileID: 1107136076}
+--- !u!114 &2088454832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088454828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8defcb46ad0a7db439142378f614f536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clientInfo: {fileID: 11400000, guid: fde663c5cca83d641beadbe2beee9611, type: 2}
+  dialogue: {fileID: 1123476561}
+  customDialogueLines:
+  - Hi, I need to help my grandpa with his medical bills and was looking to take
+    out a loan, can you help?
+  folderPanel: {fileID: 1107136076}
+  answers: {fileID: 395981984}
+  questionList:
+  - question: What happened to your grandpa?
+    answer: John- I mean pop-pop fell from the roof and it nearly killed him after
+      it fell apart, but he still hurt himself pretty badly.
+  - question: Does his insurance not cover it?
+    answer: "Him and Deb- I mean mee-maw share an insurance plan, but they\u2019re
+      going through a rough patch and she refuses to sign off on his bills."
+  answersComponent: {fileID: 395981984}
+  approvalResponse: Thanks, the sooner is out the sooner we can do i- do what he
+    wanted to do that day, which is fishing, yeah, fishing.
+  rejectionResponse: "Damn it I knew I didn\u2019t have a chance when that bitch
+    Deborah walked out of here 5 minutes ago. I love John more than she ever has
+    in 50 years- AND I EXCITE HIM MORE THAN YOU EVER WILL DEB! Sorry you had to hear
+    that loan guy."
+  approvalReputationText: Reputation - 25
+  rejectionReputationText: Reputation +5
+  approvalReputationValue: -25
+  rejectionReputationValue: 5
+  approvalDreamDialogueText: "You see Gracie and John, yeah no, make your best guesses
+    as to who or what they\u2019re doing, gross."
+  approvalSanityText: Sanity -10
+  approvalSanityValue: -10
+  rejectionDreamDialogueText: "You see Gracie returning to her monotonous supermarket
+    job, seemingly never returning to John\u2019s side again, good."
+  rejectionSanityText: Sanity +10
+  rejectionSanityValue: 10
+  approveMainHeadline: 
+  approveSubHeadline: 
+  approveObituary: 
+  rejectMainHeadline: 
+  rejectSubHeadline: 
+  rejectObituary: 
+  walkingSound: {fileID: 8300000, guid: 4128e31367cef4e45ab2832b8dbc4726, type: 3}
+  walkingVolume: 0.6
+  errorSound: {fileID: 8300000, guid: 23585cd59bffc094981b66c915afc5ef, type: 3}
+  errorVolume: 1
+  warningImageDisplay: {fileID: 2145163754}
+  warningCloseButton: {fileID: 629847800}
+  reputationPenalty: 5
+--- !u!212 &2088454833
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088454828}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 510a7bc4f2dd5ac4fa0504edb8faacff, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.04, y: 9.99}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &2118077863
 GameObject:
   m_ObjectHideFlags: 0
