@@ -12713,19 +12713,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "- Click the Replay Dialogue button to repeat dialogue\n\n\n- Click the
-    Folder icon on the computer to access the client's information\n\n\n- Click the
-    buttons on the \"Ask Questions\" panel to ask the client a question\n\n\n- Click
-    the \"Approve\" button in the client's folder to approve the client's loan\n\n\n-
-    Click the \"Reject\" button in the client's folder to reject the client's loan\n\n\n-
-    After you approve a client, a print loan button will appear. Click the print
-    loan button to print the loan check of the client.\n\n\nBy accepting or rejecting
-    loans that you believe will help the company, you can improve your reputation.
-    Maintaining your integrity and doing what you believe is right, even if it means
-    putting the company's interests last, will help you stay sane. You will be hired
-    if you receive at least 120 points for both your sanity and reputation! \n\nNote:\nMake
-    sure to read the dialogues carefully as they will determine how the storyline
-    goes!"
+  m_text: "Click the Replay Dialogue button to replay a client\u2019s intro dialogue.\r\n\r\nEach
+    client can be asked two questions regarding either themselves or their loans
+    to reveal more information about their background or their intentions.\n\r\n\nClick
+    the Folder icon on the computer to access the client's information\r\n\r\nClick
+    the \"Approve\" button in the client's folder to approve the client's loan.\r\n\r\nAfter
+    approving a loan, the \u201CPrint Loan\u201D button will appear on the bottom
+    right of the screen. The player will be taken to the loan printer screen wherein
+    they must enter the correct amount requested by the client. Click on the printed
+    loan form to make the client leave.\r\n\r\nClick the \"Reject\" button in the
+    client's folder to reject the client's loan.\r\n\r\nAccepting and Rejecting loans
+    will either increase or decrease your Reputation. The amount gained and lost
+    can be seen in the performance report at the end of the day.\r\n\r\nDepending
+    on your decisions, your Sanity will either increase or decrease. The amount gained
+    and lost can be seen in the dream scene after the performance report at the end
+    of the day. \r\n\r\nDecisions matter, so be sure to read through the dialogue
+    carefully and at your own pace!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}
   m_sharedMaterial: {fileID: -7260648671262176420, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}
