@@ -12235,18 +12235,20 @@ MonoBehaviour:
       leaves.
   answersComponent: {fileID: 395981984}
   approvalResponse: Thank you ever-so-kindly partner, be seeing you.
-  rejectionResponse: ...
+  rejectionResponse: Oh I see, well thank you for your time anyway.
   approvalReputationText: Reputation +10
-  rejectionReputationText: Reputation Unchanged
+  rejectionReputationText: Reputation +10
   approvalReputationValue: 10
-  rejectionReputationValue: 0
+  rejectionReputationValue: 10
   approvalDreamDialogueText: "You see Bob, his wife, and his daughter cuddle in bed
     and sleep soundly. You feel like you\u2019ve done good"
   approvalSanityText: Sanity + 10
   approvalSanityValue: 10
-  rejectionDreamDialogueText: 
-  rejectionSanityText: 
-  rejectionSanityValue: 0
+  rejectionDreamDialogueText: You see Bob sleep on the couch as he makes space for
+    his wife and their baby to sleep together. You feel a little bad for what you
+    did.
+  rejectionSanityText: Sanity -5
+  rejectionSanityValue: -5
   approveMainHeadline: 
   approveSubHeadline: 
   approveObituary: 

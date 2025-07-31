@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Nolan Chairperson
   dateOfBirth: 05-01-2020
-  requestedAmount: 500,000
+  requestedAmount: 813,122
   paymentDate: 09-01-2088
   loanPurpose: To purchase one of the last surviving BusinessMaster 20X-2s in existence.
   FirstName: Nolan

@@ -10,12 +10,12 @@ public class NextButton : MonoBehaviour
     }
     public void NextBTN1()
     {
-        string nextScene = $"DS2";
+        string nextScene = $"IB2";
         SceneManager.LoadScene(nextScene);
     }
     public void NextBTN2()
     {
-        string nextScene = $"DS3";
+        string nextScene = $"IB3";
         SceneManager.LoadScene(nextScene);
     }
 }

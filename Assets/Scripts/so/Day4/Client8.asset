@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Honey Money
   dateOfBirth: 06-13-2066
-  requestedAmount: 100,000
+  requestedAmount: 66,377
   paymentDate: 07-21-2087
   loanPurpose: Honey Money needs money
   FirstName: Honey

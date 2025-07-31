@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a4ef634857229b9459a83e28d7f0db16
+guid: 2acb7d2fcab6f974a922f3bd2e3f4e5d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6546800259978125012
-    second: JeremyDream_0
+      213: -5825670432547632824
+    second: TonyDream_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JeremyDream_0
+      name: TonyDream_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c21a19899d71525a0800000000000000
-      internalID: -6546800259978125012
+      spriteID: 84980897b9f072fa0800000000000000
+      internalID: -5825670432547632824
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      JeremyDream_0: -6546800259978125012
+      TonyDream_0: -5825670432547632824
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Ignis Rex
   dateOfBirth: 01-01-1381
-  requestedAmount: 500,000
+  requestedAmount: 1,891,362
   paymentDate: 06-24-2087
   loanPurpose: Draconian dental appointment
   FirstName: Ignis

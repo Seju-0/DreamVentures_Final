@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Emily Hawke
   dateOfBirth: 08-04-2063
-  requestedAmount: ' 250,000'
+  requestedAmount: 164,319
   paymentDate: 03-01-2090
   loanPurpose: To build a bird sanctuary
   FirstName: Emily

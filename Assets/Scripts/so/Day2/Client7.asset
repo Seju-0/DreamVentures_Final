@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Country Mann
   dateOfBirth: 02-28-2052
-  requestedAmount: 50,000
+  requestedAmount: 129,870
   paymentDate: 07-15-2087
   loanPurpose: To fund repairs for the park and reserve, as the government refuses
     to provide us with the funds necessary.

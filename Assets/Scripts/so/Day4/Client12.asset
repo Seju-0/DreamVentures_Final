@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Kilometrey Cypress
   dateOfBirth: 03-24-2060
-  requestedAmount: 75,000
+  requestedAmount: 55,672
   paymentDate: 12-01-2087
   loanPurpose: To fix my tour bus.
   FirstName: Anna

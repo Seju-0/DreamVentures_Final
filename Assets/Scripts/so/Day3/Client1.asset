@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Avery Tate
   dateOfBirth: 09-17-2066
-  requestedAmount: 30,000
+  requestedAmount: 23,809
   paymentDate: 08-23-2088
   loanPurpose: To buy replacement parts to repair camera.
   FirstName: Avery

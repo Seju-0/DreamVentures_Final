@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Bob Dalton
   dateOfBirth: 07-21-2043
-  requestedAmount: 20,000
+  requestedAmount: 12,387
   paymentDate: 08-12-2087
   loanPurpose: To renovate an old room into a nursery for our newborn daughter.
   FirstName: Bob
@@ -31,4 +31,4 @@ MonoBehaviour:
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: Good approval, well done.
-  rejectionEvaluationText: 
+  rejectionEvaluationText: Sound rejection, carry on.

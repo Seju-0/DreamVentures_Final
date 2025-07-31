@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Thomas Catherine
   dateOfBirth: 06-12-2022
-  requestedAmount: 25,000
+  requestedAmount: 37,981
   paymentDate: 07-12-2087
   loanPurpose: To catch rats, and mice. Need tools.
   FirstName: Thomas

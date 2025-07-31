@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0cf497a27794a08478d0806bb5741937
+guid: 6249ab3cf3fb99546965762526910e63
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5091792405532201048
-    second: AudaDream_0
+      213: -2441749777041579160
+    second: BobDream_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AudaDream_0
+      name: BobDream_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85057c1273ea9a640800000000000000
-      internalID: 5091792405532201048
+      spriteID: 8632c05c3892d1ed0800000000000000
+      internalID: -2441749777041579160
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AudaDream_0: 5091792405532201048
+      BobDream_0: -2441749777041579160
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

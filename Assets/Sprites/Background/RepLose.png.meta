@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c0733115cad547d40b123585edd9f0e5
+guid: 9a1dc680a71ac704684016a5bef964f3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4537538644364015638
-    second: JayDream_0
+      213: -76982044855044179
+    second: pxArt_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JayDream_0
+      name: pxArt_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae74314d4ac6701c0800000000000000
-      internalID: -4537538644364015638
+      spriteID: da7f452fc318eeef0800000000000000
+      internalID: -76982044855044179
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      JayDream_0: -4537538644364015638
+      pxArt_0: -76982044855044179
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

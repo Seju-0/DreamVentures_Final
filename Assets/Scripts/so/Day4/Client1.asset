@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Equestrian Delight
   dateOfBirth: 03-14-2055
-  requestedAmount: '100,000 '
+  requestedAmount: 53,406
   paymentDate: 07-13-2087
   loanPurpose: I want to buy horse steroids for personal use.
   FirstName: Equestrian

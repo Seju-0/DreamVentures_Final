@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Alexei Alexei
   dateOfBirth: 06-18-2044
-  requestedAmount: 50,000
+  requestedAmount: 18,341
   paymentDate: 08-15-2087
   loanPurpose: Fix tractor, is broken.
   FirstName: Alexei

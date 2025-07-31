@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Billy Boiler
   dateOfBirth: 05-12-2045
-  requestedAmount: 50,000
+  requestedAmount: 34,133
   paymentDate: 04-11-2088
   loanPurpose: I use these funds to fulfill the nefarious purposes of the night mother
   FirstName: Wolf

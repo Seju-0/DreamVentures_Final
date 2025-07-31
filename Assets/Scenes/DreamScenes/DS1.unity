@@ -174,14 +174,14 @@ MonoBehaviour:
   totalSanityText: {fileID: 137117608}
   continueButton: {fileID: 418292631}
   approvalImages:
-  - {fileID: 21300000, guid: 33a5a312f2c003e409df4197957f920e, type: 3}
+  - {fileID: 21300000, guid: 6249ab3cf3fb99546965762526910e63, type: 3}
   - {fileID: 0}
+  - {fileID: 21300000, guid: 66df3bae9ab977345a40b5a6ad97d098, type: 3}
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 21300000, guid: b425c581d87770242a4ce85b2addd1e9, type: 3}
+  - {fileID: 21300000, guid: 2acb7d2fcab6f974a922f3bd2e3f4e5d, type: 3}
   rejectionImages:
   - {fileID: 0}
-  - {fileID: 21300000, guid: 0cf497a27794a08478d0806bb5741937, type: 3}
+  - {fileID: 21300000, guid: d73e16aed0cb81143858d5ac0eead2be, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

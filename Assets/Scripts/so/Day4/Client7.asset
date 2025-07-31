@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Jason Paul
   dateOfBirth: 04-21-2044
-  requestedAmount: 75,000
+  requestedAmount: 44,519
   paymentDate: 06-21-2088
   loanPurpose: Legal fees
   FirstName: Jason

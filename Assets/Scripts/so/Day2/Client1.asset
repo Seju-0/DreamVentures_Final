@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Jay Walker
   dateOfBirth: 09-18-2062
-  requestedAmount: 250,000
+  requestedAmount: 136,890
   paymentDate: 09-18-2088
   loanPurpose: Medical loan for life-changing surgery.
   FirstName: 'Jay '

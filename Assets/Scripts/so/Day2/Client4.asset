@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Deborah Niceman
   dateOfBirth: 05-12-2011
-  requestedAmount: 25,000
+  requestedAmount: '37,182 '
   paymentDate: 06-16-2088
   loanPurpose: Funds to hire workers and purchase materials for roof repair.
   FirstName: Deborah

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Jeremy Roads
   dateOfBirth: 09-22-2018
-  requestedAmount: 10,000
+  requestedAmount: 23,118
   paymentDate: 09-23-2087
   loanPurpose: Buying ancient car parts to repair ancient car.
   FirstName: Jeremy

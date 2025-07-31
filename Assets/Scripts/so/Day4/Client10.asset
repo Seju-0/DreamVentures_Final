@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Jade Shade
   dateOfBirth: 01-27-2066
-  requestedAmount: 100,000
+  requestedAmount: 123,456
   paymentDate: 03-20-2088
   loanPurpose: "Art project finances. It\u2019s a game, my dream game, a most noble
     venture."

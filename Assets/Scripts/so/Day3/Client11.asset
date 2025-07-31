@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Soule James
   dateOfBirth: 12-25-2077
-  requestedAmount: 25,000
+  requestedAmount: 5000
   paymentDate: 08-01-2087
   loanPurpose: To pay for immigration fees.
   FirstName: Soule

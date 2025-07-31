@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Lucky Me
   dateOfBirth: 00-00-2010
-  requestedAmount: 1000
+  requestedAmount: 777,777
   paymentDate: 06-21-2087
   loanPurpose: To rest.
   FirstName: Lucky

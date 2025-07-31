@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Auda Monet
   dateOfBirth: 01-23-2057
-  requestedAmount: 10,000
+  requestedAmount: 33,180
   paymentDate: 09-01-2087
   loanPurpose: 
   FirstName: Auda

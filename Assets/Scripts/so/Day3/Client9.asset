@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Jean Renault
   dateOfBirth: 04-23-2056
-  requestedAmount: 65,000
+  requestedAmount: 33,177
   paymentDate: 11-03-2087
   loanPurpose: To purchase a house that I can call a home
   FirstName: Jean

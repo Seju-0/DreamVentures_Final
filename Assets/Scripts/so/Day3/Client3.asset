@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Solo Armitage
   dateOfBirth: 03-21-2044
-  requestedAmount: 50,000
+  requestedAmount: 33,961
   paymentDate: 06-01-2088
   loanPurpose: To pay for bills
   FirstName: Solo

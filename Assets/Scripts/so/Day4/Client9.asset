@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ec895f2dbf449946ac9fe4ad6580d75, type: 3}
   m_Name: Client9
   m_EditorClassIdentifier: 
-  clientName: Lim Ping
+  clientName: Pim Pingg
   dateOfBirth: 07-07-2067
-  requestedAmount: '75,000 '
+  requestedAmount: 31,287
   paymentDate: 02-21-2088
   loanPurpose: We need money to pay the horse vet to help our dear old girl, Steel
     Beam Foundation.
-  FirstName: Pim
-  LastName: Pingh
+  FirstName: Lim
+  LastName: Ping
   dateofBirth2: 07-07-2067
   Gender: 
   Title: N/A

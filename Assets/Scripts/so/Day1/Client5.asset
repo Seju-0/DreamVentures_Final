@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Tony Mafia
   dateOfBirth: 03-12-2051
-  requestedAmount: 100,000
+  requestedAmount: 150,283
   paymentDate: 10-12-2087
   loanPurpose: Renovation of pizza parlor facilities.
   FirstName: Tony

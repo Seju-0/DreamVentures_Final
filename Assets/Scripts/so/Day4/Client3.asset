@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Jimmy Miller
   dateOfBirth: 06-19-2040
-  requestedAmount: 35,000
+  requestedAmount: 18,285
   paymentDate: 09-18-2089
   loanPurpose: To buy cloth
   FirstName: Arsenique

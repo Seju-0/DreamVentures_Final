@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Momoh Tawroe
   dateOfBirth: 01-01-2000
-  requestedAmount: 100,000
+  requestedAmount: 32,176
   paymentDate: 06-21-2088
   loanPurpose: To repair my royal palanquin
   FirstName: Don

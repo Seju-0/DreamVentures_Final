@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clientName: Claire Voyageur
   dateOfBirth: 02-01-2061
-  requestedAmount: 75,000
+  requestedAmount: 53,818
   paymentDate: 12-25-2087
   loanPurpose: To fix my motorbike
   FirstName: Claire
