@@ -107,7 +107,7 @@ public class ClientManager : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
 
-        if (ChoiceResults.currentDay == 4)
+        if (ChoiceResults.currentDay == 5)
         {
             int finalRep = ChoiceResults.currentReputation;
             int finalSanity = ChoiceResults.currentSanity;

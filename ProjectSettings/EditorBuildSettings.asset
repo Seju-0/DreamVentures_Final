@@ -12,13 +12,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Gameplay/TutorialDay.unity
+    path: Assets/Scenes/Gameplay/Day1.unity
     guid: 99b31630325e7084fbbef60a2fc98529
   - enabled: 1
     path: Assets/Scenes/Performance_Report/PRDAY1.unity
     guid: d2bb43b2272ba7b43a6701cfe09be360
   - enabled: 1
-    path: Assets/Scenes/Gameplay/Day1.unity
+    path: Assets/Scenes/DreamScenes/DS1.unity
+    guid: a2f985559384d3941b796298e04c1f8c
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Day2.unity
     guid: 56a6e2a337023aa44a3085b2b27a7be8
   - enabled: 1
     path: Assets/Scenes/Performance_Report/PRDAY2.unity
@@ -27,40 +30,43 @@ EditorBuildSettings:
     path: Assets/Scenes/Inbetweens/IB1.unity
     guid: 0dbd3be811fdc974f82cc748a865454a
   - enabled: 1
-    path: Assets/Scenes/DreamScenes/DS1.unity
+    path: Assets/Scenes/DreamScenes/DS2.unity
     guid: 2f9d86c4e663e2545ae2c20b945e72d5
   - enabled: 1
-    path: Assets/Scenes/Inbetweens/IB2.unity
-    guid: 6c638b0c35da58f41bc71a5f42c1e7e6
-  - enabled: 1
-    path: Assets/Scenes/Gameplay/Day2.unity
-    guid: 6873d318f6ab9574c8b4ab5e7aa9994e
-  - enabled: 1
-    path: Assets/Scenes/Performance_Report/PRDAY2.unity
-    guid: addb80a0409f215459f55aba8272d8a8
-  - enabled: 1
-    path: Assets/Scenes/DreamScenes/DS2.unity
-    guid: 3b587893e2b367d4a9c82c3845140174
-  - enabled: 1
     path: Assets/Scenes/Gameplay/Day3.unity
-    guid: 5fda50fc93dfdbb4d87c196fe9d46068
+    guid: c3b25fb0be4aef541817269c8c89c3e4
   - enabled: 1
     path: Assets/Scenes/Performance_Report/PRDAY3.unity
-    guid: b685429f4c71a524b858165d295c4863
+    guid: 38220681db9eecb46b578237b699a7ed
+  - enabled: 1
+    path: Assets/Scenes/Inbetweens/IB2.unity
+    guid: 7c01c2ccfea11de459ea04e9b25ddfe6
   - enabled: 1
     path: Assets/Scenes/DreamScenes/DS3.unity
-    guid: caedd0d3dd45d744094ddfc1e4d7713c
+    guid: e8083688745977942a4b824f4c4f90c8
   - enabled: 1
     path: Assets/Scenes/Gameplay/Day4.unity
-    guid: a13db2a326465e6428681ce808e135c0
+    guid: a63f0d449fcfb614ab06705e1affec68
+  - enabled: 1
+    path: Assets/Scenes/Performance_Report/PRDAY4.unity
+    guid: b9568304eac8ed142a1d78ff774715dd
+  - enabled: 1
+    path: Assets/Scenes/Inbetweens/IB3.unity
+    guid: 89afcb1042c29674cbf1fe24bb4eed1a
+  - enabled: 1
+    path: Assets/Scenes/DreamScenes/DS4.unity
+    guid: 0a40f54f36815754f83fbea75d306611
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Day5.unity
+    guid: a3c2a93bf30b31f4caa8b0364fff2dfb
   - enabled: 1
     path: Assets/Scenes/Endings/LoseToReputation.unity
-    guid: 2ba7857bb4ab90644956bd43806a7d47
+    guid: 6acdd2ccb1e95f848b19d29b602ec552
   - enabled: 1
     path: Assets/Scenes/Endings/LoseToSanity.unity
-    guid: 47efc6a7bab4b7842a5a13d34674316e
+    guid: 03346bd84b00f5f43875a36a84612f17
   - enabled: 1
     path: Assets/Scenes/Endings/Win.unity
-    guid: 6a5b291f053798d40816d21876a9af49
+    guid: 657dc2ae2ce23904d9fd838e492d8426
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

@@ -18,4 +18,9 @@ public class NextButton : MonoBehaviour
         string nextScene = $"IB3";
         SceneManager.LoadScene(nextScene);
     }
+    public void NextBTN3()
+    {
+        string nextScene = $"DS1";
+        SceneManager.LoadScene(nextScene);
+    }
 }

@@ -26,7 +26,7 @@ MonoBehaviour:
   employerName: N/A
   workplaceAddress: N/A
   BusinessName: "Honey Money\u2019s Honey Co."
-  BusinessAddress: ' Honey Money Compound, City 1A, Honey Money District'
+  BusinessAddress: Honey Money Compound, City 1A, Honey Money District
   idPhoto: {fileID: 21300000, guid: d67f06cd94c439e49a486c2222f25a70, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}

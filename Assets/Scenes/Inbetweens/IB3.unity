@@ -347,7 +347,7 @@ MonoBehaviour:
   - You walk back home to rest after your shift.
   - 'You fell asleep as soon as you got home. '
   speed: 0.1
-  nextSceneName: DS1
+  nextSceneName: DS4
   typewriterSound: {fileID: 8300000, guid: 51b0b29c91f1e9b468ac3e80fa683a6f, type: 3}
   volume: 0.3
 --- !u!4 &1268991902

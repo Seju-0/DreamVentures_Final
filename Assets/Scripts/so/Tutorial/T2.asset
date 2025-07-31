@@ -30,7 +30,7 @@ MonoBehaviour:
   idPhoto: {fileID: 21300000, guid: 4d0fadc1b4247974eb20b1e30fb004cf, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
-  approvalEvaluationText: Your boss would write a note regarding their thoughts on
-    your decision here.
+  approvalEvaluationText: For the time being, you won't lose points for approving
+    a set client.
   rejectionEvaluationText: Your boss would write a note regarding their thoughts
     on your decision here.

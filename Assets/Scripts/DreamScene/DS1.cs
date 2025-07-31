@@ -23,10 +23,6 @@ public class DS1 : MonoBehaviour
     public int maxCharactersPerPage = 150;
     public float typeSpeed = 0.02f;
 
-    [Header("Audio")]
-    public AudioSource dreamAudioSource;
-    public AudioClip dreamAmbienceClip;
-
     private int currentDreamIndex = 0;
     private int currentPageIndex = 0;
     private List<string> currentPages = new List<string>();
@@ -53,7 +49,6 @@ public class DS1 : MonoBehaviour
 
         currentDreamIndex = 0;
         ShowCurrentDream();
-        PlayDreamAmbience();
     }
 
     private void ShowNoDreams()
@@ -115,6 +110,18 @@ public class DS1 : MonoBehaviour
         }
 
         var d = decisions[currentDreamIndex];
+
+        // Skip if all related dream texts are empty
+        bool isEmptyDream =
+            string.IsNullOrWhiteSpace(d.dreamDialogueText) &&
+            string.IsNullOrWhiteSpace(d.sanityText);
+
+        if (isEmptyDream)
+        {
+            currentDreamIndex++;
+            ShowCurrentDream(); // Recursively try the next dream
+            return;
+        }
 
         Sprite selectedSprite = null;
         if (d.approved)
@@ -232,23 +239,11 @@ public class DS1 : MonoBehaviour
             ShowCurrentDream();
         }
     }
-    private void PlayDreamAmbience()
-    {
-        if (dreamAudioSource != null && dreamAmbienceClip != null)
-        {
-            dreamAudioSource.clip = dreamAmbienceClip;
-            dreamAudioSource.loop = true;
-            dreamAudioSource.Play();
-        }
-    }
 
     private void OnContinueClicked()
     {
         ChoiceResults.StartNewDay();
         string nextScene = $"Day{ChoiceResults.currentDay}";
         SceneManager.LoadScene(nextScene);
-
-        if (dreamAudioSource != null)
-            dreamAudioSource.Stop();
     }
 }
