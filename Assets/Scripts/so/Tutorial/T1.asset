@@ -27,7 +27,7 @@ MonoBehaviour:
   workplaceAddress: Business Place, Business Land
   BusinessName: N/A
   BusinessAddress: N/A
-  idPhoto: {fileID: 0}
+  idPhoto: {fileID: 21300000, guid: 726e6850b5d77c34fbfd91476d80fb5e, type: 3}
   backgroundSprite: {fileID: 21300000, guid: 5e4f00f4f27b45343b63e152843eccbb, type: 3}
   LoanSprite: {fileID: 21300000, guid: f8b260d706c432f4a9dc6c1a145ebde5, type: 3}
   approvalEvaluationText: Your boss would write a note regarding their thoughts on
