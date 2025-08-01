@@ -385,7 +385,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Dreamers Inc.\n\nPablo Fernandez \nGame Designer, Writer, Level Designer\n\nJaden
-    Badlis \nGame Artist, UI Designer\n\nShyanne Cay \nProject Manager, Programmer"
+    Badlis \nGame Artist, UI Designer\n\nShyanne Cay \nProgrammer, Game Designer"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}
   m_sharedMaterial: {fileID: -7260648671262176420, guid: e51f79697b8f8074fac57feb6672cc57, type: 2}

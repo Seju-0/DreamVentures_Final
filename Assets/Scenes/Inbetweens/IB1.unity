@@ -344,9 +344,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialogue_Text: {fileID: 1643235398}
   dialogues:
-  - You walk back home to rest after your shift.
-  - 'You fell asleep as soon as you got home. '
-  speed: 0.1
+  - Your first day on the job goes well. Feeling tired, you decided to retire for
+    the day and head home to your apartment. As you lay in your bed, your body begins
+    to feel heavy, as you fall into a deep sleep. Suddenly, the dreams begin.
+  speed: 0.05
   nextSceneName: DS2
   typewriterSound: {fileID: 8300000, guid: 51b0b29c91f1e9b468ac3e80fa683a6f, type: 3}
   volume: 0.3

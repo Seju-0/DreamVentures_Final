@@ -344,9 +344,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialogue_Text: {fileID: 1643235398}
   dialogues:
-  - You walk back home to rest after your shift.
-  - 'You fell asleep as soon as you got home. '
-  speed: 0.1
+  - "The day is over, yet you don\u2019t feel accomplished over the decisions you\u2019ve
+    made today. The thought of securing this job doesn\u2019t cross your mind as
+    you prepare yourself for the mental torment you\u2019ve been subjected to twice
+    already. You stare at your bed, you almost don\u2019t feel like sleeping, you\u2019d
+    rather stay up to avoid whatever it is you\u2019re seeing after every day of
+    work. Unfortunately, you\u2019re still human, you have your limits, and soon
+    enough fatigue overtakes any sense you have as you lay in bed, and fall asleep."
+  speed: 0.05
   nextSceneName: DS4
   typewriterSound: {fileID: 8300000, guid: 51b0b29c91f1e9b468ac3e80fa683a6f, type: 3}
   volume: 0.3
