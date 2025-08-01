@@ -112,18 +112,18 @@ public class ClientManager : MonoBehaviour
             int finalRep = ChoiceResults.currentReputation;
             int finalSanity = ChoiceResults.currentSanity;
 
-            if (finalSanity <= 120 && finalRep <= 120)
+            if (finalSanity <= 180 && finalRep <= 270)
             {
                 if (finalSanity < finalRep)
                     SceneManager.LoadScene("LoseToSanity");
                 else
                     SceneManager.LoadScene("LoseToReputation");
             }
-            else if (finalSanity <= 120)
+            else if (finalSanity <= 180)
             {
                 SceneManager.LoadScene("LoseToSanity");
             }
-            else if (finalRep <= 120)
+            else if (finalRep <= 270)
             {
                 SceneManager.LoadScene("LoseToReputation");
             }
